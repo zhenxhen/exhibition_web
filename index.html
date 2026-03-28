@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>InterPlay | Graphic Core</title>
+    <title>InterPlay</title>
     <link rel="stylesheet" href="https://use.typekit.net/ulp5qtm.css">
     <link rel="stylesheet" href="style.css">
     <style>
@@ -20,9 +20,11 @@
         }
 
         @media (max-width: 768px) {
+
             body,
             .workspace-container {
-                min-height: 100svh; /* 모바일 브라우저 탭(주소창) 변동과 무관하게 정확한 중앙 배치 */
+                min-height: 100svh;
+                /* 모바일 브라우저 탭(주소창) 변동과 무관하게 정확한 중앙 배치 */
             }
         }
 
@@ -40,7 +42,7 @@
             <div class="comparison-slider" id="comparison-slider">
                 <canvas class="canvas-pixelated" id="canvas-pixelated"></canvas>
             </div>
-            
+
             <!-- D-Day 카운트다운 타이머 -->
             <div class="countdown" id="countdown-timer">00:00:00</div>
         </div>
