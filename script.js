@@ -32,14 +32,14 @@ document.addEventListener("DOMContentLoaded", () => {
         const targetDate = new Date(new Date().getFullYear(), 4, 19, 11, 0, 0);
         const now = new Date();
         let diff = targetDate.getTime() - now.getTime();
-        
+
         if (diff < 0) diff = 0; // 이미 11시가 지났다면 00:00:00 고정
-        
+
         const totalSecs = Math.floor(diff / 1000);
         const hours = Math.floor(totalSecs / 3600);
         const minutes = Math.floor((totalSecs % 3600) / 60);
         const seconds = totalSecs % 60;
-        
+
         // 두 자리 수 패딩
         const pad = num => String(num).padStart(2, '0');
         countdownTimer.textContent = `${pad(hours)}:${pad(minutes)}:${pad(seconds)}`;
@@ -124,7 +124,7 @@ document.addEventListener("DOMContentLoaded", () => {
         resetSeed(seedVal);
 
         generateRandomBoxes();
-        
+
         if (seedInput) {
             // Generator 페이지: 애니메이션 없이 1회성 정지 렌더링
             randomBoxes.forEach(box => {
@@ -133,7 +133,7 @@ document.addEventListener("DOMContentLoaded", () => {
             renderPixelatedBoxes();
         } else {
             // index 페이지: 반복 롤링 애니메이션 트리거 실행
-            animate(); 
+            animate();
         }
     }
 
@@ -147,12 +147,12 @@ document.addEventListener("DOMContentLoaded", () => {
         const startY = logoBounds ? logoBounds.y : 0;
 
         // 4개의 픽셀 강도 조합
-        const intensities = [8, 12, 16, 24];
+        const intensities = [8, 12, 16, 18];
 
         for (let i = 0; i < intensities.length; i++) {
             const pSize = intensities[i];
 
-            const boxW_raw = seededRandom() * (maxW * 0.4) + (maxW * 0.5);
+            const boxW_raw = seededRandom() * (maxW * 0.4) + (maxW * 0.3);
             const boxH_raw = seededRandom() * (maxH * 0.3) + (maxH * 0.2);
 
             const boxX_raw = startX + seededRandom() * Math.max(0, maxW - boxW_raw);
