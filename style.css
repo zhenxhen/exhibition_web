@@ -21,6 +21,13 @@ body {
     overflow-x: hidden;
 }
 
+/* 모바일 브라우저 상/하단 탭 영역(URL바 등) 제외하고 정확한 정중앙 배치를 위한 처리 */
+@media (max-width: 768px) {
+    body {
+        min-height: 100svh;
+    }
+}
+
 .workspace-container {
     padding: 2rem;
     max-width: 900px;
