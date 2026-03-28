@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InterPlay | Graphic Core</title>
+    <link rel="stylesheet" href="https://use.typekit.net/ulp5qtm.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* 깔끔하게 정중앙에 위치하도록 로컬 화면 오버레이드 */
+        body,
+        .workspace-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+
+        .comparison-slider {
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="workspace-container">
+        <!-- 중앙 정렬을 위한 래퍼 계층 -->
+        <div class="main-display">
+            <!-- 캔버스 (가운데 컨테이너 영역만 고립) -->
+            <div class="comparison-slider" id="comparison-slider">
+                <canvas class="canvas-pixelated" id="canvas-pixelated"></canvas>
+            </div>
+            
+            <!-- D-Day 카운트다운 타이머 -->
+            <div class="countdown" id="countdown-timer">00:00:00</div>
+        </div>
+
+        <!-- 숨겨진 원본 로고 데이터 -->
+        <img src="Logo/InterPlay.png" id="image-original" style="display: none;" alt="">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

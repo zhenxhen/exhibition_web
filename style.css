@@ -1,0 +1,213 @@
+:root {
+    --bg-color: #FFFFFF;
+    --text-color: #0F172A;
+    --text-muted: #64748B;
+    --accent: #2563EB;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'aglet-mono', Consolas, monospace;
+}
+
+body {
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.workspace-container {
+    padding: 2rem;
+    max-width: 900px;
+    width: 100%;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 3rem;
+    animation: fadeInDown 0.8s ease-out forwards;
+}
+
+.logo-text {
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: -1px;
+    color: var(--text-color);
+}
+
+.subtitle {
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: -1px;
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+    animation: fadeInUp 0.8s ease-out 0.2s forwards;
+    opacity: 0;
+}
+
+/* 캔버스를 감싸는 컨테이너 */
+.comparison-slider {
+    position: relative;
+    width: 70%;
+    max-width: 800px;
+    user-select: none;
+    -webkit-user-drag: none;
+    display: flex;
+    background: transparent;
+    cursor: pointer;
+}
+
+.canvas-pixelated {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* 액션 패널 및 버튼 그룹 */
+.actions-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    width: 100%;
+    max-width: 450px;
+}
+
+.button-group {
+    display: flex;
+    gap: 1.2rem;
+}
+
+.action-btn {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: var(--text-color);
+    color: var(--bg-color);
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.2s, background-color 0.2s;
+}
+
+.action-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 15px 35px rgba(37, 99, 235, 0.2);
+    background-color: var(--accent);
+    color: white;
+}
+
+.action-btn:active {
+    transform: scale(0.95);
+}
+
+/* 시드 인풋 감싸는 그룹 */
+.seed-input-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    background: rgba(0, 0, 0, 0.03);
+    padding: 0.6rem 1.2rem;
+    border-radius: 99px;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    transition: background 0.2s, border-color 0.2s;
+}
+
+.seed-input-wrapper:focus-within {
+    background: white;
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+}
+
+.seed-input-wrapper label {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: var(--text-muted);
+    letter-spacing: 0.05em;
+    user-select: none;
+}
+
+#seed-input {
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: var(--text-color);
+    width: 100px;
+    font-family: inherit;
+    text-align: center;
+}
+
+/* 스피너 숨기기 (크롬/사파리/파폭) */
+#seed-input::-webkit-outer-spin-button,
+#seed-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+#seed-input[type=number] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+/* 애니메이션 */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* -------------------------------- */
+/* 카운트다운 타이머 전용 스타일    */
+/* -------------------------------- */
+.main-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.countdown {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--text-color);
+    letter-spacing: 0.1em;
+    font-variant-numeric: tabular-nums;
+    /* 숫자 폭을 일정하게 맞춰 좌우 흔들림 방지 */
+}
