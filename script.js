@@ -124,7 +124,17 @@ document.addEventListener("DOMContentLoaded", () => {
         resetSeed(seedVal);
 
         generateRandomBoxes();
-        animate(); // 반복 롤링 트리거 실행
+        
+        if (seedInput) {
+            // Generator 페이지: 애니메이션 없이 1회성 정지 렌더링
+            randomBoxes.forEach(box => {
+                box.x = Math.round(box.floatX / box.pixelSize) * box.pixelSize;
+            });
+            renderPixelatedBoxes();
+        } else {
+            // index 페이지: 반복 롤링 애니메이션 트리거 실행
+            animate(); 
+        }
     }
 
     // 4개의 박스 및 가변 float 기반 속도 설정
