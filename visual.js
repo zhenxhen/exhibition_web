@@ -25,8 +25,8 @@ window.addEventListener('touchmove', (event) => {
   }
 }, { passive: true });
 
-const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
-renderer.setClearColor(0x000000, 0); // Transparent background
+const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: false });
+renderer.setClearColor(0xffffff, 1); // 완전한 흰색 배경으로 렌더링 (모바일 회색/탁해짐 오류 방지)
 renderer.setSize(window.innerWidth, window.innerHeight);
 renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2)); // optimize performance
 canvasContainer.appendChild(renderer.domElement);

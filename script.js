@@ -169,7 +169,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 w: boxW,
                 h: boxH,
                 pixelSize: pSize,
-                speed: pSize * 0.1,    // 각기 다른 강도(크기)에 비례하는 무빙 스피드
+                speed: pSize * 0.2,    // 각기 다른 강도(크기)에 비례하는 무빙 스피드
                 direction: (i % 2 === 1) ? 1 : -1 // 2번째(i=1)와 4번째(i=3)는 1(좌->우), 나머지는 -1(우->좌)
             });
         }
