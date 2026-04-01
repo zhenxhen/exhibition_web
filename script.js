@@ -187,12 +187,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
             if (box.direction === -1) {
                 // [우측 -> 좌측 흐름] 박스: 완전히 왼쪽으로 사라지면 오른쪽 끝에서 다시 스폰
-                if (box.floatX + box.w < startX - 50) {
-                    box.floatX = startX + maxW + 50;
+                if (box.floatX + box.w < startX - 30) {
+                    box.floatX = startX + maxW + 30;
                 }
             } else {
                 // [좌측 -> 우측 흐름] 박스: 완전히 오른쪽으로 사라지면 왼쪽 끝에서 다시 스폰
-                if (box.floatX > startX + maxW + 50) {
+                if (box.floatX > startX + maxW + 30) {
                     box.floatX = startX - box.w - 50;
                 }
             }

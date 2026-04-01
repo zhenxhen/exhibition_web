@@ -12,7 +12,8 @@
     font-family: 'aglet-mono', Consolas, monospace;
 }
 
-html, body {
+html,
+body {
     background-color: var(--bg-color);
     display: flex;
     justify-content: center;
@@ -48,7 +49,6 @@ html, body {
     /* 로고들(10, 20) 보다 앞쪽으로 배치하여 비주얼이 최상단에 오도록 설정 */
     pointer-events: auto;
     /* 3D control 상호작용 받기 */
-    mix-blend-mode: multiply; /* 흰색 배경을 투명하게 만들어 아래쪽 로고를 노출시키고 회색 렌더링 버그 해결 */
 }
 
 .workspace-container * {
