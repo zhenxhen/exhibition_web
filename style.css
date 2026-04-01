@@ -30,8 +30,29 @@ body {
 
 .workspace-container {
     padding: 2rem;
-    max-width: 900px;
+    max-width: 1000px;
     width: 100%;
+    position: relative;
+    z-index: 10;
+    pointer-events: none;
+    /* Let drag pass through to canvas */
+}
+
+#canvas-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 30;
+    /* 로고들(10, 20) 보다 앞쪽으로 배치하여 비주얼이 최상단에 오도록 설정 */
+    pointer-events: auto;
+    /* 3D control 상호작용 받기 */
+}
+
+.workspace-container * {
+    pointer-events: auto;
+    /* workspace 안의 요소들은 정상 클릭되게 복구 */
 }
 
 .header {
@@ -63,15 +84,14 @@ body {
     opacity: 0;
 }
 
-/* 캔버스를 감싸는 컨테이너 */
 .comparison-slider {
     position: relative;
-    width: 70%;
-    max-width: 800px;
+    width: 50%;
+    /* 기존의 70% 사이즈로 추가 축소 (비주얼 대비) */
+    max-width: 560px;
     user-select: none;
     -webkit-user-drag: none;
     display: flex;
-    background: transparent;
     cursor: pointer;
 }
 
@@ -204,10 +224,13 @@ body {
 /* 카운트다운 타이머 전용 스타일    */
 /* -------------------------------- */
 .main-display {
+    position: relative;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    gap: 1.5rem;
+    width: 100%;
+    pointer-events: none;
+    /* Let drag pass through to canvas */
 }
 
 .countdown {
@@ -217,4 +240,32 @@ body {
     letter-spacing: 0.1em;
     font-variant-numeric: tabular-nums;
     /* 숫자 폭을 일정하게 맞춰 좌우 흔들림 방지 */
+}
+
+/* 로고가 3D 공간의 완벽한 중앙에 위치하도록 타이머 위치를 절대 좌표로 분리 */
+.main-display .countdown {
+    position: absolute;
+    top: calc(100% + 1.5rem);
+    text-align: center;
+    width: 100%;
+}
+
+/* 브라우저 하단 푸터 로고 */
+.footer-logo {
+    position: fixed;
+    bottom: 2.5rem;
+    /* 브라우저 하단 여백 */
+    left: 50%;
+    transform: translateX(-50%);
+    /* 로고 높이 (적절한 크기로 조정) */
+    width: 30%;
+    max-width: 200px;
+    z-index: 40;
+    /* 3D 캔버스(30) 보다 앞쪽에 오도록 가장 높은 값 설정 */
+    opacity: 0.85;
+    /* 약간 투명하게 하여 은은하게 표시 */
+    user-select: none;
+    -webkit-user-drag: none;
+    pointer-events: none;
+    /* 3D 캔버스 조작 방해 금지 */
 }

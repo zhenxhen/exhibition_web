@@ -5,6 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>InterPlay</title>
+    <!-- Import map for Three.js so visual.js ES module imports work in browser without bundler -->
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+            }
+        }
+    </script>
     <link rel="stylesheet" href="https://use.typekit.net/ulp5qtm.css">
     <link rel="stylesheet" href="style.css">
     <style>
@@ -24,7 +33,6 @@
             body,
             .workspace-container {
                 min-height: 100svh;
-                /* 모바일 브라우저 탭(주소창) 변동과 무관하게 정확한 중앙 배치 */
             }
         }
 
@@ -35,6 +43,8 @@
 </head>
 
 <body>
+    <!-- 3D 캔버스 배경 (전체 화면) -->
+    <div id="canvas-container"></div>
     <div class="workspace-container">
         <!-- 중앙 정렬을 위한 래퍼 계층 -->
         <div class="main-display">
@@ -51,7 +61,10 @@
         <img src="Logo/InterPlay.png" id="image-original" style="display: none;" alt="">
     </div>
 
+    <img src="Logo/UAL.CCI.black.png" class="footer-logo" alt="UAL CCI">
+
     <script src="script.js"></script>
+    <script type="module" src="visual.js"></script>
 </body>
 
 </html>
