@@ -481,7 +481,7 @@ function handleResize() {
     // 가로가 좁아질수록 카메라를 뒤로 빼되, '너무 콩알만해지는 현상(최소 사이즈)'을 막기 위해 
     // 감소폭을 완화(루트 씌우기)하여 적절히 큼직한 시야를 유지합니다.
     const ratio = BASE_ASPECT / camera.aspect;
-    camera.position.z = BASE_Z * Math.pow(ratio, 0.6); // 1.0 대신 0.5 제곱으로 반응성 강도 50% 줄임
+    camera.position.z = BASE_Z * Math.pow(ratio, 0.5); // 1.0 대신 0.5 제곱으로 반응성 강도 50% 줄임
   } else {
     // 화면이 충분히 넓으면 기존 지정된 300 거리에 안착
     camera.position.z = BASE_Z;
