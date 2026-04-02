@@ -180,7 +180,7 @@ scene.add(mainSystem);
 
 // Bounding structures for the main sphere
 const MAIN_RADIUS = 200;
-mainSystem.add(createFaintSphere(MAIN_RADIUS * 1.05, '#cccccc', 0));
+// mainSystem.add(createFaintSphere(MAIN_RADIUS * 1.05, '#ffffff', 0));
 mainSystem.add(createOrbitRing(MAIN_RADIUS * 1.05, '#000', 0.1).rotateX(Math.PI / 2));
 mainSystem.add(createOrbitRing(MAIN_RADIUS * 1.05, '#000', 0.1).rotateY(Math.PI / 2));
 mainSystem.add(createOrbitRing(MAIN_RADIUS * 1.05, '#000', 0.1)); // Z
