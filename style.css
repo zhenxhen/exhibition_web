@@ -19,16 +19,15 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    min-height: -webkit-fill-available; /* iOS Safari fallback */
-    min-height: 100dvh; /* Dynamic viewport height to account for mobile bars */
+    min-height: 100dvh;
+    /* 모바일 브라우저 상/하단 바 동적 오차 방지 */
     overflow-x: hidden;
 }
 
-/* 모바일 브라우저 상/하단 탭 영역 제외 정확한 정중앙 (dvh가 미지원일 때를 위한 최후 보루) */
+/* 모바일 브라우저 상/하단 탭 영역(URL바 등) 제외하고 정확한 정중앙 배치를 위한 처리 */
 @media (max-width: 768px) {
     body {
         min-height: 100svh;
-        min-height: 100dvh;
     }
 }
 
@@ -48,7 +47,6 @@ body {
     left: 0;
     width: 100vw;
     height: 100vh;
-    height: 100dvh;
     z-index: 20;
     /* 로고들(10, 20) 보다 앞쪽으로 배치하여 비주얼이 최상단에 오도록 설정 */
     pointer-events: auto;
@@ -93,7 +91,7 @@ body {
     position: relative;
     width: 50%;
     /* 기존의 70% 사이즈로 추가 축소 (비주얼 대비) */
-    max-width: 800px;
+    max-width: 700px;
     user-select: none;
     -webkit-user-drag: none;
     display: flex;
@@ -226,10 +224,14 @@ body {
 }
 
 /* -------------------------------- */
-/* 카운트다운 타이머 전용 스타일    */
+/* 카운트다운 타이머 등 메인 디스플레이 영역 */
 /* -------------------------------- */
 .main-display {
-    position: relative;
+    position: fixed;
+    /* 브라우저 뷰포트 기준 절대 중앙 고정 (3D 씬과 센터 완벽 동기화) */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     display: flex;
     justify-content: center;
     align-items: center;
