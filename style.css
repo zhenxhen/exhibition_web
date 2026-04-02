@@ -91,7 +91,7 @@ body {
     position: relative;
     width: 50%;
     /* 기존의 70% 사이즈로 추가 축소 (비주얼 대비) */
-    max-width: 700px;
+    max-width: 400px;
     user-select: none;
     -webkit-user-drag: none;
     display: flex;
