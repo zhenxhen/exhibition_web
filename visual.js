@@ -166,7 +166,7 @@ function createFaintSphere(radius, colorHex, opacity = 0.15) {
 }
 
 function createOrbitRing(radius, colorHex, opacity = 0.2) {
-  const geom = new THREE.TorusGeometry(radius, 0.4, 8, 80);
+  const geom = new THREE.TorusGeometry(radius, 0.2, 8, 80);
   const mat = new THREE.MeshBasicMaterial({ color: colorHex, transparent: true, opacity: opacity });
   return new THREE.Mesh(geom, mat);
 }
@@ -181,9 +181,9 @@ scene.add(mainSystem);
 // Bounding structures for the main sphere
 const MAIN_RADIUS = 200;
 mainSystem.add(createFaintSphere(MAIN_RADIUS * 1.05, '#cccccc', 0));
-mainSystem.add(createOrbitRing(MAIN_RADIUS * 1.05, '#000', 0.03).rotateX(Math.PI / 2));
-mainSystem.add(createOrbitRing(MAIN_RADIUS * 1.05, '#000', 0.03).rotateY(Math.PI / 2));
-mainSystem.add(createOrbitRing(MAIN_RADIUS * 1.05, '#000', 0.03)); // Z
+mainSystem.add(createOrbitRing(MAIN_RADIUS * 1.05, '#000', 0.1).rotateX(Math.PI / 2));
+mainSystem.add(createOrbitRing(MAIN_RADIUS * 1.05, '#000', 0.1).rotateY(Math.PI / 2));
+mainSystem.add(createOrbitRing(MAIN_RADIUS * 1.05, '#000', 0.1)); // Z
 
 // Tracking groups that will animate their rotation
 const animGroups = [];
@@ -195,7 +195,7 @@ const R1 = MAIN_RADIUS; // Orbit distance of depth1
 const DEPTH2_COUNT = 80; // Exact number of evenly spaced depth2 lines
 const R2 = 55;        // Orbit distance of depth2 around depth1
 const R3_OFFSET = 12; // Distance from depth2 to depth3
-const R4_HEIGHT = 10; // Vertical height from depth2 to depth4
+const R4_HEIGHT = 5; // Vertical height from depth2 to depth4
 
 
 

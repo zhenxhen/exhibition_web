@@ -30,11 +30,11 @@ body {
 }
 
 .workspace-container {
-    padding: 2rem;
+    padding: 1rem;
     max-width: 1000px;
     width: 100%;
     position: relative;
-    z-index: 10;
+    /* z-index: 10; 제거됨 - 하위 요소들의 독립적인 z-index(로고는 뒤로, 글자는 앞으로) 사용을 위함 */
     pointer-events: none;
     /* Let drag pass through to canvas */
 }
@@ -45,7 +45,7 @@ body {
     left: 0;
     width: 100vw;
     height: 100vh;
-    z-index: 30;
+    z-index: 20;
     /* 로고들(10, 20) 보다 앞쪽으로 배치하여 비주얼이 최상단에 오도록 설정 */
     pointer-events: auto;
     /* 3D control 상호작용 받기 */
@@ -80,7 +80,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2.5rem;
+    gap: 2rem;
     animation: fadeInUp 0.8s ease-out 0.2s forwards;
     opacity: 0;
 }
@@ -89,7 +89,7 @@ body {
     position: relative;
     width: 50%;
     /* 기존의 70% 사이즈로 추가 축소 (비주얼 대비) */
-    max-width: 560px;
+    max-width: 800px;
     user-select: none;
     -webkit-user-drag: none;
     display: flex;
@@ -231,24 +231,50 @@ body {
     align-items: center;
     width: 100%;
     pointer-events: none;
+    /* z-index: 100; 제거됨 */
     /* Let drag pass through to canvas */
 }
 
 .countdown {
-    font-size: 1rem;
+    font-size: 14px;
     font-weight: 400;
     color: var(--text-color);
     letter-spacing: 0.1em;
+    line-height: 1.6;
+    /* 줄바꿈 시 간격 확보 */
     font-variant-numeric: tabular-nums;
     /* 숫자 폭을 일정하게 맞춰 좌우 흔들림 방지 */
 }
 
 /* 로고가 3D 공간의 완벽한 중앙에 위치하도록 타이머 위치를 절대 좌표로 분리 */
-.main-display .countdown {
+.countdown-group {
     position: absolute;
-    top: calc(100% + 1.5rem);
+    top: 75%;
+    /* 약간 더 아래로 조정하여 공간 확보 */
     text-align: center;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    /* 타이머와 스케줄 사이 간격 */
+    z-index: 30;
+    /* 비주얼(20) 보다 확연히 앞에 오도록 단독 지정 */
+}
+
+/* 텍스트 영역을 클릭하거나 드래그할 수 없게 하여, 그 뒤의 3D 캔버스가 이벤트를 받게 함 */
+.countdown-group,
+.countdown-group * {
+    pointer-events: none;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.exhibition-schedule {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: rgba(0, 0, 0);
+    letter-spacing: 0.05em;
 }
 
 /* 브라우저 하단 푸터 로고 */

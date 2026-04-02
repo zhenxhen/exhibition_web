@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
     function updateCountdown() {
         if (!countdownTimer) return;
         // JS Date에서 월(Month)은 0부터 시작하므로 5월은 4를 기입합니다.
-        const targetDate = new Date(new Date().getFullYear(), 4, 19, 11, 0, 0);
+        const targetDate = new Date(new Date().getFullYear(), 4, 21, 17, 0, 0);
         const now = new Date();
         let diff = targetDate.getTime() - now.getTime();
 
@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         // 두 자리 수 패딩
         const pad = num => String(num).padStart(2, '0');
-        countdownTimer.textContent = `${pad(hours)}:${pad(minutes)}:${pad(seconds)}`;
+        countdownTimer.innerHTML = `Exhibition opens in<br>${pad(hours)}:${pad(minutes)}:${pad(seconds)}`;
     }
 
     if (countdownTimer) {
