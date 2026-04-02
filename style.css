@@ -237,7 +237,6 @@ body {
     align-items: center;
     width: 100%;
     pointer-events: none;
-    /* z-index: 100; 제거됨 */
     /* Let drag pass through to canvas */
 }
 
@@ -254,9 +253,11 @@ body {
 
 /* 로고가 3D 공간의 완벽한 중앙에 위치하도록 타이머 위치를 절대 좌표로 분리 */
 .countdown-group {
-    position: absolute;
-    top: 75%;
-    /* 약간 더 아래로 조정하여 공간 확보 */
+    position: fixed;
+    /* 독립적인 최상위 배치를 위해 fixed 사용 */
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
     text-align: center;
     width: 100%;
     display: flex;
