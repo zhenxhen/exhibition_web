@@ -4,7 +4,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary Meta Tags -->
     <title>InterPlay</title>
+    <meta name="title" content="InterPlay">
+    <meta name="description" content="[Creative Computing Exhibition]">
+    <meta name="keywords" content="[Exhibition, Media, Art, UAL, CCI, InterPlay]">
+    <meta name="author" content="[UAL, CCI, eeezeen]">
+
+    <!-- Favicons -->
+    <link rel="icon" href="public/favicon.ico" sizes="any">
+    <link rel="icon" type="image/png" sizes="16x16" href="public/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="public/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="public/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="public/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="public/android-chrome-512x512.png">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="[https://interplay-cci.co.uk/]">
+    <meta property="og:title" content="InterPlay">
+    <meta property="og:description" content="[Creative Computing Exhibition]">
+    <meta property="og:image" content="public/og-image.jpg">
+    <!-- 배포 시에는 'https://주소/public/og-image.jpg' 로 적는 것이 가장 안전합니다. -->
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="[https://interplay-cci.co.uk/]">
+    <meta property="twitter:title" content="InterPlay">
+    <meta property="twitter:description" content="[Creative Computing Exhibition]">
+    <meta property="twitter:image" content="public/og-image.jpg">
+
     <!-- Import map for Three.js so visual.js ES module imports work in browser without bundler -->
     <script type="importmap">
         {
@@ -17,7 +47,6 @@
     <link rel="stylesheet" href="https://use.typekit.net/ulp5qtm.css">
     <link rel="stylesheet" href="style.css">
     <style>
-        /* 깔끔하게 정중앙에 위치하도록 로컬 화면 오버레이드 */
         body,
         .workspace-container {
             display: flex;
@@ -43,19 +72,17 @@
 </head>
 
 <body>
-    <!-- 3D 캔버스 배경 (전체 화면) -->
+
     <div id="canvas-container"></div>
     <div class="workspace-container">
-        <!-- 중앙 정렬을 위한 래퍼 계층 -->
+
         <div class="main-display">
-            <!-- 캔버스 (가운데 컨테이너 영역만 고립) -->
             <div class="comparison-slider" id="comparison-slider">
                 <canvas class="canvas-pixelated" id="canvas-pixelated"></canvas>
             </div>
 
         </div>
 
-        <!-- D-Day 카운트다운 타이머 및 전시 일정 (main-display 분리하여 스태킹 이슈 해결) -->
         <div class="countdown-group">
             <div class="countdown" id="countdown-timer">00:00:00</div>
             <div class="exhibition-schedule">
@@ -67,7 +94,6 @@
         </div>
     </div>
 
-    <!-- 숨겨진 원본 로고 데이터 -->
     <img src="Logo/InterPlay.png" id="image-original" style="display: none;" alt="">
 
 
