@@ -165,10 +165,39 @@ function createFaintSphere(radius, colorHex, opacity = 0.15) {
   return new THREE.LineSegments(edges, mat);
 }
 
-function createOrbitRing(radius, colorHex, opacity = 0.2) {
-  const geom = new THREE.TorusGeometry(radius, 0.2, 8, 80);
-  const mat = new THREE.MeshBasicMaterial({ color: colorHex, transparent: true, opacity: opacity });
-  return new THREE.Mesh(geom, mat);
+// Creates an orbit ring with gaps at the 4 axis intersection points (local angles 0, π/2, π, 3π/2)
+function createOrbitRingGapped(radius, colorHex, opacity, halfGap) {
+  const group = new THREE.Group();
+  const mat = new THREE.MeshBasicMaterial({ color: colorHex, transparent: true, opacity });
+  const gapAngles = [0, Math.PI / 2, Math.PI, 3 * Math.PI / 2];
+  const totalSteps = 400;
+
+  const isInGap = (angle) => gapAngles.some(ga => {
+    let diff = (angle - ga) % (Math.PI * 2);
+    if (diff > Math.PI) diff -= Math.PI * 2;
+    if (diff < -Math.PI) diff += Math.PI * 2;
+    return Math.abs(diff) < halfGap;
+  });
+
+  const segments = [];
+  let current = [];
+  for (let i = 0; i < totalSteps; i++) {
+    const angle = (i / totalSteps) * Math.PI * 2;
+    if (!isInGap(angle)) {
+      current.push(new THREE.Vector3(Math.cos(angle) * radius, Math.sin(angle) * radius, 0));
+    } else {
+      if (current.length >= 2) segments.push([...current]);
+      current = [];
+    }
+  }
+  if (current.length >= 2) segments.push(current);
+
+  segments.forEach(pts => {
+    const curve = new THREE.CatmullRomCurve3(pts);
+    const tubeGeom = new THREE.TubeGeometry(curve, Math.max(pts.length, 4), 0.4, 8, false);
+    group.add(new THREE.Mesh(tubeGeom, mat));
+  });
+  return group;
 }
 
 // 4. Build The Graph Structure
@@ -181,9 +210,53 @@ scene.add(mainSystem);
 // Bounding structures for the main sphere
 const MAIN_RADIUS = 200;
 // mainSystem.add(createFaintSphere(MAIN_RADIUS * 1.05, '#ffffff', 0));
-mainSystem.add(createOrbitRing(MAIN_RADIUS * 1.05, '#000', 0.1).rotateX(Math.PI / 2));
-mainSystem.add(createOrbitRing(MAIN_RADIUS * 1.05, '#000', 0.1).rotateY(Math.PI / 2));
-mainSystem.add(createOrbitRing(MAIN_RADIUS * 1.05, '#000', 0.1)); // Z
+const RING_HALF_GAP = 10 / (MAIN_RADIUS * 1.05);
+mainSystem.add(createOrbitRingGapped(MAIN_RADIUS * 1.05, '#000', 0.05, RING_HALF_GAP).rotateX(Math.PI / 2));
+mainSystem.add(createOrbitRingGapped(MAIN_RADIUS * 1.05, '#000', 0.05, RING_HALF_GAP).rotateY(Math.PI / 2));
+mainSystem.add(createOrbitRingGapped(MAIN_RADIUS * 1.05, '#000', 0.05, RING_HALF_GAP)); // XY
+
+// Arrow decorations at the 6 ring intersection points
+{
+  const R_RING = MAIN_RADIUS * 1.05;
+  const arrowLen = 10;
+  const arrowRadius = 3;
+  const offset = 8;
+  const arrowMat = new THREE.MeshBasicMaterial({ color: '#000000', transparent: true, opacity: 0.05 });
+  const coneGeom = new THREE.ConeGeometry(arrowRadius, arrowLen, 8);
+  const yAxis = new THREE.Vector3(0, 1, 0);
+
+  const arrowPairs = [
+    // (±R, 0, 0): XZ tangent=Z, XY tangent=Y
+    { pos: new THREE.Vector3(R_RING, 0, 0), dir: new THREE.Vector3(0, 0, 1) },
+    { pos: new THREE.Vector3(R_RING, 0, 0), dir: new THREE.Vector3(0, 1, 0) },
+    { pos: new THREE.Vector3(-R_RING, 0, 0), dir: new THREE.Vector3(0, 0, 1) },
+    { pos: new THREE.Vector3(-R_RING, 0, 0), dir: new THREE.Vector3(0, 1, 0) },
+    // (0, ±R, 0): YZ tangent=Z, XY tangent=X
+    { pos: new THREE.Vector3(0, R_RING, 0), dir: new THREE.Vector3(0, 0, 1) },
+    { pos: new THREE.Vector3(0, R_RING, 0), dir: new THREE.Vector3(1, 0, 0) },
+    { pos: new THREE.Vector3(0, -R_RING, 0), dir: new THREE.Vector3(0, 0, 1) },
+    { pos: new THREE.Vector3(0, -R_RING, 0), dir: new THREE.Vector3(1, 0, 0) },
+    // (0, 0, ±R): XZ tangent=X, YZ tangent=Y
+    { pos: new THREE.Vector3(0, 0, R_RING), dir: new THREE.Vector3(1, 0, 0) },
+    { pos: new THREE.Vector3(0, 0, R_RING), dir: new THREE.Vector3(0, 1, 0) },
+    { pos: new THREE.Vector3(0, 0, -R_RING), dir: new THREE.Vector3(1, 0, 0) },
+    { pos: new THREE.Vector3(0, 0, -R_RING), dir: new THREE.Vector3(0, 1, 0) },
+  ];
+
+  arrowPairs.forEach(({ pos, dir }) => {
+    const dirNeg = dir.clone().negate();
+
+    const a1 = new THREE.Mesh(coneGeom, arrowMat);
+    a1.quaternion.setFromUnitVectors(yAxis, dirNeg);
+    a1.position.copy(pos).addScaledVector(dir, offset);
+    mainSystem.add(a1);
+
+    const a2 = new THREE.Mesh(coneGeom, arrowMat);
+    a2.quaternion.setFromUnitVectors(yAxis, dir);
+    a2.position.copy(pos).addScaledVector(dirNeg, offset);
+    mainSystem.add(a2);
+  });
+}
 
 // Tracking groups that will animate their rotation
 const animGroups = [];
