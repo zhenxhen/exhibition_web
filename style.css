@@ -323,7 +323,7 @@ body {
 .coming-soon {
     display: none;
     position: absolute;
-    top: 11rem;
+    top: 72%;
     left: 50%;
     transform: translateX(-50%) translateY(-0.5rem);
     background: rgba(0, 0, 0, 0.3);
@@ -394,8 +394,21 @@ body {
 
     /* Tooltip appears above the button on mobile */
     .coming-soon {
-        top: auto;
-        bottom: 100%;
+        display: none;
+        position: absolute;
+        top: 72%;
+        left: 50%;
         transform: translateX(-50%) translateY(-0.5rem);
+        background: rgba(0, 0, 0, 0.3);
+        color: #fff;
+        padding: 0.2rem 0.2rem;
+        font-size: 0.85rem;
+        white-space: nowrap;
+        z-index: 60;
     }
+
+    .coming-soon.visible {
+        display: block;
+    }
+}
 }
