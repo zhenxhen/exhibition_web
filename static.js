@@ -260,10 +260,39 @@ function createFaintSphere(radius, colorHex, opacity = 0.15) {
   return new THREE.LineSegments(edges, mat);
 }
 
-function createOrbitRing(radius, colorHex, opacity = 0.2) {
-  const geom = new THREE.TorusGeometry(radius, 0.4, 8, 80);
-  const mat = new THREE.MeshBasicMaterial({ color: colorHex, transparent: true, opacity: opacity });
-  return new THREE.Mesh(geom, mat);
+// Creates an orbit ring with gaps at the 4 axis intersection points (local angles 0, π/2, π, 3π/2)
+function createOrbitRingGapped(radius, colorHex, opacity, halfGap) {
+  const group = new THREE.Group();
+  const mat = new THREE.MeshBasicMaterial({ color: colorHex, transparent: true, opacity });
+  const gapAngles = [0, Math.PI / 2, Math.PI, 3 * Math.PI / 2];
+  const totalSteps = 400;
+
+  const isInGap = (angle) => gapAngles.some(ga => {
+    let diff = (angle - ga) % (Math.PI * 2);
+    if (diff > Math.PI) diff -= Math.PI * 2;
+    if (diff < -Math.PI) diff += Math.PI * 2;
+    return Math.abs(diff) < halfGap;
+  });
+
+  const segments = [];
+  let current = [];
+  for (let i = 0; i < totalSteps; i++) {
+    const angle = (i / totalSteps) * Math.PI * 2;
+    if (!isInGap(angle)) {
+      current.push(new THREE.Vector3(Math.cos(angle) * radius, Math.sin(angle) * radius, 0));
+    } else {
+      if (current.length >= 2) segments.push([...current]);
+      current = [];
+    }
+  }
+  if (current.length >= 2) segments.push(current);
+
+  segments.forEach(pts => {
+    const curve = new THREE.CatmullRomCurve3(pts);
+    const tubeGeom = new THREE.TubeGeometry(curve, Math.max(pts.length, 4), 0.4, 8, false);
+    group.add(new THREE.Mesh(tubeGeom, mat));
+  });
+  return group;
 }
 
 // ============================================================
@@ -292,20 +321,62 @@ function buildScene() {
     renderer.setClearColor(0x000000, 0);
     if (showGuides) {
       mainSystem.add(createFaintSphere(MAIN_RADIUS * 1.05, '#cccccc', 0));
-      mainSystem.add(createOrbitRing(MAIN_RADIUS * 1.05, '#000', 0.05).rotateX(Math.PI / 2));
-      mainSystem.add(createOrbitRing(MAIN_RADIUS * 1.05, '#000', 0.05).rotateY(Math.PI / 2));
-      mainSystem.add(createOrbitRing(MAIN_RADIUS * 1.05, '#000', 0.05));
+      const RING_HALF_GAP = 10 / (MAIN_RADIUS * 1.05);
+      mainSystem.add(createOrbitRingGapped(MAIN_RADIUS * 1.05, '#EBEBEB', 1, RING_HALF_GAP).rotateX(Math.PI / 2));
+      mainSystem.add(createOrbitRingGapped(MAIN_RADIUS * 1.05, '#EBEBEB', 1, RING_HALF_GAP).rotateY(Math.PI / 2));
+      mainSystem.add(createOrbitRingGapped(MAIN_RADIUS * 1.05, '#EBEBEB', 1, RING_HALF_GAP));
+
+      // Arrow decorations at the 6 ring intersection points
+      const R_RING = MAIN_RADIUS * 1.05;
+      const arrowLen = 10;
+      const arrowRadius = 3;
+      const offset = 8;
+      const arrowMat = new THREE.MeshBasicMaterial({ color: '#EBEBEB', transparent: true, opacity: 1 });
+      const coneGeom = new THREE.ConeGeometry(arrowRadius, arrowLen, 8);
+      const yAxis = new THREE.Vector3(0, 1, 0);
+
+      const arrowPairs = [
+        // (±R, 0, 0): XZ tangent=Z, XY tangent=Y
+        { pos: new THREE.Vector3(R_RING, 0, 0), dir: new THREE.Vector3(0, 0, 1) },
+        { pos: new THREE.Vector3(R_RING, 0, 0), dir: new THREE.Vector3(0, 1, 0) },
+        { pos: new THREE.Vector3(-R_RING, 0, 0), dir: new THREE.Vector3(0, 0, 1) },
+        { pos: new THREE.Vector3(-R_RING, 0, 0), dir: new THREE.Vector3(0, 1, 0) },
+        // (0, ±R, 0): YZ tangent=Z, XY tangent=X
+        { pos: new THREE.Vector3(0, R_RING, 0), dir: new THREE.Vector3(0, 0, 1) },
+        { pos: new THREE.Vector3(0, R_RING, 0), dir: new THREE.Vector3(1, 0, 0) },
+        { pos: new THREE.Vector3(0, -R_RING, 0), dir: new THREE.Vector3(0, 0, 1) },
+        { pos: new THREE.Vector3(0, -R_RING, 0), dir: new THREE.Vector3(1, 0, 0) },
+        // (0, 0, ±R): XZ tangent=X, YZ tangent=Y
+        { pos: new THREE.Vector3(0, 0, R_RING), dir: new THREE.Vector3(1, 0, 0) },
+        { pos: new THREE.Vector3(0, 0, R_RING), dir: new THREE.Vector3(0, 1, 0) },
+        { pos: new THREE.Vector3(0, 0, -R_RING), dir: new THREE.Vector3(1, 0, 0) },
+        { pos: new THREE.Vector3(0, 0, -R_RING), dir: new THREE.Vector3(0, 1, 0) },
+      ];
+
+      arrowPairs.forEach(({ pos, dir }) => {
+        const dirNeg = dir.clone().negate();
+
+        const a1 = new THREE.Mesh(coneGeom, arrowMat);
+        a1.quaternion.setFromUnitVectors(yAxis, dirNeg);
+        a1.position.copy(pos).addScaledVector(dir, offset);
+        mainSystem.add(a1);
+
+        const a2 = new THREE.Mesh(coneGeom, arrowMat);
+        a2.quaternion.setFromUnitVectors(yAxis, dir);
+        a2.position.copy(pos).addScaledVector(dirNeg, offset);
+        mainSystem.add(a2);
+      });
     }
   } else {
     renderer.setClearColor(0x000000, 0);
   }
 
-  const DEPTH1_COUNT = is2DMode ? 1 : 18;
+  const DEPTH1_COUNT = is2DMode ? 1 : 20;
   const R1 = MAIN_RADIUS;
   const DEPTH2_COUNT = 80;
   const R2 = 55;
   const R3_OFFSET = 12;
-  const R4_HEIGHT = 10;
+  const R4_HEIGHT = 3;
 
   for (let i = 0; i < DEPTH1_COUNT; i++) {
     // ---- DEPTH 1 ----
@@ -315,7 +386,7 @@ function buildScene() {
     const surfacePt = getRandomSurfacePoint(R1_random);
     const depth1Pos = is2DMode ? new THREE.Vector3(0, 0, 0) : surfacePt.clone();
     const baseNormal = is2DMode ? new THREE.Vector3(0, 0, 1) : surfacePt.clone().normalize();
-    
+
     depth1Group.position.copy(depth1Pos);
 
     // Spin on the radial axis only (keeps depth-2 circle perpendicular to center→depth1)
@@ -323,7 +394,7 @@ function buildScene() {
     const spinAngle = rng() * Math.PI * 2;
     depth1Group.rotateOnAxis(radialAxis, spinAngle);
 
-    const randomScale = 0.5 + rng() * 0.7;
+    const randomScale = 0.5 + rng();
     depth1Group.scale.setScalar(randomScale * (is2DMode ? selected2DScale : 1.0));
 
     // Orbit group with a random frozen rotation
@@ -343,8 +414,8 @@ function buildScene() {
       rootLine.material = new THREE.LineDashedMaterial({
         vertexColors: true,
         transparent: true,
-        opacity: 0.45,
-        dashSize: 5,
+        opacity: 1,
+        dashSize: 3,
         gapSize: 3
       });
       rootLine.computeLineDistances();
@@ -508,8 +579,8 @@ async function exportPNG(scale) {
       // Three.js sets view offsets from top-left, but 2D drawImage also starts top-left.
       // So viewY goes down.
       exportCamera.setViewOffset(
-        fullWidth, fullHeight, 
-        x * baseW, y * baseH, 
+        fullWidth, fullHeight,
+        x * baseW, y * baseH,
         baseW, baseH
       );
       exportRenderer.render(scene, exportCamera);

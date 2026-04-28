@@ -378,3 +378,16 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 });
+
+
+function toggleComingSoon(event) {
+    if (event) event.preventDefault();
+    const comingSoonText = document.querySelector('.coming-soon');
+    if (!comingSoonText) return;
+    // Show the tooltip
+    comingSoonText.classList.add('visible');
+    // Hide after 3 seconds
+    setTimeout(() => {
+        comingSoonText.classList.remove('visible');
+    }, 3000);
+}

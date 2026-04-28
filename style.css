@@ -303,3 +303,74 @@ body {
     pointer-events: none;
     /* 3D 캔버스 조작 방해 금지 */
 }
+
+/* Share Buttons Section */
+.share-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    margin-top: 1rem;
+    padding-top: 0.8rem;
+    /* gray line */
+    pointer-events: auto;
+    /* enable interaction */
+    position: relative;
+    /* allow absolute children */
+}
+
+/* Coming soon tooltip */
+.coming-soon {
+    display: none;
+    position: absolute;
+    top: 11rem;
+    left: 50%;
+    transform: translateX(-50%) translateY(-0.5rem);
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    padding: 0.2rem 0.2rem;
+    font-size: 0.85rem;
+    white-space: nowrap;
+    z-index: 60;
+}
+
+.coming-soon.visible {
+    display: block;
+}
+
+
+.share-label {
+    font-size: 0.9rem;
+    color: var(--text-color);
+    margin: 0;
+}
+
+.share-buttons {
+    display: flex;
+    gap: 0.8rem;
+}
+
+.share-btn {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.0);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+    /* icon gray */
+    transition: background 0.2s, transform 0.2s;
+    text-decoration: none;
+}
+
+.share-btn:hover {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+/* Ensure share buttons are clickable */
+.share-section,
+.share-section * {
+    pointer-events: auto;
+}

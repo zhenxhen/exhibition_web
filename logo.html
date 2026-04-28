@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Primary Meta Tags -->
-    <title>InterPlay</title>
-    <meta name="title" content="InterPlay">
+    <title>InterPlay - Logo</title>
+    <meta name="title" content="InterPlay - Logo">
     <meta name="description" content="Creative Computing Exhibition">
     <meta name="keywords" content="Exhibition, Media, Art, UAL, CCI, InterPlay">
     <meta name="author" content="UAL, CCI, eeezeen">
@@ -34,19 +34,8 @@
     <meta property="twitter:description" content="Creative Computing Exhibition">
     <meta property="twitter:image" content="public/og-image.jpg">
 
-    <!-- Import map for Three.js so visual.js ES module imports work in browser without bundler -->
-    <script type="importmap">
-        {
-            "imports": {
-                "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
-                "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
-            }
-        }
-    </script>
     <link rel="stylesheet" href="https://use.typekit.net/ulp5qtm.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-        integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
         body,
         .workspace-container {
@@ -76,7 +65,6 @@
 
 <body>
 
-    <div id="canvas-container"></div>
     <div class="workspace-container">
 
         <div class="main-display">
@@ -94,20 +82,6 @@
                 23 May 11:00 - 20:00<br>
                 24 May 11:00 - 16:00
             </div>
-            <div class="share-section">
-                <div class="share-buttons">
-
-                    <a href="https://www.instagram.com/interplay_cci/" target="_blank" class="share-btn instagram"><i
-                            class="fab fa-instagram"></i></a>
-                    <a href="https://www.copelandpark.com/events/38349/interplay/" target="_blank"
-                        class="share-btn location"><i class="fa-solid fa-location-dot"></i></a>
-                    <a href="#" class="share-btn ticket" onclick="toggleComingSoon(event)"><i
-                            class="fa-solid fa-ticket"></i></a>
-                    <a href="https://wa.me/?text=Check%20this%20out%20https%3A%2F%2Finterplay-cci.co.uk%2F"
-                        target="_blank" class="share-btn whatsapp"><i class="fab fa-whatsapp"></i></a>
-                </div>
-            </div>
-            <p class="coming-soon">Coming soon:)!</p>
         </div>
     </div>
 
@@ -117,7 +91,6 @@
     <img src="Logo/UAL.CCI.black.png" class="footer-logo" alt="UAL CCI">
 
     <script src="script.js"></script>
-    <script type="module" src="visual.js"></script>
 </body>
 
 </html>
