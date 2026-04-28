@@ -310,7 +310,7 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 0.8rem;
-    margin-top: 1rem;
+    margin-top: 0rem;
     padding-top: 0.8rem;
     /* gray line */
     pointer-events: auto;
@@ -373,4 +373,29 @@ body {
 .share-section,
 .share-section * {
     pointer-events: auto;
+}
+
+@media (max-width: 768px) {
+
+    .main-display {
+        top: 40%;
+    }
+
+    /* Raise main content (countdown group) higher */
+    .countdown-group {
+        top: 45%;
+    }
+
+    /* Slightly reduce padding above share buttons */
+    .share-section {
+        margin-top: 0rem;
+        padding-top: 0.4rem;
+    }
+
+    /* Tooltip appears above the button on mobile */
+    .coming-soon {
+        top: auto;
+        bottom: 100%;
+        transform: translateX(-50%) translateY(-0.5rem);
+    }
 }
