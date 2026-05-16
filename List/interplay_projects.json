@@ -81,7 +81,21 @@
       "artists_raw": "Hao Zeng, Yu Ji, Caiyi Sun",
       "label_technical": "Made with TouchDesigner and two Leap Motion",
       "description_short": "Inspired by Gilles Deleuze’s philosophy of \"becoming,\" this generative system functions as a digital organism in a state of perpetual flux. Using TouchDesigner and Leap Motion, the work translates bodily gestures—spreading hands to disperse or clenching to contract—into a dynamic dialogue between energy and form. Guided by sound and emergent rules, the particles transcend fixed states, transforming invisible physical interactions into a rhythmic, ever-evolving visual experience.",
-      "description_long": "This project constructs a generative particle system, treating it as an ever-changing ‘digital organism’. Inspired by Gilles Deleuze’s philosophy of ‘becoming’, the work emphasises that the system is not a fixed entity, but unfolds through continuous change and flux. Viewers participate in the system’s transformative process through gestures: spreading their hands causes the particles to disperse outward, whilst clenching their fists prompts them to contract and stabilise, creating a dynamic relationship between control and response. Simultaneously, sound is introduced into the system as an external energy source, driving the particles to produce rhythmic fluctuations and breath-like variations. Although the system operates according to simple rules, it exhibits emergent behaviour characterised by uncertainty during interaction, ensuring that the outcome remains in a state of constant becoming. Through this state of perpetual change, the work explores the relationship between the body, energy and digital systems, transforming an invisible process into a perceptible visual experience."
+      "description_long": "This project constructs a generative particle system, treating it as an ever-changing ‘digital organism’. Inspired by Gilles Deleuze’s philosophy of ‘becoming’, the work emphasises that the system is not a fixed entity, but unfolds through continuous change and flux. Viewers participate in the system’s transformative process through gestures: spreading their hands causes the particles to disperse outward, whilst clenching their fists prompts them to contract and stabilise, creating a dynamic relationship between control and response. Simultaneously, sound is introduced into the system as an external energy source, driving the particles to produce rhythmic fluctuations and breath-like variations. Although the system operates according to simple rules, it exhibits emergent behaviour characterised by uncertainty during interaction, ensuring that the outcome remains in a state of constant becoming. Through this state of perpetual change, the work explores the relationship between the body, energy and digital systems, transforming an invisible process into a perceptible visual experience.",
+      "artist_links": [
+        {
+          "artist": "Hao Zeng",
+          "links": []
+        },
+        {
+          "artist": "Yu Ji",
+          "links": []
+        },
+        {
+          "artist": "Caiyi Sun",
+          "links": []
+        }
+      ]
     },
     {
       "submission_id": "3",
@@ -198,7 +212,13 @@
         "artist_photos": [
           "List/Decay/artist_photos/Headshot_Priyal_Patel.jpg"
         ]
-      }
+      },
+      "artist_links": [
+        {
+          "label": "Portfolio",
+          "url": "https://priyalptl.com/"
+        }
+      ]
     },
     {
       "submission_id": "5",
@@ -218,7 +238,21 @@
           "List/Digital_Garden/behind_the_scenes/IMG_4728_Wang_Ziyi.jpg",
           "List/Digital_Garden/behind_the_scenes/digital_garden_Wang_Ziyi.png"
         ]
-      }
+      },
+      "artist_links": [
+        {
+          "artist": "Jinwon Lee",
+          "links": []
+        },
+        {
+          "artist": "Ziyi Wang",
+          "links": []
+        },
+        {
+          "artist": "Chengxin Deng",
+          "links": []
+        }
+      ]
     },
     {
       "submission_id": "6",
@@ -243,7 +277,21 @@
           "List/Dust_Forms_the_Landscape/artist_photos/Manlisaha Tang.jpg",
           "List/Dust_Forms_the_Landscape/artist_photos/Xiya Zhou.jpg"
         ]
-      }
+      },
+      "artist_links": [
+        {
+          "artist": "Di Zhou",
+          "links": []
+        },
+        {
+          "artist": "Xiya Zhou",
+          "links": []
+        },
+        {
+          "artist": "Manlisaha Tang",
+          "links": []
+        }
+      ]
     },
     {
       "submission_id": "7",
@@ -264,7 +312,21 @@
         "artist_photos": [
           "List/Feel_Miru/artist_photos/portrait_Laurens_Ramsenthaler_1.png"
         ]
-      }
+      },
+      "artist_links": [
+        {
+          "label": "Web",
+          "url": "www.laurens.art"
+        },
+        {
+          "label": "Instagram",
+          "url": "@artoflaurens"
+        },
+        {
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/laurens-ramsenthaler/"
+        }
+      ]
     },
     {
       "submission_id": "8",
@@ -345,7 +407,21 @@
         "artist_photos": [
           "List/Flow/artist_photos/IMG_2023_Cat_Menzies.jpeg"
         ]
-      }
+      },
+      "artist_links": [
+        {
+          "artist": "Priyal Patel",
+          "links": []
+        },
+        {
+          "artist": "Cat Menzies",
+          "links": []
+        },
+        {
+          "artist": "Laurens Art Ramsenthaler",
+          "links": []
+        }
+      ]
     },
     {
       "submission_id": "10",
@@ -369,7 +445,13 @@
         "artist_photos": [
           "List/Fourth_Resonance/artist_photos/TianyiMao_Mao_Tianyi.png"
         ]
-      }
+      },
+      "artist_links": [
+        {
+          "label": "Instagram",
+          "url": "@wing.skyl"
+        }
+      ]
     },
     {
       "submission_id": "11",
@@ -438,7 +520,8 @@
       },
       "label_technical": "Made using Unity engine and Arduino",
       "description_short": "Just Move is a rehabilitation-focused interactive training project for people who struggle with traditional therapy. It explores why users disengage, including boredom, pain anxiety, low confidence, unclear progress, and poor personalization. Through adaptive difficulty, embodied interaction, and real-time feedback, it makes training safer, more motivating, and more sustainable. The project combines user-centered research and evidence-based evaluation to improve adherence, support behavior change, and bridge clinical goals with everyday motivation.",
-      "description_long": "Just Move is a rehabilitation-focused interactive training project designed for people who struggle to stay engaged with traditional therapy routines. The core aim is not only to gamify exercise, but to investigate why many users dislike or abandon rehabilitation: boredom, pain anxiety, low confidence, unclear progress, and poor personalization. The project combines human-centered research with game design to transform repetitive movements into meaningful, motivating tasks. Using adaptive difficulty, embodied interaction, and real-time feedback, Just Move adjusts pace and challenge to each user’s ability while prioritizing safety and fatigue control.The project’s central research question is how to break key rehabilitation pain points in a way that is safe, reasonable, and effective. By focusing on user experience, accessibility, and evidence-based evaluation, Just Move positions digital play as a practical intervention for rehabilitation behavior change. Ultimately, the project seeks to make rehabilitation less intimidating, more sustainable, and more human, especially for users who need support the most. It bridges clinical goals with everyday motivation, helping individuals practice consistently at home and in supervised settings while preserving dignity, autonomy, and emotional resilience. Daily."
+      "description_long": "Just Move is a rehabilitation-focused interactive training project designed for people who struggle to stay engaged with traditional therapy routines. The core aim is not only to gamify exercise, but to investigate why many users dislike or abandon rehabilitation: boredom, pain anxiety, low confidence, unclear progress, and poor personalization. The project combines human-centered research with game design to transform repetitive movements into meaningful, motivating tasks. Using adaptive difficulty, embodied interaction, and real-time feedback, Just Move adjusts pace and challenge to each user’s ability while prioritizing safety and fatigue control.The project’s central research question is how to break key rehabilitation pain points in a way that is safe, reasonable, and effective. By focusing on user experience, accessibility, and evidence-based evaluation, Just Move positions digital play as a practical intervention for rehabilitation behavior change. Ultimately, the project seeks to make rehabilitation less intimidating, more sustainable, and more human, especially for users who need support the most. It bridges clinical goals with everyday motivation, helping individuals practice consistently at home and in supervised settings while preserving dignity, autonomy, and emotional resilience. Daily.",
+      "artist_links": []
     },
     {
       "submission_id": "13",
@@ -466,7 +549,13 @@
         "artist_photos": [
           "List/Perfect_Apology_Letter_Generator/artist_photos/Artist_Profile_Photo_Gong_Xiangwen.jpg"
         ]
-      }
+      },
+      "artist_links": [
+        {
+          "label": "Web",
+          "url": "https://floraaua.github.io/Xiangwen-Gong-personal-web-sites/"
+        }
+      ]
     },
     {
       "submission_id": "14",
@@ -489,7 +578,21 @@
         "artist_photos": [
           "List/Post_Literature/artist_photos/Eugene_Portrait_copy_Jinwon_Lee_1.jpg"
         ]
-      }
+      },
+      "artist_links": [
+        {
+          "label": "Instagram",
+          "url": "@eeezeen"
+        },
+        {
+          "label": "Web",
+          "url": "www.leejinwon.com"
+        },
+        {
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/jinwon-eugene-lee/"
+        }
+      ]
     },
     {
       "submission_id": "15",
@@ -521,7 +624,13 @@
         "artist_photos": [
           "List/Pulse_Fountain_Clock/artist_photos/IMG_2568_Wang_Ziyi.jpg"
         ]
-      }
+      },
+      "artist_links": [
+        {
+          "label": "LinkedIn",
+          "url": "www.linkedin.com/in/ziyi-wang-89b7aa3a7"
+        }
+      ]
     },
     {
       "submission_id": "16",
@@ -540,7 +649,21 @@
         "artist_photos": [
           "List/REMNANT/artist_photos/WhatsApp_Image_2026-05-08_at_6_36_16_PM.jpeg"
         ]
-      }
+      },
+      "artist_links": [
+        {
+          "label": "Instagram",
+          "url": "@hrshlabs"
+        },
+        {
+          "label": "Behance",
+          "url": "https://www.behance.net/hrshlabs"
+        },
+        {
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/hrshlabs"
+        }
+      ]
     },
     {
       "submission_id": "17",
@@ -714,7 +837,13 @@
         "artist_photos": [
           "List/the_sensitive_child/artist_photos/IMG_3404_2_Cat_Menzies_1.jpeg"
         ]
-      }
+      },
+      "artist_links": [
+        {
+          "label": "Instagram",
+          "url": "@catmenzies"
+        }
+      ]
     },
     {
       "submission_id": "21",
@@ -739,7 +868,21 @@
         "artist_photos": [
           "List/Think_Inside_the_ParaBox/artist_photos/portrait_Laurens_Ramsenthaler.png"
         ]
-      }
+      },
+      "artist_links": [
+        {
+          "label": "Portfolio",
+          "url": "www.laurens.art"
+        },
+        {
+          "label": "Instagram",
+          "url": "@artoflaurens"
+        },
+        {
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/laurens-ramsenthaler"
+        }
+      ]
     },
     {
       "submission_id": "22",
@@ -768,7 +911,17 @@
           "List/TIME_MACHINE/behind_the_scenes/time-machine-sketch1_Minnie_Xie.jpg",
           "List/TIME_MACHINE/behind_the_scenes/wiring1_Minnie_Xie.jpeg"
         ]
-      }
+      },
+      "artist_links": [
+        {
+          "label": "Instagram",
+          "url": "@xiemimiart"
+        },
+        {
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/minnie-xie/"
+        }
+      ]
     },
     {
       "submission_id": "23",
@@ -800,7 +953,21 @@
         "artist_photos": [
           "List/Who_gets_to_code/artist_photos/foto-linkedin_Isabela_Ortiz_Jarami.jpeg"
         ]
-      }
+      },
+      "artist_links": [
+        {
+          "label": "Portfolio",
+          "url": "https://www.unosyceros.com/"
+        },
+        {
+          "label": "Instagram",
+          "url": "@isabela_ortiz_j"
+        },
+        {
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/isabela-ortiz-jaramillo-80006526b/"
+        }
+      ]
     },
     {
       "submission_id": "24",
@@ -825,7 +992,13 @@
         "artist_photos": [
           "List/who_is_she/artist_photos/weixin_20260510001902_Xie_Kunshan.jpg"
         ]
-      }
+      },
+      "artist_links": [
+        {
+          "label": "Instagram",
+          "url": "@oqupoppu"
+        }
+      ]
     },
     {
       "submission_id": "25",
@@ -848,7 +1021,13 @@
         "artist_photos": [
           "List/WikiEditLive/artist_photos/Screenshot_2_Delyth_Field.png"
         ]
-      }
+      },
+      "artist_links": [
+        {
+          "label": "Instagram",
+          "url": "@maiyanaya"
+        }
+      ]
     },
     {
       "submission_id": "26",
@@ -878,7 +1057,17 @@
         "artist_photos": [
           "List/you_met_me_at_a_very_time/artist_photos/portrait_profile_photo_jpj_3_Veronika_Gryshchuk.jpg"
         ]
-      }
+      },
+      "artist_links": [
+        {
+          "label": "Instagram",
+          "url": "@verona_gr"
+        },
+        {
+          "label": "Web",
+          "url": "veronagr.com"
+        }
+      ]
     }
   ]
 }

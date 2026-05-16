@@ -313,6 +313,7 @@ body {
     display: flex;
     gap: 0.5rem;
     align-items: center;
+    margin-right: 4rem;
 }
 
 .scroll-btn {

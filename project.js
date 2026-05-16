@@ -240,6 +240,15 @@ function renderProject(project, allProjects, currentIndex) {
     // Mobile: window/body is the scroll container
     window.addEventListener('scroll', checkTitleSwap);
 
+    // Click header title → scroll to top
+    if (headerTitle) {
+        headerTitle.style.cursor = 'pointer';
+        headerTitle.addEventListener('click', () => {
+            if (rightPane) rightPane.scrollTo({ top: 0, behavior: 'smooth' });
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    }
+
 
 
     // Trigger logo animation now that canvas is in the DOM
