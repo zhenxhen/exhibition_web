@@ -24,10 +24,10 @@ body {
     overflow-x: hidden;
 }
 
-/* 모바일 브라우저 상/하단 탭 영역(URL바 등) 제외하고 정확한 정중앙 배치를 위한 처리 */
+/* 모바일 브라우저 URL바 동적 높이 변화에 대응 */
 @media (max-width: 768px) {
     body {
-        min-height: 100svh;
+        min-height: 100dvh;
     }
 }
 
@@ -46,7 +46,7 @@ body {
     top: 0;
     left: 0;
     width: 100vw;
-    height: 100vh;
+    height: 100dvh;
     z-index: 20;
     /* 로고들(10, 20) 보다 앞쪽으로 배치하여 비주얼이 최상단에 오도록 설정 */
     pointer-events: auto;
