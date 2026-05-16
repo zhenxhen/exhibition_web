@@ -1068,6 +1068,94 @@
           "url": "veronagr.com"
         }
       ]
+    },
+    {
+      "submission_id": "27",
+      "project_name": "Touching the Invisible",
+      "year": "2026",
+      "artists_raw": "Jingyuan Xue, Siyuan Xu",
+      "artist_statements": {
+        "full_text": "Jingyuan Xue is a creator who explores the intersection between human perception and the invisible layers of reality. She views technology not as an end goal, but as a medium to reconnect people with their physical surroundings. Her practice is deeply rooted in user experience and the observation of everyday existence. Xue is interested in the \"hidden\" forces we often overlook—the subtle tensions and connections that define our presence in a space. By designing interactive environments that respond to human intuition, she seeks to heighten the audience's awareness of their own agency. For Xue, the value of a work lies in its ability to provoke a simple but profound reflection: how our smallest actions resonate within a larger, interconnected world.\n\nSiyuan Xu is a creative computing practitioner whose work explores the relationship between human perception, digital systems, and invisible forms of interaction. Her practice often uses interactive media, sensing technologies, and generative visuals to translate abstract or hidden experiences into visual and bodily encounters. In the collaborative project Touching the Invisible, she investigates how the human body can become a presence within a digital ecosystem rather than simply a controller. The work creates a neuron-like environment that reacts to movement through ripples, disturbances, and chain reactions. It reflects her interest in how unseen connections can be made perceptible, fragile, alive, and physically present.",
+        "unassigned": [
+          "Jingyuan Xue is a creator who explores the intersection between human perception and the invisible layers of reality. She views technology not as an end goal, but as a medium to reconnect people with their physical surroundings. Her practice is deeply rooted in user experience and the observation of everyday existence. Xue is interested in the \"hidden\" forces we often overlook—the subtle tensions and connections that define our presence in a space. By designing interactive environments that respond to human intuition, she seeks to heighten the audience's awareness of their own agency. For Xue, the value of a work lies in its ability to provoke a simple but profound reflection: how our smallest actions resonate within a larger, interconnected world.",
+          "Siyuan Xu is a creative computing practitioner whose work explores the relationship between human perception, digital systems, and invisible forms of interaction. Her practice often uses interactive media, sensing technologies, and generative visuals to translate abstract or hidden experiences into visual and bodily encounters. In the collaborative project Touching the Invisible, she investigates how the human body can become a presence within a digital ecosystem rather than simply a controller. The work creates a neuron-like environment that reacts to movement through ripples, disturbances, and chain reactions. It reflects her interest in how unseen connections can be made perceptible, fragile, alive, and physically present."
+        ]
+      },
+      "artist_links": [
+        {
+          "artist": "Jingyuan Xue",
+          "links": []
+        },
+        {
+          "artist": "Siyuan Xu",
+          "links": []
+        }
+      ],
+      "label_technical": "Made with TouchDesigner",
+      "description_short": "We inhabit a world of unseen forces—energy fields and microscopic networks. This installation makes these hidden connections visible. Using Leap Motion, your presence disturbs a digital neural environment. Gestures trigger energy bursts, while excessive movement causes the system to flicker and spasm. It is a reminder: we are never mere observers; every action leaves a trace.",
+      "description_long": "Touching the Invisible is an interactive installation that lets you \"see\" the hidden connections between yourself and the invisible world around you. We are always surrounded by unseen forces—like air currents, energy fields, and microscopic networks—but we rarely notice how we affect them. Using Leap Motion, we’ve created a digital environment that looks like glowing red neurons. Your hand doesn't \"control\" these lines like a tool; instead, your presence disturbs them. Every move you make causes ripples and energy bursts. If you move too fast or too much, the entire system begins to flicker and spasm, showing how a stable environment can become overloaded by our presence. By hiding the computer and focusing only on the projection, we want to create a mysterious space for you to explore. It’s a simple reminder that we are never just observers—even our smallest gestures leave a trace in the invisible world.",
+      "media": {
+        "final_images": [
+          "List/Touching_the_Invisible/final_images/727_raw_Xue_Jingyuan.mov"
+        ],
+        "behind_the_scenes": [
+          "List/Touching_the_Invisible/behind_the_scenes/IMG_7765_Xue_Jingyuan.jpeg",
+          "List/Touching_the_Invisible/behind_the_scenes/IMG_7776_Xue_Jingyuan.jpeg",
+          "List/Touching_the_Invisible/behind_the_scenes/IMG_8337_Xue_Jingyuan.jpeg"
+        ],
+        "artist_photos": [
+          "List/Touching_the_Invisible/artist_photos/IMG_2065_Xue_Jingyuan.jpeg"
+        ]
+      }
+    },
+    {
+      "submission_id": "28",
+      "project_name": "I'm fine",
+      "year": "2026",
+      "artists_raw": "Darious Shan",
+      "artist_statements": {
+        "full_text": "Darious is a multidisciplinary artist whose practice spans projection, interactive installations and creative programming. Her work explores how emotions and attention are visualised and embodied, inviting viewers into a ‘third space’ between inner emotions and shared experiences. Through the use of light, sound, sensors and real-time visual effects, these artworks invite viewers to reflect and co-create.",
+        "unassigned": [
+          "Darious is a multidisciplinary artist whose practice spans projection, interactive installations and creative programming. Her work explores how emotions and attention are visualised and embodied, inviting viewers into a ‘third space’ between inner emotions and shared experiences. Through the use of light, sound, sensors and real-time visual effects, these artworks invite viewers to reflect and co-create."
+        ]
+      },
+      "artist_links": [
+        {
+          "artist": "Darious Shan",
+          "links": [
+            {
+              "label": "Instagram",
+              "url": "https://www.instagram.com/dariousshan/"
+            },
+            {
+              "label": "LinkedIn",
+              "url": "https://www.linkedin.com/in/darious-shan-a07b42280/"
+            },
+            {
+              "label": "Portfolio",
+              "url": "https://daariousshan.com/"
+            }
+          ]
+        }
+      ],
+      "label_technical": "Arduino, TouchDesigner",
+      "description_short": "I’m fine is an audio-responsive installation that turns music into light. Real-time analysis of intensity, frequency, and rhythm drives projections inside a brain-shaped vessel, spilling into the space. The branching, pulsing visuals evoke neural pathways or capillaries, inviting a dissociative third-person view of how sound guides attention and emotion.",
+      "description_long": "I’m fine is an audio-responsive installation that analyses music in real time, translating intensity, frequency bands, and rhythm into light. The generated imagery is projected into a brain-shaped vessel and diffused into the surrounding space, externalising listening as a shifting structure of light and shadow. The vessel functions as both boundary and viewing apparatus. Wrapped in soothing, expansive sound, the visuals resemble magnified internal patterns—branching and pulsating like neural networks, nervous pathways, or capillary flows. They continuously emerge, connect, and break apart, as if rendering thoughts and feelings into a visible physiological topography. This viewing produces a sense of dissociation: the audience is pulled out of first-person experience to observe, from a third-person perspective, how sound guides the brain—how attention scatters and returns, how emotion rises and settles, and how everyday events are encoded as rhythmic pulses of light.",
+      "media": {
+        "final_images": [
+          "List/Im_fine/final_images/0_Zeyang_Shan.png"
+        ],
+        "behind_the_scenes": [
+          "List/Im_fine/behind_the_scenes/IMG_6168_Zeyang_Shan.JPG",
+          "List/Im_fine/behind_the_scenes/IMG_6169_Zeyang_Shan.JPG",
+          "List/Im_fine/behind_the_scenes/IMG_6170_Zeyang_Shan.JPG",
+          "List/Im_fine/behind_the_scenes/IMG_6176_Zeyang_Shan.JPG",
+          "List/Im_fine/behind_the_scenes/IMG_6177_Zeyang_Shan.JPG"
+        ],
+        "artist_photos": [
+          "List/Im_fine/artist_photos/WhatsApp Image 2026-05-16 at 21.25.44.jpeg"
+        ]
+      }
     }
   ]
 }
