@@ -553,6 +553,16 @@
           "Valeriya Borissova is a software developer building multi-stage interactive real-time systems. She integrates machine learning, computer vision and hardware with a focus on user-centred experience. Valeriya is currently pursuing an MSc in Creative Computing at the University of the Arts London. Her background in Graphic Design Communication gives her a strong understanding of user behaviour, interaction and visual communication. She works across software and physical computing, combining code and hardware to create interactive experiences. Her practice spans front-end and back-end development, with programming languages including Python, JavaScript, C++ and C#."
         ]
       },
+      "artist_links": [
+        {
+          "label": "Instagram",
+          "url": "@create.with.vb"
+        },
+        {
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/valeriya-borissova-b6a278123/"
+        }
+      ],
       "label_technical": "Python, MediaPipe FaceMesh, DeepFace, InsightFace Model",
       "description_short": "Reverse 9 is an immersive, personalised art installation that reveals how social media platforms transform human cognition, behaviour and self-identity. Using live facial tracking and AI generated transformation, the system analyses the viewer and assigns one of nine categories based on behavioural patterns shaped through digital interaction. The project reflects how online platforms classify and reconstruct identity through algorithmic systems.\n\nAll visuals are based on original illustrations created specifically for the installation.",
       "description_long": "Reverse 9 is an immersive, personalised art installation that reveals how social media platforms transform human cognition, behaviour and self-identity. The system replicates the behavioural logic of social media platforms, mirroring how digital identity is analysed, classified and shaped through nine psychological categories.\n\nLive facial tracking detects the viewer’s facial structure and expressions. A predictive model then processes the data and assigns one of nine psychological categories. Based on the assigned category, an AI model generates a facial transformation and integrates it into a personalised illustration.\n\nAs users engage with social media, they gradually adapt and fragment their identities across platforms, losing coherence between their digital identity and true self. Reverse 9 invites the audience to critically observe how these invisible forces shape digital personas.\n\nThe nine psychological categories are: Addictive Engagement Patterns, Behavioural Conditioning, Emotional Exhaustion, Emotional Filtering, Emotional Reactivity, Ideological Shaping, Loss of Authentic Identity, Self-Modification and Social Comparison.\n\nAll visuals are based on original illustrations created specifically for the installation.",
