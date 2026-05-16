@@ -1,0 +1,874 @@
+{
+  "projects": [
+    {
+      "submission_id": "1",
+      "project_name": "Closer Wound",
+      "year": "2026",
+      "artists_raw": "Kunshan Xie, Niki Khanezai, Runhua Liu, Junbae Choi",
+      "artist_statements": {
+        "full_text": "Kunshan Xie is a designer from China, dreaming of changing the world through creativity.\n\nNiki Khanezai came into Creative Computing as an illustrator and animator, initially thinking in terms of images, emotion, and narrative. Through the course, she developed a new language—code—which enabled her to build the ideas she had long imagined. Her academic journey spans a Foundation at Ravensbourne, a BA in Illustration Animation at Kingston University, and an MSc at the University of the Arts London, progressively moving her practice into the intersection of art and technology. She has transitioned from drawing characters to developing systems that bring concepts to life. She is driven by the space where visual intuition meets technical problem-solving, and identifies as a creative developer who bridges the gap between feeling and functionality.\n\nRunhua Liu is currently studying Creative Computing at the Creative Computing Institute (CCI), University of the Arts London. She previously completed a BA in Product Design at Foshan University. During her studies and creative practice, she became increasingly aware that design extends beyond physical products to include the relationships between data, algorithms, and human behaviour, which led her to pursue creative technology and computational art in the UK. Her research interests focus on machine learning, human-computer interaction, and algorithmic power. Through practice-based work, she uses games, interactive installations, and generative systems to explore surveillance, bias, and feedback loops. She aims to create interactive experiences through code that reveal how algorithmic systems shape perception, behaviour, and self-awareness in contemporary digital society.\n\nJunbae Choi is a multidisciplinary UI/UX and Visual Designer currently pursuing an MSc in Creative Computing at the University of the Arts London. Born and raised in Seoul, he later moved to New York to complete his Master's degree in Interaction Design. Before relocating to London, Junbae spent several years working as a designer across New York and San Francisco, gaining significant industry experience developing cohesive design systems and intuitive interfaces for healthcare, e-commerce, and fintech. With an academic background spanning Psychology, Brand design, Interaction Design, and creative computing, he applies a deeply human-centered approach to digital experiences. By combining his visual design skills with creative programming, Junbae creates accessible, interactive products that bridge academic research and everyday curiosity.",
+        "unassigned": [
+          "Kunshan Xie is a designer from China, dreaming of changing the world through creativity.",
+          "Niki Khanezai came into Creative Computing as an illustrator and animator, initially thinking in terms of images, emotion, and narrative. Through the course, she developed a new language—code—which enabled her to build the ideas she had long imagined. Her academic journey spans a Foundation at Ravensbourne, a BA in Illustration Animation at Kingston University, and an MSc at the University of the Arts London, progressively moving her practice into the intersection of art and technology. She has transitioned from drawing characters to developing systems that bring concepts to life. She is driven by the space where visual intuition meets technical problem-solving, and identifies as a creative developer who bridges the gap between feeling and functionality.",
+          "Runhua Liu is currently studying Creative Computing at the Creative Computing Institute (CCI), University of the Arts London. She previously completed a BA in Product Design at Foshan University. During her studies and creative practice, she became increasingly aware that design extends beyond physical products to include the relationships between data, algorithms, and human behaviour, which led her to pursue creative technology and computational art in the UK. Her research interests focus on machine learning, human-computer interaction, and algorithmic power. Through practice-based work, she uses games, interactive installations, and generative systems to explore surveillance, bias, and feedback loops. She aims to create interactive experiences through code that reveal how algorithmic systems shape perception, behaviour, and self-awareness in contemporary digital society.",
+          "Junbae Choi is a multidisciplinary UI/UX and Visual Designer currently pursuing an MSc in Creative Computing at the University of the Arts London. Born and raised in Seoul, he later moved to New York to complete his Master's degree in Interaction Design. Before relocating to London, Junbae spent several years working as a designer across New York and San Francisco, gaining significant industry experience developing cohesive design systems and intuitive interfaces for healthcare, e-commerce, and fintech. With an academic background spanning Psychology, Brand design, Interaction Design, and creative computing, he applies a deeply human-centered approach to digital experiences. By combining his visual design skills with creative programming, Junbae creates accessible, interactive products that bridge academic research and everyday curiosity."
+        ]
+      },
+      "artist_links": [
+        {
+          "artist": "Kunshan Xie",
+          "links": [
+            {
+              "label": "Instagram",
+              "url": "@oqupoppu"
+            }
+          ]
+        },
+        {
+          "artist": "Niki Khanezai",
+          "links": [
+            {
+              "label": "LinkedIn",
+              "url": "https://www.linkedin.com/in/niki-khanezai"
+            }
+          ]
+        },
+        {
+          "artist": "Runhua Liu",
+          "links": [
+            {
+              "label": "Instagram",
+              "url": "@25013368amber"
+            }
+          ]
+        },
+        {
+          "artist": "Junbae Choi",
+          "links": [
+            {
+              "label": "Web",
+              "url": "https://iamjbchoi.com/"
+            }
+          ]
+        }
+      ],
+      "label_technical": "work with TouchDesigner",
+      "description_short": "We believe destruction comes not from distance between humans and nature, but from how we perceive interaction as harmless. We created a tactile fabric device that simulates ecosystems through touch. Audiences enlarge scanned plant cells using gestures, revealing hidden microorganisms and ecological connections. Yet interaction gradually damages the environment: zooming out reveals fragile, unhealthy surfaces. The system never fully resets, reflecting how human curiosity and observation leave irreversible traces on nature.",
+      "description_long": "We believe that destruction does not stem from the distance between humans and nature, but from the way we perceive it as beneficial. When 'observing nature' changes the logic of natural behavior itself. When humans approach nature through self perceived friendly behavior, the collapse of natural diversity may occur in the fundamental logic of exploring nature. To compare this process, we have created a device that can be touched and explored to simulate natural ecological environments. The touch device based on fabric allows the audience to explore the interaction between humans and nature through touch as a connecting point. The audience can stick their heads in and use gestures to enlarge the scanned plant cells. And the biological model based on cells is projected onto the curtain. When they zoom in, hidden connections and active microorganisms emerge, revealing different levels of the ecosystem. However, the process of exploring nature can change the land itself. When they contract, the surface appears more fragile and unhealthy. The system has not been fully reset, leaving irreversible traces that reflect how human observation and curiosity quietly change nature.",
+      "media": {
+        "final_images": [
+          "List/Closer_Wound/final_images/WeChat_20260509233253_Xie_Kunshan_1.mp4"
+        ],
+        "behind_the_scenes": [
+          "List/Closer_Wound/behind_the_scenes/32b8dcaf-1c4c-4de0-b831-84e14dde819e_Xie_Kunshan_1.JPG",
+          "List/Closer_Wound/behind_the_scenes/5ada6656-2f9c-493e-b230-bfd85538d7a7_Xie_Kunshan_1.JPG",
+          "List/Closer_Wound/behind_the_scenes/6181ad25-5521-4428-aaa9-32c785bcc766_Xie_Kunshan_1.JPG",
+          "List/Closer_Wound/behind_the_scenes/B0BFFEA5-6E75-422B-910E-5FBE129448C1_Xie_Kunshan_1.JPG",
+          "List/Closer_Wound/behind_the_scenes/b8fd0a0b-6a90-4781-a1f0-3585e84c401a_Xie_Kunshan_1.JPG"
+        ],
+        "artist_photos": [
+          "List/Closer_Wound/artist_photos/Junbae Choi.jpg",
+          "List/Closer_Wound/artist_photos/Kunshan Xie.jpg",
+          "List/Closer_Wound/artist_photos/Niki Khanezai.JPG",
+          "List/Closer_Wound/artist_photos/Runhua Liu.jpg"
+        ]
+      }
+    },
+    {
+      "submission_id": "2",
+      "project_name": "Cosmic Pulse",
+      "year": "2026",
+      "artists_raw": "Hao Zeng, Yu Ji, Caiyi Sun",
+      "label_technical": "Made with TouchDesigner and two Leap Motion",
+      "description_short": "Inspired by Gilles Deleuze’s philosophy of \"becoming,\" this generative system functions as a digital organism in a state of perpetual flux. Using TouchDesigner and Leap Motion, the work translates bodily gestures—spreading hands to disperse or clenching to contract—into a dynamic dialogue between energy and form. Guided by sound and emergent rules, the particles transcend fixed states, transforming invisible physical interactions into a rhythmic, ever-evolving visual experience.",
+      "description_long": "This project constructs a generative particle system, treating it as an ever-changing ‘digital organism’. Inspired by Gilles Deleuze’s philosophy of ‘becoming’, the work emphasises that the system is not a fixed entity, but unfolds through continuous change and flux. Viewers participate in the system’s transformative process through gestures: spreading their hands causes the particles to disperse outward, whilst clenching their fists prompts them to contract and stabilise, creating a dynamic relationship between control and response. Simultaneously, sound is introduced into the system as an external energy source, driving the particles to produce rhythmic fluctuations and breath-like variations. Although the system operates according to simple rules, it exhibits emergent behaviour characterised by uncertainty during interaction, ensuring that the outcome remains in a state of constant becoming. Through this state of perpetual change, the work explores the relationship between the body, energy and digital systems, transforming an invisible process into a perceptible visual experience."
+    },
+    {
+      "submission_id": "3",
+      "project_name": "Critical Zone",
+      "year": "2026",
+      "artists_raw": "Isabela Ortiz Jaramillo, Nicolas Urrego Sandoval, Delyth Field, Veronika Gryshchuk",
+      "artist_statements": {
+        "full_text": "Delyth Field\n\nDelyth Field is a Japanese-Welsh composer whose work spans concert music, film scoring, electronic music, and audiovisual media. Her practice explores the concept of authenticity, and how digital tools challenge our understanding of originality, human expression, and the boundary between organic and synthetic sound.\n---\nVeronika Gryshchuk\n\nMy practice sits between technology and nature realms, a space I keep recklessly returning to, not because I have answers, but because the questions feel urgent. I am drawn to the moments where the boundary between organic and technological becomes unstable, where it is no longer clear where one ends and the other begins.\nDrawing on more-than-human thinking, I am interested in how computation can act as a mediator, a way of revealing hidden patterns and unspoken languages in the systems we are entangled with, translating what usually remains unseen or unheard into something we can begin to sense and respond to.\n---\nIsabela Ortiz Jaramillo\n\nIsabela Ortiz Jaramillo is a Colombian artist, designer, engineer, and educator who uses programming to expand and question creative practice. Her work approaches code critically, examining its role in shaping inclusion, visibility, and representation. She often combines digital systems with analogue processes, including textile elements, to explore the relationships between computational logic and material experience. Through artistic and educational projects, she seeks to challenge stereotypes around programming and open space for more diverse voices within technological and creative fields.\n---\nNicolas Urrego Sandoval\n\nThrough physical computing and interactive media, my work focuses on provoking intuitive emotional responses to complex issues by providing novel interactions with technology that distance from traditional utilitarian approaches.",
+        "unassigned": [
+          "Delyth Field",
+          "Delyth Field is a Japanese-Welsh composer whose work spans concert music, film scoring, electronic music, and audiovisual media. Her practice explores the concept of authenticity, and how digital tools challenge our understanding of originality, human expression, and the boundary between organic and synthetic sound.\n---\nVeronika Gryshchuk",
+          "My practice sits between technology and nature realms, a space I keep recklessly returning to, not because I have answers, but because the questions feel urgent. I am drawn to the moments where the boundary between organic and technological becomes unstable, where it is no longer clear where one ends and the other begins.\nDrawing on more-than-human thinking, I am interested in how computation can act as a mediator, a way of revealing hidden patterns and unspoken languages in the systems we are entangled with, translating what usually remains unseen or unheard into something we can begin to sense and respond to.\n---\nIsabela Ortiz Jaramillo",
+          "Isabela Ortiz Jaramillo is a Colombian artist, designer, engineer, and educator who uses programming to expand and question creative practice. Her work approaches code critically, examining its role in shaping inclusion, visibility, and representation. She often combines digital systems with analogue processes, including textile elements, to explore the relationships between computational logic and material experience. Through artistic and educational projects, she seeks to challenge stereotypes around programming and open space for more diverse voices within technological and creative fields.\n---\nNicolas Urrego Sandoval",
+          "Through physical computing and interactive media, my work focuses on provoking intuitive emotional responses to complex issues by providing novel interactions with technology that distance from traditional utilitarian approaches."
+        ]
+      },
+      "artist_links": [
+        {
+          "artist": "Isabela Ortiz Jaramillo",
+          "links": [
+            {
+              "label": "Portfolio",
+              "url": "https://www.unosyceros.com/"
+            },
+            {
+              "label": "Instagram",
+              "url": "@isabela_ortiz_j"
+            },
+            {
+              "label": "LinkedIn",
+              "url": "https://www.linkedin.com/in/isabela-ortiz-jaramillo-80006526b/"
+            }
+          ]
+        },
+        {
+          "artist": "Nicolas Urrego Sandoval",
+          "links": [
+            {
+              "label": "Instagram",
+              "url": "@nicourrego7"
+            },
+            {
+              "label": "LinkedIn",
+              "url": "https://uk.linkedin.com/in/nicolas-urrego"
+            },
+            {
+              "label": "Portfolio",
+              "url": "nikito.me"
+            }
+          ]
+        },
+        {
+          "artist": "Delyth Field",
+          "links": [
+            {
+              "label": "Instagram",
+              "url": "@maiyanaya"
+            }
+          ]
+        },
+        {
+          "artist": "Veronika Gryshchuk",
+          "links": [
+            {
+              "label": "Instagram",
+              "url": "@verona_gr"
+            },
+            {
+              "label": "Web",
+              "url": "veronagr.com"
+            },
+            {
+              "label": "LinkedIn",
+              "url": "https://www.linkedin.com/in/veronika-gryshchuk-008023199/"
+            }
+          ]
+        }
+      ],
+      "label_technical": "Interactive sand table with overhead projection, made using TouchDesigner",
+      "description_short": "\"Critical Zone\" challenges the Anthropocene tendency to treat nature as a resource to be exploited. Adopting a more-than-human perspective, it suggests nature holds its own beauty and agency, independent of human intervention.\nThe installation is an audio-reactive sand table where projection mapping invites participants to engage directly with the surface. Each touch, shape, or smoothing shifts the visuals and sound, reflecting the evolving human-nature relationship.",
+      "description_long": "\"Critical Zone\" begins with the idea that in the Anthropocene humans approach nature as a resource to be used, altered and exploited, rather than something that exists with its own agency. By adopting a more-than-human perspective, this piece seeks to shift this relationship, suggesting that nature does not require human intervention to reveal its own forms of beauty. The installation is an audio-reactive and interactive sand table where the projection mapping invites participants to engage with the surface. With each touching, shaping or smoothing the surface, the visual and sound scope changes, reflecting on human-nature relation.",
+      "media": {
+        "final_images": [
+          "List/Critical_Zone/final_images/70a8c887-0691-47bb-b2ce-586fb41626b1_Veronika_Gryshchuk.JPG"
+        ],
+        "behind_the_scenes": [
+          "List/Critical_Zone/behind_the_scenes/163e3037-a0fc-421f-9577-5de460900037_Veronika_Gryshchuk.JPG",
+          "List/Critical_Zone/behind_the_scenes/90249560-3f15-4d37-9e51-74487bf002e1_Veronika_Gryshchuk.JPG",
+          "List/Critical_Zone/behind_the_scenes/WhatsApp_Image_2026-05-11_at_13_32_50_Veronika_Gryshchuk.jpeg",
+          "List/Critical_Zone/behind_the_scenes/afa5d5ab-9f95-46d7-92fe-29d7e1d0257b_Veronika_Gryshchuk.JPG",
+          "List/Critical_Zone/behind_the_scenes/bcf04fd9-c538-4432-8122-bc0e501e3841_Veronika_Gryshchuk.JPG"
+        ],
+        "artist_photos": [
+          "List/Critical_Zone/artist_photos/WhatsApp_Image_2026-05-12_at_22_30_30_Veronika_Gryshchuk.jpeg"
+        ]
+      }
+    },
+    {
+      "submission_id": "4",
+      "project_name": "Decay",
+      "year": "2026",
+      "artists_raw": "Priyal Patel",
+      "artist_statements": {
+        "full_text": "Priyal Patel is a visual and industrial designer currently studying creative computing, with a focus on how code and computation can bring ideas to life in playful and interactive ways. Her work is driven by an interest in how technology can reveal hidden patterns, uncover unexpected beauty, and inspire new ways of seeing and making.\n\nShe enjoys bringing together knowledge from multiple disciplines and exploring what emerges through collaboration. She approaches technology not just as a tool, but as a collaborator that enables experiences combining human intuition with algorithmic logic.",
+        "unassigned": [
+          "Priyal Patel is a visual and industrial designer currently studying creative computing, with a focus on how code and computation can bring ideas to life in playful and interactive ways. Her work is driven by an interest in how technology can reveal hidden patterns, uncover unexpected beauty, and inspire new ways of seeing and making.",
+          "She enjoys bringing together knowledge from multiple disciplines and exploring what emerges through collaboration. She approaches technology not just as a tool, but as a collaborator that enables experiences combining human intuition with algorithmic logic."
+        ]
+      },
+      "label_technical": "Knitted textile, thermochromic yarn, nichrome wire, Arduino",
+      "description_short": "Decay is an interactive textile installation that attempts to visualize the human impact of ecological collapse through gradual material transformation. Triggered by human presence, the textile slowly shifts in colour, revealing the lasting effects of environmental degradation over time. With repeated interaction, the material surface permanently changes, leaving behind traces of decay, deterioration, and irreversible loss.",
+      "description_long": "Decay is an interactive textile data visualisation exploring ecological instability and environmental transformation. Inspired by reports showing that human activity has altered over 75% of Earth’s ecosystems, the project investigates how natural systems are disappearing faster than they can regenerate.\nThrough knitted structures, thermochromic materials, and responsive heat-based interactions, the installation gradually changes colour as viewers approach it, transforming ecological data into unstable textile systems that slowly lose coherence over time.",
+      "media": {
+        "artist_photos": [
+          "List/Decay/artist_photos/Headshot_Priyal_Patel.jpg"
+        ]
+      }
+    },
+    {
+      "submission_id": "5",
+      "project_name": "Digital Garden",
+      "year": "2026",
+      "artists_raw": "Jinwon Lee, Ziyi Wang, Chengxin Deng",
+      "label_technical": "Arduino, smart phones, MIDI, TouchDesigner",
+      "description_short": "This project visualises the concept of digital conversion. Physical instruments are transformed into digital ones through MIDI, while networking systems such as social media have become new modes of expressing our lives. Within a constructed experimental environment, this project explores digital conversion through a posthumanist lens, allowing participants to experience the act of nurturing digital life by ‘watering’ it with digital sound.",
+      "description_long": "This project visualises the concept of digital conversion. Physical instruments are transformed into digital ones through MIDI, while networking systems such as social media have become new modes of expressing our lives. Within a constructed experimental environment, this project explores digital conversion through a posthumanist lens, allowing participants to experience the act of nurturing digital life by ‘watering’ it with digital sound.",
+      "media": {
+        "final_images": [
+          "List/Digital_Garden/final_images/digital_garden2_Wang_Ziyi.png"
+        ],
+        "behind_the_scenes": [
+          "List/Digital_Garden/behind_the_scenes/0T5A4187_Wang_Ziyi.jpg",
+          "List/Digital_Garden/behind_the_scenes/0T5A4198_Wang_Ziyi.jpg",
+          "List/Digital_Garden/behind_the_scenes/IMG_4728_Wang_Ziyi.jpg",
+          "List/Digital_Garden/behind_the_scenes/digital_garden_Wang_Ziyi.png"
+        ]
+      }
+    },
+    {
+      "submission_id": "6",
+      "project_name": "Dust Forms the Landscape",
+      "year": "2026",
+      "artists_raw": "Di Zhou, Xiya Zhou, Manlisaha Tang",
+      "artist_statements": {
+        "full_text": "Di Zhou:The system will not reproduce the same image, as it relies not on a preset template but on each viewer's unique visual behavior patterns. The path of gaze, the hesitation of pause, the speed of scanning, and the rhythm of viewing all combine to form an irreplaceable \"perceptual signature\". What the work ultimately generates is not just image differences, but the scenery left behind by each person's unique way of viewing.\n\nManlisaha Tang:This project combines AI eye tracking, generative visuals, and TouchDesigner to create an interactive particle landscape. Using a camera and external devices, the system captures signals such as gaze direction, blinking, and eye movement, then transforms this data into mountains, water, mist, and particle flows in real time. We are interested in how biological data can influence digital environments and create immersive experiences. Rather than using fixed visuals, the project produces a continuously evolving landscape that changes according to each viewer’s visual behavior. Our goal is to create a system where interaction feels natural, atmospheric, and emotionally engaging.\n\nXiya Zhou:Our project explores how perception can become a form of creation. Instead of treating the eye as a simple control interface, the work uses AI-based eye tracking to translate subtle visual behaviors into a real-time generative landscape. Inspired by the philosophy of Chinese shan shui and phenomenology, the project asks whether landscapes can emerge through the act of looking itself. Each viewer generates a unique particle-based environment shaped by their own gaze, attention, and rhythm of perception. Through this process, the installation reflects on the relationship between human consciousness, machine interpretation, and digital space."
+      },
+      "description_short": "We capture subtle ocular signals such as gaze direction,fixation, and blinking, and translate them into a real-time particlle-based shan shui environment in TouchDesigner.\nInstead of treating vision as a control interface, we approach it as a perceptual force.Each viewer's unique way of seeing becomes a generative input,shaping mountains,water,mist,and spatial depth differently.",
+      "description_long": "This project explores whether landscapes can be generated not by the hand, but by the act of looking. Using AI-based eye tracking, the installation captures subtle eye signals such as gaze direction, blinking, fixation, and movement, and translates them into a real-time particle-based shan shui environment in TouchDesigner. Rather than treating vision as a simple control interface, the project approaches perception as a generative force capable of shaping digital space.\n\nInspired by the philosophy of traditional Chinese landscape painting and phenomenology, the work investigates the relationship between human perception, machine interpretation, and generative systems. In traditional shan shui, landscapes are not direct representations of nature, but expressions of inner rhythm, atmosphere, and the experience of seeing. Similarly, this project creates landscapes that continuously evolve according to each viewer’s unique visual behavior.\n\nAs a result, the installation never produces the same image twice. Mountains, water, mist, and particle flows emerge differently for every participant, forming a unique “perceptual signature.” Through this process, the project asks whether AI can transform invisible human attention into a living and constantly changing visual world.",
+      "media": {
+        "final_images": [
+          "List/Dust_Forms_the_Landscape/final_images/weixin_20260514212710_Zhou_Di.png"
+        ],
+        "behind_the_scenes": [
+          "List/Dust_Forms_the_Landscape/behind_the_scenes/weixin_20260514053147_Zhou_Di.png",
+          "List/Dust_Forms_the_Landscape/behind_the_scenes/weixin_20260514053231_Zhou_Di.jpg"
+        ],
+        "artist_photos": [
+          "List/Dust_Forms_the_Landscape/artist_photos/Di Zhou.jpg",
+          "List/Dust_Forms_the_Landscape/artist_photos/Manlisaha Tang.jpg",
+          "List/Dust_Forms_the_Landscape/artist_photos/Xiya Zhou.jpg"
+        ]
+      }
+    },
+    {
+      "submission_id": "7",
+      "project_name": "Feel Miru",
+      "year": "2026",
+      "artists_raw": "Laurens Art Ramsenthaler",
+      "artist_statements": {
+        "full_text": "Laurens Art Ramsenthaler is drawn to experiences where motion moves (you). Working across interaction design, creative coding, and physical computing, he creates work shaped by a recurring tension between calm and motion. Through play, experimentation, and iterative testing, he continues to extend his practice from the screen into physical materials.\n\nOriginally from Austria, he studied graphic design in Graz and later completed a BA in Interaction Design at Harbour.Space University in Barcelona and Bangkok. He is currently pursuing an MSc in Computing in the Creative Industries (Modular) in London.",
+        "unassigned": [
+          "Laurens Art Ramsenthaler is drawn to experiences where motion moves (you). Working across interaction design, creative coding, and physical computing, he creates work shaped by a recurring tension between calm and motion. Through play, experimentation, and iterative testing, he continues to extend his practice from the screen into physical materials.",
+          "Originally from Austria, he studied graphic design in Graz and later completed a BA in Interaction Design at Harbour.Space University in Barcelona and Bangkok. He is currently pursuing an MSc in Computing in the Creative Industries (Modular) in London."
+        ]
+      },
+      "label_technical": "Two paired cushions, capacitive touch sensors, RGB LEDs, Wi-Fi, paired anywhere in the world.",
+      "description_short": "Sometimes a message feels too much, but silence feels too far away. Being reachable is not always the same as feeling close. Miru explores a quieter form of presence through two connected cushions. When one person touches theirs, the other glows softly elsewhere. If both respond at once, they briefly share a state of connection. Instead of asking for attention like a notification, Miru turns presence into something soft, physical, and quietly felt.",
+      "description_long": "Sometimes a message feels too much, but silence feels too far away. Being reachable is not always the same as feeling close. Miru is for the small, unspeakable ways we miss each other across cities, time zones, or simply busy lives. Through two connected cushions, presence becomes a small physical signal: when one person touches their cushion, the other glows softly orange somewhere else. If both respond at the same moment, both glow red, briefly sharing a state of connection across distance. Instead of asking for attention, Miru turns presence into something soft, physical, and quietly felt.\n\nMore at www.feelmiru.com",
+      "media": {
+        "artist_photos": [
+          "List/Feel_Miru/artist_photos/portrait_Laurens_Ramsenthaler_1.png"
+        ]
+      }
+    },
+    {
+      "submission_id": "8",
+      "project_name": "Filter Bubble",
+      "year": "2026",
+      "artists_raw": "Yifei Ni, Qiuye Zhu, Yisong Zhao",
+      "artist_statements": {
+        "full_text": "Yifei Ni is a multidisciplinary designer from China with a Bachelor’s degree in Recording Arts from Shanghai Conservatory of Music. Her practice combines multiple creative disciplines to explore how technology can be meaningfully integrated into everyday life. Through interactive experiences that are both playful and reflective, she aims to encourage audiences to reconsider how invisible systems shape human behavior and emotion. She is currently studying at the Creative Computing Institute, University of the Arts London, and is a member of the Asian Youth Art & Design Alliance.\n\nZhu Qiuye is a creator specializing in digital media and game design, currently studying Creative Computing at the University of the Arts London. Her practice encompasses game design, 3D modeling, animation, and interactive media, and she continues to explore the application of programming in creative expression. She hopes to present more guiding works that raise awareness of social issues through cross-media creation.\n\nYisong Zhao is an interdisciplinary designer from China, currently pursuing an MSc in Creative Computing at University of the Arts London. He received his bachelor’s degree in Digital Media Art from Lu Xun Academy of Fine Arts. His practice combines art, design, and interactive technology, with a particular focus on embodied interaction, gamification, and Human–Computer Interaction (HCI). Through immersive experiences, multisensory interaction, and game-based systems, he explores how technology shapes human perception, emotion, behaviour, and cultural understanding. He has also contributed to published research related to cultural interaction and HCI. His work investigates the relationship between digital media, interaction design, and socially engaged experiences.",
+        "unassigned": [
+          "Yifei Ni is a multidisciplinary designer from China with a Bachelor’s degree in Recording Arts from Shanghai Conservatory of Music. Her practice combines multiple creative disciplines to explore how technology can be meaningfully integrated into everyday life. Through interactive experiences that are both playful and reflective, she aims to encourage audiences to reconsider how invisible systems shape human behavior and emotion. She is currently studying at the Creative Computing Institute, University of the Arts London, and is a member of the Asian Youth Art & Design Alliance.",
+          "Zhu Qiuye is a creator specializing in digital media and game design, currently studying Creative Computing at the University of the Arts London. Her practice encompasses game design, 3D modeling, animation, and interactive media, and she continues to explore the application of programming in creative expression. She hopes to present more guiding works that raise awareness of social issues through cross-media creation.",
+          "Yisong Zhao is an interdisciplinary designer from China, currently pursuing an MSc in Creative Computing at University of the Arts London. He received his bachelor’s degree in Digital Media Art from Lu Xun Academy of Fine Arts. His practice combines art, design, and interactive technology, with a particular focus on embodied interaction, gamification, and Human–Computer Interaction (HCI). Through immersive experiences, multisensory interaction, and game-based systems, he explores how technology shapes human perception, emotion, behaviour, and cultural understanding. He has also contributed to published research related to cultural interaction and HCI. His work investigates the relationship between digital media, interaction design, and socially engaged experiences."
+        ]
+      },
+      "artist_links": [
+        {
+          "artist": "Yifei Ni",
+          "links": [
+            {
+              "label": "Instagram",
+              "url": "@aurora_fei"
+            }
+          ]
+        },
+        {
+          "artist": "Qiuye Zhu",
+          "links": [
+            {
+              "label": "Instagram",
+              "url": "@xitangqi"
+            }
+          ]
+        },
+        {
+          "artist": "Yisong Zhao",
+          "links": [
+            {
+              "label": "Instagram",
+              "url": "@esong.zhao"
+            }
+          ]
+        }
+      ],
+      "label_technical": "Made with TouchDesigner",
+      "description_short": "This project explores how recommendation algorithms gradually shape the way people access information online. As digital platforms continuously repeat similar content based on user preferences, people may slowly become trapped in limited and repetitive information environments without realizing it.",
+      "description_long": "This project explores how algorithms are gradually shaping the way people access information online. In everyday life, social media and digital platforms constantly learn users’ preferences and continuously push similar types of content. Over time, people may unwittingly find themselves trapped in an increasingly repetitive and limited information environment.\nThis work reflects on how these invisible systems shape people’s thoughts, emotions, and perceptions of the world. By illustrating the gradual erosion of information diversity, the project encourages viewers to reconsider the relationship between personalization and freedom of choice, and to question whether digital convenience is gradually eroding people’s curiosity and openness to different perspectives.",
+      "media": {
+        "final_images": [
+          "List/Filter_Bubble/final_images/project2_haven_t_completed__Ni_Yifei.jpg"
+        ],
+        "artist_photos": [
+          "List/Filter_Bubble/artist_photos/IMG_7186_Ni_Yifei.JPG"
+        ]
+      }
+    },
+    {
+      "submission_id": "9",
+      "project_name": "Flow",
+      "year": "2026",
+      "artists_raw": "Priyal Patel, Cat Menzies, Laurens Art Ramsenthaler",
+      "artist_statements": {
+        "full_text": "Priyal: Priyal Patel is a visual and industrial designer currently studying creative computing, with a focus on how code and computation can bring ideas to life in playful and interactive ways. Her work is driven by an interest in how technology can reveal hidden patterns, uncover unexpected beauty, and inspire new ways of seeing and making.\n\nShe enjoys bringing together knowledge from multiple disciplines and exploring what emerges through collaboration. She approaches technology not just as a tool, but as a collaborator that enables experiences combining human intuition with algorithmic logic.\n\nCat: A London native with a background in philosophy and computer science, Cat Menzies approaches art practice primarily as a phenomenological exploration. Inspired by the Fluxus and pop art movements, she has developed a particular interest in questioning the formal boundaries of sculpture, particularly as a vessel for embodied interaction and computational creativity. By using unconventional and repurposed materials, objects and interactions, she aims to blur the lines between tool and artwork, object and sculpture, the ordinary and the novel.\n\nUsing methods ranging from incorporating multisensory computational interactivity to powering work with her own menstrual data, Cat strives to create connection between artist and audience. Through this connection, she invites the audience to experience and become a part of the critical reflection behind the work.\n\nOverall, Cat sees her work as a means of holding up a mirror to the universally-experienced tensions and contradictions that make up life.\n\nLaurens: Laurens Art Ramsenthaler is drawn to experiences where motion moves (you). Working across interaction design, creative coding, and physical computing, he creates work shaped by a recurring tension between calm and motion. Through play, experimentation, and iterative testing, he continues to extend his practice from the screen into physical materials.\n\nOriginally from Austria, he studied graphic design in Graz and later completed a BA in Interaction Design at Harbour.Space University in Barcelona and Bangkok. He is currently pursuing an MSc in Computing in the Creative Industries (Modular) in London.",
+        "unassigned": [
+          "She enjoys bringing together knowledge from multiple disciplines and exploring what emerges through collaboration. She approaches technology not just as a tool, but as a collaborator that enables experiences combining human intuition with algorithmic logic.",
+          "Using methods ranging from incorporating multisensory computational interactivity to powering work with her own menstrual data, Cat strives to create connection between artist and audience. Through this connection, she invites the audience to experience and become a part of the critical reflection behind the work.",
+          "Overall, Cat sees her work as a means of holding up a mirror to the universally-experienced tensions and contradictions that make up life.",
+          "Originally from Austria, he studied graphic design in Graz and later completed a BA in Interaction Design at Harbour.Space University in Barcelona and Bangkok. He is currently pursuing an MSc in Computing in the Creative Industries (Modular) in London."
+        ]
+      },
+      "label_technical": "Mixed media sculpture, dual-projector projection mapping, Touchdesigner, Leap Motion 2.",
+      "description_short": "Flow is an interactive installation that explores the reciprocal relationship between the human body and natural systems through gesture, light, and movement. Participants encounter a dynamic water environment projected onto both a three-dimensional organic form and their own hands, creating a continuous surface of light, skin and water. Currents, ripples, and luminous particles in the water respond directly to the motion of their hands, creating the sensation of touching and shaping something intangible.",
+      "description_long": "Flow is an interactive installation that explores the relationship between the human body and fluid systems through gesture, light, and movement. Participants encounter a projected three-dimensional water environment where currents, ripples, and luminous particles respond directly to the motion of their hands, creating the sensation of touching and shaping something intangible.\n\nThe installation uses a Leap Motion Controller sensor to detect hand position and gesture in real time. Participants can move their hands in different ways through the space to grasp and redirect the water. Gestures generate temporary flows and disturbances that dissolve and reform, drawing attention to how even minor actions can ripple through a larger system. Glowing, bioluminescent particles trace the path of each interaction, leaving short-lived marks in space.\n\nProjection mapping onto the participant’s hands momentarily merges water, light, and skin into one responsive surface, working alongside spatial projection onto an organic three-dimensional sculpture to create an environment that is constantly reshaped by the participant’s presence. Flow considers touch not as a neutral act, but as a force that alters what it encounters while being altered in return. In doing so, the installation reflects on reciprocity, impermanence, and the fragile balance between human intervention and living systems.",
+      "media": {
+        "behind_the_scenes": [
+          "List/Flow/behind_the_scenes/IMG_2056_Cat_Menzies.jpeg",
+          "List/Flow/behind_the_scenes/IMG_2063_Cat_Menzies.jpeg"
+        ],
+        "artist_photos": [
+          "List/Flow/artist_photos/IMG_2023_Cat_Menzies.jpeg"
+        ]
+      }
+    },
+    {
+      "submission_id": "10",
+      "project_name": "Fourth Resonance",
+      "year": "2026",
+      "artists_raw": "Tianyi Mao",
+      "artist_statements": {
+        "full_text": "Tianyi Mao's practice spans digital media art, installation art, public art, and image-based performance, with a long-term focus on the relationship between technology, perception, and spatial experience. He often uses real-time visuals, interactive systems, sound, sensors, and generative algorithms to transform everyday experiences into immersive environments that can be viewed, entered, and felt.\n\nIn his creative practice, he does not see technology merely as a tool for producing visual effects. Instead, he treats it as a way to re-understand the body, environment, and social relationships. Alongside his personal artistic practice, he has also participated in commercial brand projects, public cultural projects, and new media visual projects, continuing to explore the possibilities of new media art in exhibitions, public spaces, and commercial contexts.\nins: https://www.instagram.com/wing.skyl/",
+        "unassigned": [
+          "Tianyi Mao's practice spans digital media art, installation art, public art, and image-based performance, with a long-term focus on the relationship between technology, perception, and spatial experience. He often uses real-time visuals, interactive systems, sound, sensors, and generative algorithms to transform everyday experiences into immersive environments that can be viewed, entered, and felt.",
+          "In his creative practice, he does not see technology merely as a tool for producing visual effects. Instead, he treats it as a way to re-understand the body, environment, and social relationships. Alongside his personal artistic practice, he has also participated in commercial brand projects, public cultural projects, and new media visual projects, continuing to explore the possibilities of new media art in exhibitions, public spaces, and commercial contexts.\nins: https://www.instagram.com/wing.skyl/"
+        ]
+      },
+      "label_technical": "made with TouchDesigner",
+      "description_short": "This work originates from the artist’s experience of insomnia and birdsong at 4 a.m. after returning to China. It transforms recorded birdsong frequencies and waveforms into a spherical visualisation, then exchanges image data’s x-axis with time to suggest a four-dimensional spatial experience. The work invites viewers into a sensory field where sound, time and space become intertwined, allowing birdsong to be seen as well as heard.",
+      "description_long": "This work originates from the artist’s personal experience of insomnia after returning to China. Due to jet lag, the artist remained awake at around 4 a.m., when birds had already begun singing outside. In the quiet of that hour, the birdsong gradually became a calming presence and led the artist into a state of flow. Prolonged sleeplessness also changed their perception, making time and space feel unstable, as if they were briefly entering a four-dimensional condition.\n\nUsing the recorded birdsong from that moment as source material, the work transforms its frequencies and waveforms into a spherical visualisation. By exchanging the x-axis of the image data with time, the visual system creates a spatial structure that suggests a four-dimensional experience. The work invites viewers to enter a sensory field where sound, time and space are intertwined, allowing birdsong to be not only heard, but also seen and experienced.",
+      "media": {
+        "final_images": [
+          "List/Fourth_Resonance/final_images/simulate1_Mao_Tianyi.png"
+        ],
+        "artist_photos": [
+          "List/Fourth_Resonance/artist_photos/TianyiMao_Mao_Tianyi.png"
+        ]
+      }
+    },
+    {
+      "submission_id": "11",
+      "project_name": "Infra/Seep",
+      "year": "2026",
+      "artists_raw": "Yonglan Jiang, Jianhao Dou, Tianyi Mao",
+      "artist_statements": {
+        "full_text": "Yonglan Jiang is currently studying at the University of the Arts London. Her artistic practice revolves around the unwritten yet effective rules within digital systems, focusing on the hidden power structures of the digital age and seeking to make these often invisible mechanisms of control visible. She maintains ongoing questioning and reflection on the uncertainties surrounding her identity, daily life, and future. Her creative work intersects the fields of storytelling, digital art, video games, visual art, installation, and code art, using media such as 3D modeling and installation to explore social issues.\n\nJianhao Dou graduated with a bachelor’s degree in Digital Media Art, with skills in animation design, visual design, and basic programming. He specializes in using digital art and interactive works to discuss social injustice and the protection of vulnerable groups, focusing on the relationship between capital, systems, and individuals. Through the combination of visual storytelling and technology, his works aim to provoke reflection and engagement. His creative practice centers on interactive media, moving images, and digital art expression.\n\nTianyi Mao's practice spans digital media art, installation art, public art, and image-based performance, with a long-term focus on the relationship between technology, perception, and spatial experience. He often uses real-time visuals, interactive systems, sound, sensors, and generative algorithms to transform everyday experiences into immersive environments that can be viewed, entered, and felt.\nIn his creative practice, he does not see technology merely as a tool for producing visual effects. Instead, he treats it as a way to re-understand the body, environment, and social relationships. Alongside his personal artistic practice, he has also participated in commercial brand projects, public cultural projects, and new media visual projects, continuing to explore the possibilities of new media art in exhibitions, public spaces, and commercial contexts.",
+        "unassigned": [
+          "Yonglan Jiang is currently studying at the University of the Arts London. Her artistic practice revolves around the unwritten yet effective rules within digital systems, focusing on the hidden power structures of the digital age and seeking to make these often invisible mechanisms of control visible. She maintains ongoing questioning and reflection on the uncertainties surrounding her identity, daily life, and future. Her creative work intersects the fields of storytelling, digital art, video games, visual art, installation, and code art, using media such as 3D modeling and installation to explore social issues.",
+          "Jianhao Dou graduated with a bachelor’s degree in Digital Media Art, with skills in animation design, visual design, and basic programming. He specializes in using digital art and interactive works to discuss social injustice and the protection of vulnerable groups, focusing on the relationship between capital, systems, and individuals. Through the combination of visual storytelling and technology, his works aim to provoke reflection and engagement. His creative practice centers on interactive media, moving images, and digital art expression.",
+          "Tianyi Mao's practice spans digital media art, installation art, public art, and image-based performance, with a long-term focus on the relationship between technology, perception, and spatial experience. He often uses real-time visuals, interactive systems, sound, sensors, and generative algorithms to transform everyday experiences into immersive environments that can be viewed, entered, and felt.\nIn his creative practice, he does not see technology merely as a tool for producing visual effects. Instead, he treats it as a way to re-understand the body, environment, and social relationships. Alongside his personal artistic practice, he has also participated in commercial brand projects, public cultural projects, and new media visual projects, continuing to explore the possibilities of new media art in exhibitions, public spaces, and commercial contexts."
+        ]
+      },
+      "artist_links": [
+        {
+          "artist": "Yonglan Jiang",
+          "links": [
+            {
+              "label": "Instagram",
+              "url": "@nalicocilan"
+            }
+          ]
+        },
+        {
+          "artist": "Jianhao Dou",
+          "links": [
+            {
+              "label": "Instagram",
+              "url": "@akaxdou"
+            }
+          ]
+        },
+        {
+          "artist": "Tianyi Mao",
+          "links": [
+            {
+              "label": "Instagram",
+              "url": "@wing.skyl"
+            }
+          ]
+        }
+      ],
+      "label_technical": "Made with TouchDesigner",
+      "description_short": "Infra/Seep reveals the hidden life beneath architecture. The underground is not empty; it is a field of seepage, moisture shifts, and slow exchange. As buildings extend downward, they cut, crush, and reroute these flows. Through VR and TouchDesigner particle simulations, the work visualizes light particles seeping between rebars and concrete fragments, continuously finding new paths through narrow gaps. What architecture displaces does not disappear; it persists inside the cracks.",
+      "description_long": "Infra/Seep reveals what happens beneath a building. The underground is not empty — it is a living field of seepage, moisture shifts, and slow exchange. When architecture drives its structures down, it does not simply occupy space. It cuts, crushes, and reroutes these continuous flows. Using TouchDesigner particle simulations viewed through VR, the project visualizes this invisible struggle. Particles of light seep between hanging rebars and concrete fragments — gathering, splitting, finding new paths through narrow gaps. They never stop moving. The message is clear: architecture colonizes the volume below ground, but what it displaces does not disappear. It persists, rerouted, inside the cracks.",
+      "media": {
+        "final_images": [
+          "List/Infra_Seep/final_images/lowRes_Mao_Tianyi.mp4"
+        ],
+        "artist_photos": [
+          "List/Infra_Seep/artist_photos/groupPicture_Mao_Tianyi.jpg"
+        ]
+      }
+    },
+    {
+      "submission_id": "12",
+      "project_name": "JUST MOVE",
+      "year": "2026",
+      "artists_raw": "Zhengfei Xu",
+      "artist_statements": {
+        "full_text": "My creative work centers on digital media, visual language, and daily observations, focusing on the relationship between technology and life, as well as the individual and the environment. Through experimental visuals, interactive forms, and material exploration, I transform personal experiences into perceptible artistic expressions, seeking a balance between rational structure and emotional sensibility.",
+        "unassigned": [
+          "My creative work centers on digital media, visual language, and daily observations, focusing on the relationship between technology and life, as well as the individual and the environment. Through experimental visuals, interactive forms, and material exploration, I transform personal experiences into perceptible artistic expressions, seeking a balance between rational structure and emotional sensibility."
+        ]
+      },
+      "label_technical": "Made using Unity engine and Arduino",
+      "description_short": "Just Move is a rehabilitation-focused interactive training project for people who struggle with traditional therapy. It explores why users disengage, including boredom, pain anxiety, low confidence, unclear progress, and poor personalization. Through adaptive difficulty, embodied interaction, and real-time feedback, it makes training safer, more motivating, and more sustainable. The project combines user-centered research and evidence-based evaluation to improve adherence, support behavior change, and bridge clinical goals with everyday motivation.",
+      "description_long": "Just Move is a rehabilitation-focused interactive training project designed for people who struggle to stay engaged with traditional therapy routines. The core aim is not only to gamify exercise, but to investigate why many users dislike or abandon rehabilitation: boredom, pain anxiety, low confidence, unclear progress, and poor personalization. The project combines human-centered research with game design to transform repetitive movements into meaningful, motivating tasks. Using adaptive difficulty, embodied interaction, and real-time feedback, Just Move adjusts pace and challenge to each user’s ability while prioritizing safety and fatigue control.The project’s central research question is how to break key rehabilitation pain points in a way that is safe, reasonable, and effective. By focusing on user experience, accessibility, and evidence-based evaluation, Just Move positions digital play as a practical intervention for rehabilitation behavior change. Ultimately, the project seeks to make rehabilitation less intimidating, more sustainable, and more human, especially for users who need support the most. It bridges clinical goals with everyday motivation, helping individuals practice consistently at home and in supervised settings while preserving dignity, autonomy, and emotional resilience. Daily."
+    },
+    {
+      "submission_id": "13",
+      "project_name": "Perfect Apology Letter Generator",
+      "year": "2026",
+      "artists_raw": "Xiangwen Gong",
+      "artist_statements": {
+        "full_text": "Xiangwen Gong is a creative technologist and interaction designer working at the intersection of language, media, and social behaviour. Using code and interactive systems, she explores how repetition and standardisation package serious issues into hollow expression. Her practice combines dark humour and critical design, engaging with themes of human relationships, self-exploration, and the roles people perform online — placing the viewer inside the system to make the familiar strange again.",
+        "unassigned": [
+          "Xiangwen Gong is a creative technologist and interaction designer working at the intersection of language, media, and social behaviour. Using code and interactive systems, she explores how repetition and standardisation package serious issues into hollow expression. Her practice combines dark humour and critical design, engaging with themes of human relationships, self-exploration, and the roles people perform online — placing the viewer inside the system to make the familiar strange again."
+        ]
+      },
+      "label_technical": "Made with p5.js, RiTa Grammar, and AI-assisted text organization.",
+      "description_short": "Perfect Apology Letter Generator is a critical interactive text generator exploring the formulaic culture of public apologies on social media. By assembling apology statements through modular choices, users experience how language can soften issues, redirect responsibility, and package serious incidents as responses that appear reasonable or even sincere.",
+      "description_long": "Perfect Apology Letter Generator is a critical interactive text generator that explores the formulaic culture of public apologies on social media. Inspired by the repetitive apology statements frequently posted by celebrities, influencers, corporations, and public figures, the project examines how serious incidents can be reduced to highly polished, emotionally controlled, and structurally predictable texts.\n\nPresented as an interactive generator, the work allows users to assemble apology statements by selecting a subject, tone, type of incident, reflection or impact, and follow-up response. Through this process, users gradually construct a statement that appears complete, professional, and even sincere.\n\nRather than replicating a real public relations workflow, the project deliberately exaggerates the mechanisms already embedded in apology culture: softening language, reducing the perceived seriousness of an event, redirecting responsibility, and packaging a serious issue as a seemingly reasonable response.\nBy combining humor, discomfort, and familiarity, the project invites viewers to experience the absurdity and emptiness behind these highly standardized forms of public communication.",
+      "media": {
+        "final_images": [
+          "List/Perfect_Apology_Letter_Generator/final_images/generator4_Gong_Xiangwen.png"
+        ],
+        "behind_the_scenes": [
+          "List/Perfect_Apology_Letter_Generator/behind_the_scenes/first_stage_Gong_Xiangwen.png",
+          "List/Perfect_Apology_Letter_Generator/behind_the_scenes/second_stage_2_Gong_Xiangwen.png",
+          "List/Perfect_Apology_Letter_Generator/behind_the_scenes/second_stage_Gong_Xiangwen.png"
+        ],
+        "artist_photos": [
+          "List/Perfect_Apology_Letter_Generator/artist_photos/Artist_Profile_Photo_Gong_Xiangwen.jpg"
+        ]
+      }
+    },
+    {
+      "submission_id": "14",
+      "project_name": "Post Literature",
+      "year": "2026",
+      "artists_raw": "Eugene (Jinwon) Lee",
+      "artist_statements": {
+        "full_text": "Interaction designer at Samsung Electronics and a New media artist.\nUtilizing a wide range of technologies, from designing user experiences from AI-based products to creating works with tangible AI media.",
+        "unassigned": [
+          "Interaction designer at Samsung Electronics and a New media artist.\nUtilizing a wide range of technologies, from designing user experiences from AI-based products to creating works with tangible AI media."
+        ]
+      },
+      "label_technical": "Robot Arm, SBC, Termial printer, Gemini API",
+      "description_short": "“What do you consider literature?”\n\nInterpreting today’s literature. We obtain information, seek entertainment, and even discover sorrow within screens and endlessly scrolling media. Moving beyond the traditional act of “reading” literature, we focus on the “viewing” of literature that we consume in the modern age.\n\n“What kind of literature do you read?”",
+      "description_long": "Where is literature today? Let’s rethink the conventional, fixed perspective on literature. Until now, we have approached literature primarily through the act of reading. But in today’s world, dominated by social media, we turn to the endless stream of content on these platforms to gather information, find entertainment, and even discover moments of sadness. Today’s modern literature exists right inside our smartphones.",
+      "media": {
+        "final_images": [
+          "List/Post_Literature/final_images/3_Jinwon_Lee_1_1.mp4"
+        ],
+        "artist_photos": [
+          "List/Post_Literature/artist_photos/Eugene_Portrait_copy_Jinwon_Lee_1.jpg"
+        ]
+      }
+    },
+    {
+      "submission_id": "15",
+      "project_name": "Pulse*Fountain*Clock",
+      "year": "2025",
+      "artists_raw": "Yaya (Ziyi) Wang",
+      "artist_statements": {
+        "full_text": "Yaya (Ziyi Wang) is a Chinese artist and designer currently studying Creative Computing at University of the Arts London, with a background in Environmental Design from Sichuan University. Her practice spans virtual space, digital installation, visual design, and music-related visual experiences.\n\nHer work explores everyday details, the body, cultural identity, and post-humanist imagination. With experience in interior design, visual identity, and UX design, she is interested in creating immersive and emotionally resonant spatial experiences.",
+        "unassigned": [
+          "Yaya (Ziyi Wang) is a Chinese artist and designer currently studying Creative Computing at University of the Arts London, with a background in Environmental Design from Sichuan University. Her practice spans virtual space, digital installation, visual design, and music-related visual experiences.",
+          "Her work explores everyday details, the body, cultural identity, and post-humanist imagination. With experience in interior design, visual identity, and UX design, she is interested in creating immersive and emotionally resonant spatial experiences."
+        ]
+      },
+      "label_technical": "Arduino, pulse sensor, water pump, PVC tube, acrylic",
+      "description_short": "How do biological rhythms shape our perception of time?\n\nTouching the pulse sensor activates a peristaltic pump, causing coloured liquid in the soft tubing to pulse with the heartbeat. Each pulse drives a drop through a circular tube, translating the body’s rhythm into visible movement. Rather than measuring time with mechanical precision, the work marks time through embodied presence—personal, fluid, gentle, and alive.",
+      "description_long": "**Pulse Fountain Clock**\n**How do biological rhythms shape our perception of time?**\n\nWhen a finger gently touches the pulse sensor, it activates a peristaltic pump, causing coloured liquid inside the soft tubing to pulse in rhythm with the heartbeat.\n\n**Pulse Fountain Clock** invites viewers to experience the idea that “time is infused by the body.”\n\nThe project translates the user’s heartbeat into a visible, flowing movement. With each pulse, a drop of liquid is driven through a circular tube. Instead of measuring time with mechanical precision, the work marks time through embodied presence. It reflects on the intimate relationship between the body and time, where time becomes personal, fluid, gentle, and alive.",
+      "media": {
+        "final_images": [
+          "List/Pulse_Fountain_Clock/final_images/1_Wang_Ziyi.jpg"
+        ],
+        "behind_the_scenes": [
+          "List/Pulse_Fountain_Clock/behind_the_scenes/IMG_7963_Wang_Ziyi.jpg",
+          "List/Pulse_Fountain_Clock/behind_the_scenes/IMG_7974_Wang_Ziyi.jpg",
+          "List/Pulse_Fountain_Clock/behind_the_scenes/IMG_8199_Wang_Ziyi.jpg",
+          "List/Pulse_Fountain_Clock/behind_the_scenes/IMG_8328_Wang_Ziyi.jpg",
+          "List/Pulse_Fountain_Clock/behind_the_scenes/IMG_9585_Wang_Ziyi.jpg",
+          "List/Pulse_Fountain_Clock/behind_the_scenes/IMG_9586_Wang_Ziyi.jpg"
+        ],
+        "artist_photos": [
+          "List/Pulse_Fountain_Clock/artist_photos/IMG_2568_Wang_Ziyi.jpg"
+        ]
+      }
+    },
+    {
+      "submission_id": "16",
+      "project_name": "REMNANT",
+      "year": "2026",
+      "artists_raw": "Harsh Bhattad",
+      "artist_statements": {
+        "full_text": "Harsh Bhattad is a creative technologist working across game development, interactive installation, and physical computing. His practice sits at the intersection of design, code, and experience, building systems that hold space for feeling rather than spectacle. He is drawn to quieter forms of interaction: the pause before a choice, the weight of a memory surfacing, the texture of a world that remembers you were there. Currently completing an MSc in Computing for Creative Industries at UAL's Creative Computing Institute, his work spans Unity, TouchDesigner, and Arduino, often returning to questions of grief, attention, and what stays behind. He operates under the practice name HRSHLABS.",
+        "unassigned": [
+          "Harsh Bhattad is a creative technologist working across game development, interactive installation, and physical computing. His practice sits at the intersection of design, code, and experience, building systems that hold space for feeling rather than spectacle. He is drawn to quieter forms of interaction: the pause before a choice, the weight of a memory surfacing, the texture of a world that remembers you were there. Currently completing an MSc in Computing for Creative Industries at UAL's Creative Computing Institute, his work spans Unity, TouchDesigner, and Arduino, often returning to questions of grief, attention, and what stays behind. He operates under the practice name HRSHLABS."
+        ]
+      },
+      "description_short": "REMNANT is a 2D atmospheric platformer about grief and memory, built in Unity. A small figure moves through a warm, amber-lit world shaped by what has been left behind, no enemies, no fail state, only walking, noticing, and the slow work of carrying things forward. Presented as an installation, it invites visitors into someone else's quiet for a few minutes. What remains, remembers.",
+      "description_long": "**REMNANT** is a 2D atmospheric platformer exploring grief, memory, and what lingers after loss. Built in Unity, it follows a small figure moving through a warm, amber-lit world of fragments, looping paths, and quiet reflection.\n\nDesigned to slow players down, the work removes enemies and fail states, focusing instead on movement, noticing, and pause. Through its interactive systems, *REMNANT* asks how memory holds shape over time.\n\nPresented as an installation, it invites visitors to step into a quiet space to play, reflect, or simply observe.\n\n*What remains, remembers.*",
+      "media": {
+        "artist_photos": [
+          "List/REMNANT/artist_photos/WhatsApp_Image_2026-05-08_at_6_36_16_PM.jpeg"
+        ]
+      }
+    },
+    {
+      "submission_id": "17",
+      "project_name": "Reverse 9",
+      "year": "2025",
+      "artists_raw": "Valeriya Borissova",
+      "artist_statements": {
+        "full_text": "Valeriya Borissova is a software developer building multi-stage interactive real-time systems. She integrates machine learning, computer vision and hardware with a focus on user-centred experience. Valeriya is currently pursuing an MSc in Creative Computing at the University of the Arts London. Her background in Graphic Design Communication gives her a strong understanding of user behaviour, interaction and visual communication. She works across software and physical computing, combining code and hardware to create interactive experiences. Her practice spans front-end and back-end development, with programming languages including Python, JavaScript, C++ and C#.",
+        "unassigned": [
+          "Valeriya Borissova is a software developer building multi-stage interactive real-time systems. She integrates machine learning, computer vision and hardware with a focus on user-centred experience. Valeriya is currently pursuing an MSc in Creative Computing at the University of the Arts London. Her background in Graphic Design Communication gives her a strong understanding of user behaviour, interaction and visual communication. She works across software and physical computing, combining code and hardware to create interactive experiences. Her practice spans front-end and back-end development, with programming languages including Python, JavaScript, C++ and C#."
+        ]
+      },
+      "label_technical": "Python, MediaPipe FaceMesh, DeepFace, InsightFace Model",
+      "description_short": "Reverse 9 is an immersive, personalised art installation that reveals how social media platforms transform human cognition, behaviour and self-identity. Using live facial tracking and AI generated transformation, the system analyses the viewer and assigns one of nine categories based on behavioural patterns shaped through digital interaction. The project reflects how online platforms classify and reconstruct identity through algorithmic systems.\n\nAll visuals are based on original illustrations created specifically for the installation.",
+      "description_long": "Reverse 9 is an immersive, personalised art installation that reveals how social media platforms transform human cognition, behaviour and self-identity. The system replicates the behavioural logic of social media platforms, mirroring how digital identity is analysed, classified and shaped through nine psychological categories.\n\nLive facial tracking detects the viewer’s facial structure and expressions. A predictive model then processes the data and assigns one of nine psychological categories. Based on the assigned category, an AI model generates a facial transformation and integrates it into a personalised illustration.\n\nAs users engage with social media, they gradually adapt and fragment their identities across platforms, losing coherence between their digital identity and true self. Reverse 9 invites the audience to critically observe how these invisible forces shape digital personas.\n\nThe nine psychological categories are: Addictive Engagement Patterns, Behavioural Conditioning, Emotional Exhaustion, Emotional Filtering, Emotional Reactivity, Ideological Shaping, Loss of Authentic Identity, Self-Modification and Social Comparison.\n\nAll visuals are based on original illustrations created specifically for the installation.",
+      "media": {
+        "final_images": [
+          "List/Reverse_9/final_images/finalREVERSE9_Valeriya_Borissova.jpg"
+        ],
+        "behind_the_scenes": [
+          "List/Reverse_9/behind_the_scenes/3d_Valeriya_Borissova.jpg",
+          "List/Reverse_9/behind_the_scenes/exhibition1_Valeriya_Borissova.jpg",
+          "List/Reverse_9/behind_the_scenes/exhibition2_Valeriya_Borissova.jpg",
+          "List/Reverse_9/behind_the_scenes/extra_Valeriya_Borissova.png",
+          "List/Reverse_9/behind_the_scenes/making_Valeriya_Borissova.jpg"
+        ],
+        "artist_photos": [
+          "List/Reverse_9/artist_photos/VBprofilePhoto_Valeriya_Borissova.JPG"
+        ]
+      }
+    },
+    {
+      "submission_id": "18",
+      "project_name": "Symmetry Kingdom",
+      "year": "2026",
+      "artists_raw": "Yifei Ni, Qiuye Zhu, Yisong Zhao",
+      "artist_statements": {
+        "full_text": "Yifei Ni is a multidisciplinary designer from China with a Bachelor’s degree in Recording Arts from Shanghai Conservatory of Music. Her practice combines multiple creative disciplines to explore how technology can be meaningfully integrated into everyday life. Through interactive experiences that are both playful and reflective, she aims to encourage audiences to reconsider how invisible systems shape human behavior and emotion. She is currently studying at the Creative Computing Institute, University of the Arts London, and is a member of the Asian Youth Art & Design Alliance.\n\nZhu Qiuye is a creator specializing in digital media and game design, currently studying Creative Computing at the University of the Arts London. Her practice encompasses game design, 3D modeling, animation, and interactive media, and she continues to explore the application of programming in creative expression. She hopes to present more guiding works that raise awareness of social issues through cross-media creation.\n\nYisong Zhao is an interdisciplinary designer from China, currently pursuing an MSc in Creative Computing at University of the Arts London. He received his bachelor’s degree in Digital Media Art from Lu Xun Academy of Fine Arts. His practice combines art, design, and interactive technology, with a particular focus on embodied interaction, gamification, and Human–Computer Interaction (HCI). Through immersive experiences, multisensory interaction, and game-based systems, he explores how technology shapes human perception, emotion, behaviour, and cultural understanding. He has also contributed to published research related to cultural interaction and HCI. His work investigates the relationship between digital media, interaction design, and socially engaged experiences.",
+        "unassigned": [
+          "Yifei Ni is a multidisciplinary designer from China with a Bachelor’s degree in Recording Arts from Shanghai Conservatory of Music. Her practice combines multiple creative disciplines to explore how technology can be meaningfully integrated into everyday life. Through interactive experiences that are both playful and reflective, she aims to encourage audiences to reconsider how invisible systems shape human behavior and emotion. She is currently studying at the Creative Computing Institute, University of the Arts London, and is a member of the Asian Youth Art & Design Alliance.",
+          "Zhu Qiuye is a creator specializing in digital media and game design, currently studying Creative Computing at the University of the Arts London. Her practice encompasses game design, 3D modeling, animation, and interactive media, and she continues to explore the application of programming in creative expression. She hopes to present more guiding works that raise awareness of social issues through cross-media creation.",
+          "Yisong Zhao is an interdisciplinary designer from China, currently pursuing an MSc in Creative Computing at University of the Arts London. He received his bachelor’s degree in Digital Media Art from Lu Xun Academy of Fine Arts. His practice combines art, design, and interactive technology, with a particular focus on embodied interaction, gamification, and Human–Computer Interaction (HCI). Through immersive experiences, multisensory interaction, and game-based systems, he explores how technology shapes human perception, emotion, behaviour, and cultural understanding. He has also contributed to published research related to cultural interaction and HCI. His work investigates the relationship between digital media, interaction design, and socially engaged experiences."
+        ]
+      },
+      "artist_links": [
+        {
+          "artist": "Yifei Ni",
+          "links": [
+            {
+              "label": "Instagram",
+              "url": "@aurora_fei"
+            }
+          ]
+        },
+        {
+          "artist": "Qiuye Zhu",
+          "links": [
+            {
+              "label": "Instagram",
+              "url": "@xitangqi"
+            }
+          ]
+        },
+        {
+          "artist": "Yisong Zhao",
+          "links": [
+            {
+              "label": "Instagram",
+              "url": "@esong.zhao"
+            }
+          ]
+        }
+      ],
+      "label_technical": "Made with Unity & Arduino",
+      "description_short": "This project uses a game world with constantly changing rules to explore how systems that appear fair and stable are often shaped and controlled by those in power. By disrupting familiar physical logic, the work encourages players to question authority, order, and the hidden structures behind everyday rules.",
+      "description_long": "In the Kingdom of Symmetry, every match was flawless. The ball obeyed its angles. Force grew in perfect proportion. Up was always up. People believed this was the law of nature. They had never seen the one who wrote the rules.\nUntil one day, the King spoke — The ball no longer bounced, it fell. Some called it an accident. But then another decree: Up became down. The harder you pushed, the slower you moved.\nDoubt began to spread. Perhaps the world had never run on its own. Perhaps rules were never natural— only maintained by power.\nThrough this game, we aim to make players aware that systems and rules which appear stable and fair are actually designed and maintained orders. The formulation and alteration of rules are often closely tied to the interests and will of those in power and decision-makers.",
+      "media": {
+        "final_images": [
+          "List/Symmetry_Kingdom/final_images/project1_Ni_Yifei.jpg"
+        ],
+        "behind_the_scenes": [
+          "List/Symmetry_Kingdom/behind_the_scenes/project1_1_Ni_Yifei.jpeg",
+          "List/Symmetry_Kingdom/behind_the_scenes/project1_2_Ni_Yifei.gif"
+        ],
+        "artist_photos": [
+          "List/Symmetry_Kingdom/artist_photos/IMG_7186_Ni_Yifei.JPG"
+        ]
+      }
+    },
+    {
+      "submission_id": "19",
+      "project_name": "Table For Two",
+      "year": "2026",
+      "artists_raw": "Valeriya Borissova, Ziyi Lin, Xiangwen Gong, Harsh Bhattad",
+      "artist_statements": {
+        "full_text": "Valeriya Borissova is a software developer building multi-stage interactive real-time systems. She integrates machine learning, computer vision, and hardware with a focus on user-centred experience. Her practice spans front-end and back-end development, with programming languages including Python, JavaScript, C++, and C#.\n\nZiyi Lin is an interdisciplinary artist exploring ecology, technology, and human emotion through interactive media and installation, combining a background in traditional mural painting, public art, and digital technologies.\n\nXiangwen Gong is a creative technologist and designer with a passion for games, interaction, and the human stories behind social systems. She creates warm, thoughtful experiences that make the familiar feel new.\n\nHarsh Bhattad is a creative technologist at the intersection of design, code, and interaction, building games, immersive installations, and physical computing experiences through Unity, TouchDesigner, and Arduino under the practice of HRSHLABS.",
+        "unassigned": [
+          "Valeriya Borissova is a software developer building multi-stage interactive real-time systems. She integrates machine learning, computer vision, and hardware with a focus on user-centred experience. Her practice spans front-end and back-end development, with programming languages including Python, JavaScript, C++, and C#.",
+          "Ziyi Lin is an interdisciplinary artist exploring ecology, technology, and human emotion through interactive media and installation, combining a background in traditional mural painting, public art, and digital technologies.",
+          "Xiangwen Gong is a creative technologist and designer with a passion for games, interaction, and the human stories behind social systems. She creates warm, thoughtful experiences that make the familiar feel new.",
+          "Harsh Bhattad is a creative technologist at the intersection of design, code, and interaction, building games, immersive installations, and physical computing experiences through Unity, TouchDesigner, and Arduino under the practice of HRSHLABS."
+        ]
+      },
+      "artist_links": [
+        {
+          "artist": "Valeriya Borissova",
+          "links": [
+            {
+              "label": "Instagram",
+              "url": "@create.with.vb"
+            }
+          ]
+        },
+        {
+          "artist": "Harsh Bhattad",
+          "links": [
+            {
+              "label": "Instagram",
+              "url": "@hrshlabs"
+            }
+          ]
+        }
+      ],
+      "label_technical": "Unity, Arduino",
+      "description_short": "Table For Two is an interactive dining experience designed for couples and first dates. Inspired by the classic arcade game Pac-Man, the project transforms dinner into a playful social interaction where eating and gameplay happen simultaneously. Instead of traditional controllers, players use their plates and cutlery to control the game as Pac-Man and the Ghost. After each round, the losing player answers increasingly personal relationship questions, transforming the dinner table into a shared space for conversation and human connection.",
+      "description_long": "Table For Two is an interactive dining experience designed for couples and first dates. Inspired by the classic arcade game Pac-Man, the project transforms dinner into a playful social interaction where eating and gameplay happen simultaneously. Instead of traditional controllers, players use their plates and cutlery to control the game.\n\nThe experience consists of three rounds where one player controls Pac-Man and the other controls the Ghost. Pac-Man must collect all pellets or consume a freeze power-up to temporarily defeat the Ghost and win the round. The Ghost wins by catching Pac-Man. After each round, the losing player must answer a relationship question that becomes increasingly personal throughout the game.\n\nBy combining arcade nostalgia with the ritual of dining together, Table For Two explores how play can encourage conversation, vulnerability, and human connection. The work transforms the dinner table into both a game surface and a shared space for communication.",
+      "media": {
+        "final_images": [
+          "List/Table_For_Two/final_images/preFinal_Valeriya_Borissova.jpg"
+        ],
+        "behind_the_scenes": [
+          "List/Table_For_Two/behind_the_scenes/groupmaking_Valeriya_Borissova.JPG",
+          "List/Table_For_Two/behind_the_scenes/projection_Valeriya_Borissova.jpg",
+          "List/Table_For_Two/behind_the_scenes/soldering_Valeriya_Borissova.jpg"
+        ],
+        "artist_photos": [
+          "List/Table_For_Two/artist_photos/Team_Valeriya_Borissova.jpeg"
+        ]
+      }
+    },
+    {
+      "submission_id": "20",
+      "project_name": "the sensitive child",
+      "year": "2026",
+      "artists_raw": "Cat Menzies",
+      "artist_statements": {
+        "full_text": "A London native with a background in philosophy and computer science, Cat Menzies approaches art practice primarily as a phenomenological exploration. Inspired by the Fluxus and pop art movements, she has developed a particular interest in questioning the formal boundaries of sculpture, particularly as a vessel for embodied interaction and computational creativity. By using unconventional and repurposed materials, objects and interactions, she aims to blur the lines between tool and artwork, object and sculpture, the ordinary and the novel.\n\nUsing methods ranging from incorporating multisensory computational interactivity to powering work with her own menstrual data, Cat strives to create connection between artist and audience. Through this connection, she invites the audience to experience and become a part of the critical reflection behind the work.\n\nOverall, Cat sees her work as a means of holding up a mirror to the universally-experienced tensions and contradictions that make up life.",
+        "unassigned": [
+          "A London native with a background in philosophy and computer science, Cat Menzies approaches art practice primarily as a phenomenological exploration. Inspired by the Fluxus and pop art movements, she has developed a particular interest in questioning the formal boundaries of sculpture, particularly as a vessel for embodied interaction and computational creativity. By using unconventional and repurposed materials, objects and interactions, she aims to blur the lines between tool and artwork, object and sculpture, the ordinary and the novel.",
+          "Using methods ranging from incorporating multisensory computational interactivity to powering work with her own menstrual data, Cat strives to create connection between artist and audience. Through this connection, she invites the audience to experience and become a part of the critical reflection behind the work.",
+          "Overall, Cat sees her work as a means of holding up a mirror to the universally-experienced tensions and contradictions that make up life."
+        ]
+      },
+      "label_technical": "Found objects, using Python, TouchDesigner and DMX.",
+      "description_short": "The piece is a living-room scene in which the participant is invited to speak into the telephone receiver. As they speak, the sentiment and kindness of their words affect the objects comprising the scene in potentially unpredictable ways.\nThe piece uses affective interaction to capture the overwhelming impact that sensitivity, anxiety and neurodivergence can have on one’s emotional experience of the world, using found objects from my own childhood home to aid in this.",
+      "description_long": "The piece, the sensitive child, is based on a living-room scene, using found objects from my childhood home.\nWhen the participant speaks into the phone receiver, their speech is analysed in real-time for sentiment and toxicity. These are used in Touchdesigner to control elements of the scene such as the TV screen and lamps. While overall sentiment is positive, the lights are bright and the TV plays video of natural, peaceful scenes, a gently pulsing bloom effect corresponding to positivity. If the sentiment of the speaker becomes more negative, the lights dim and the image grows distorted, glitching out and changing into something more intense. Additionally, when the system becomes ‘distressed’ from speech found to be toxic, the lights will flicker at a rate that reflects this. There is also an element of randomness, producing a human-like, unpredictable result at times.\nThe piece uses affective interaction to capture the overwhelming impact that sensitivity, anxiety and neurodivergence can have on a child’s experience of the world, bleeding into even the ‘peaceful’ home environment. By using objects from my own childhood home, I ask the participant to connect to me personally through entering into this vulnerable and personal space.",
+      "media": {
+        "behind_the_scenes": [
+          "List/the_sensitive_child/behind_the_scenes/IMG_1546_Cat_Menzies.jpeg"
+        ],
+        "artist_photos": [
+          "List/the_sensitive_child/artist_photos/IMG_3404_2_Cat_Menzies_1.jpeg"
+        ]
+      }
+    },
+    {
+      "submission_id": "21",
+      "project_name": "Think Inside the ParaBox",
+      "year": "2026",
+      "artists_raw": "Laurens Art Ramsenthaler",
+      "artist_statements": {
+        "full_text": "Laurens Art Ramsenthaler is drawn to experiences where motion moves (you). Working across interaction design, creative coding, and physical computing, he creates work shaped by a recurring tension between calm and motion. Through play, experimentation, and iterative testing, he continues to extend his practice from the screen into physical materials.\n\nOriginally from Austria, he studied graphic design in Graz and later completed a BA in Interaction Design at Harbour.Space University in Barcelona and Bangkok. He is currently pursuing an MSc in Computing in the Creative Industries (Modular) in London.",
+        "unassigned": [
+          "Laurens Art Ramsenthaler is drawn to experiences where motion moves (you). Working across interaction design, creative coding, and physical computing, he creates work shaped by a recurring tension between calm and motion. Through play, experimentation, and iterative testing, he continues to extend his practice from the screen into physical materials.",
+          "Originally from Austria, he studied graphic design in Graz and later completed a BA in Interaction Design at Harbour.Space University in Barcelona and Bangkok. He is currently pursuing an MSc in Computing in the Creative Industries (Modular) in London."
+        ]
+      },
+      "label_technical": "Layered infinity mirrors, rotating inner chamber, LED light edges, presence sensor, and sound.",
+      "description_short": "ParaBOX is a paradoxical installation exploring how perception can expand the limited reality we experience. Inside, reflections create the illusion of infinite space within a confined form. As the inner structure slowly rotates, light source, reflection, and perceived space begin to blur, making space and time feel fluid. The work turns a small structure into a larger experienced world through perception",
+      "description_long": "ParaBOX is a paradoxical installation exploring how perception can expand the limited reality we experience. Suspended above the viewer, the mirrored dodecahedron opens a confined form into the illusion of infinite space. LED edges reflect across layered mirror surfaces, multiplying beyond a clear point of origin until it becomes difficult to distinguish between source, reflection, and perceived space.\n\nThe work is activated through presence: when a participant places their head inside, they enter a shifting environment rather than simply observing an object from the outside. As the inner structure slowly rotates, the relationships between reflections reorganize. What first appears stable begins to change, causing space to shift around the observer and making orientation, depth, and time feel fluid.\n\nThe title draws from “para-”, suggesting something beyond, beside, or parallel. In this sense, ParaBOX points toward realities that exist alongside the familiar one. The work turns a small structure into a larger experienced world through perception, asking how much of what we call reality comes from what is physically there, and how much comes from how we perceive it.",
+      "media": {
+        "final_images": [
+          "List/Think_Inside_the_ParaBox/final_images/p1.png"
+        ],
+        "behind_the_scenes": [],
+        "artist_photos": [
+          "List/Think_Inside_the_ParaBox/artist_photos/portrait_Laurens_Ramsenthaler.png"
+        ]
+      }
+    },
+    {
+      "submission_id": "22",
+      "project_name": "TIME MACHINE",
+      "year": "2025",
+      "artists_raw": "Minnie Xie",
+      "artist_statements": {
+        "full_text": "Minnie is an emerging creative technologist at UAL CCI’s MSc Creative Computing course. Her current work incorporates physical computing, textiles, and programming as mediums of expression to investigate themes such as ontology, materiality, and the ordinary. Recent explorations in her practice question the role of digital technologies in the creative process.\n\nShe holds a BFA in Studio Art and BS in Computer Science from Tufts University. Minnie is from Arizona, United States and is currently based in London.",
+        "unassigned": [
+          "Minnie is an emerging creative technologist at UAL CCI’s MSc Creative Computing course. Her current work incorporates physical computing, textiles, and programming as mediums of expression to investigate themes such as ontology, materiality, and the ordinary. Recent explorations in her practice question the role of digital technologies in the creative process.",
+          "She holds a BFA in Studio Art and BS in Computer Science from Tufts University. Minnie is from Arizona, United States and is currently based in London."
+        ]
+      },
+      "label_technical": "Knit wool button, Arduino electronics, and thermal printer in engraved wooden casing.\n\n20cm W x 20cm D x 20cm H",
+      "description_short": "TIME MACHINE subverts the expectations of time travel with an ordinary reality, reminding the viewer that they are travelling through time, unconditionally. Press and hold down its knit button; the piece will print out a certificate, unenthusiastically congratulating you on travelling through time at a top speed of one second per second.\n\nThis work examines the relationship between the mundane nature of time passing and its accompanying cosmic, infinite force.",
+      "description_long": "TIME MACHINE is an interactive sculpture that subverts the expectations of time travel with an ordinary reality, reminding the viewer that they are travelling through time, unconditionally. Upon pressing and holding down its knit button, the piece will print out a certificate for the viewer, unenthusiastically congratulating them on travelling through time for the duration of their interaction, reaching a top speed of one second per second.\n\nThis work examines the relationship between the mundane nature of time passing and its accompanying cosmic, infinite force. Time occupies such an immense abstract space that it marks the individual’s experience as negligible; yet, from its continuous--and relatively unchanging--nature, time-speed perception occupies little to no abstract space in daily thought. TIME MACHINE aims to refresh the viewer’s perspective on their movement through time, converting this action from passive to active.",
+      "media": {
+        "behind_the_scenes": [
+          "List/TIME_MACHINE/behind_the_scenes/3d-printing_Minnie_Xie.jpeg",
+          "List/TIME_MACHINE/behind_the_scenes/assembling_Minnie_Xie.jpeg",
+          "List/TIME_MACHINE/behind_the_scenes/button-and-printer_Minnie_Xie.jpeg",
+          "List/TIME_MACHINE/behind_the_scenes/button-circuit_Minnie_Xie.jpeg",
+          "List/TIME_MACHINE/behind_the_scenes/knitting-button_Minnie_Xie.jpeg",
+          "List/TIME_MACHINE/behind_the_scenes/logo-v3-png-edit_Minnie_Xie.png",
+          "List/TIME_MACHINE/behind_the_scenes/sketches_Minnie_Xie.jpeg",
+          "List/TIME_MACHINE/behind_the_scenes/time-machine-sketch1_Minnie_Xie.jpg",
+          "List/TIME_MACHINE/behind_the_scenes/wiring1_Minnie_Xie.jpeg"
+        ]
+      }
+    },
+    {
+      "submission_id": "23",
+      "project_name": "Who gets to code? Who gets to be part of the code? Who is absent from the code?",
+      "year": "2025",
+      "artists_raw": "Isabela Ortiz Jaramillo",
+      "artist_statements": {
+        "full_text": "Isabela Ortiz Jaramillo is a Colombian artist, designer, engineer, and educator who uses programming to expand and question creative practice. Her work approaches code critically, examining its role in shaping inclusion, visibility, and representation. She often combines digital systems with analog processes, including textile elements, to explore the relationships between computational logic and material experience. Through artistic and educational projects, she seeks to challenge stereotypes around programming and open space for more diverse voices within technological and creative fields.",
+        "unassigned": [
+          "Isabela Ortiz Jaramillo is a Colombian artist, designer, engineer, and educator who uses programming to expand and question creative practice. Her work approaches code critically, examining its role in shaping inclusion, visibility, and representation. She often combines digital systems with analog processes, including textile elements, to explore the relationships between computational logic and material experience. Through artistic and educational projects, she seeks to challenge stereotypes around programming and open space for more diverse voices within technological and creative fields."
+        ]
+      },
+      "label_technical": "Made with JavaScript",
+      "description_short": "Software shapes visibility through coded decisions, yet women from the Global South have historically been excluded from programming itself. This piece approaches diversity as a parameter: the red collage has diversity turned on, while the blue has diversity turned off. A reminder that representation is never automatic but the result of decisions. A code poem accompanies the faces, incorporating fragments of the system’s logic and reflecting the perspective of the coder as a woman from the Global South.",
+      "description_long": "This screen-based artwork examines how women, and more specifically women from the Global South, have historically been excluded from the field of programming, while also addressing the power that software has in shaping visibility and representation. Rather than treating diversity as an abstract value, the work approaches it as a parameter: something that can be turned on or off, included or excluded. In this way it reveals how computational systems do not simply reflect reality, but actively construct it through coded decisions.\n\nWhen set to true, the algorithm assembles a collage with faces of women from the Global South, faces from the ones who haven't had a voice in shaping technology. When set to false, a semi-transparent black layer covers the collage, making it impossible to distinguish the faces. The red collage has diversity enabled, while the blue has diversity disabled. A reminder that representation is never automatic but the result of explicit decisions. A code poem is generated along with the faces, incorporating fragments of the system’s logic and reflecting the situated perspective of the coder as a woman from the Global South herself.",
+      "media": {
+        "final_images": [
+          "List/Who_gets_to_code/final_images/collage-1_Isabela_Ortiz_Jarami.png"
+        ],
+        "behind_the_scenes": [
+          "List/Who_gets_to_code/behind_the_scenes/process-1_Isabela_Ortiz_Jarami.jpeg",
+          "List/Who_gets_to_code/behind_the_scenes/process-2_Isabela_Ortiz_Jarami.png",
+          "List/Who_gets_to_code/behind_the_scenes/process-3_Isabela_Ortiz_Jarami.png",
+          "List/Who_gets_to_code/behind_the_scenes/process-4_Isabela_Ortiz_Jarami.png",
+          "List/Who_gets_to_code/behind_the_scenes/process-5_Isabela_Ortiz_Jarami.png",
+          "List/Who_gets_to_code/behind_the_scenes/process-6_Isabela_Ortiz_Jarami.jpeg",
+          "List/Who_gets_to_code/behind_the_scenes/process-7_Isabela_Ortiz_Jarami.png"
+        ],
+        "artist_photos": [
+          "List/Who_gets_to_code/artist_photos/foto-linkedin_Isabela_Ortiz_Jarami.jpeg"
+        ]
+      }
+    },
+    {
+      "submission_id": "24",
+      "project_name": "who is she?",
+      "year": "2026",
+      "artists_raw": "Kunshan Xie",
+      "artist_statements": {
+        "full_text": "A designer from China, dreaming of changing the world through creativity.",
+        "unassigned": [
+          "A designer from China, dreaming of changing the world through creativity."
+        ]
+      },
+      "description_short": "I created an interactive project where a camera-based “facial data recognition” system categorizes participants into predefined types of women, regardless of their identity. These categories reveal biases in AI datasets, constructing hierarchies of “superiority” and “inferiority,” often influenced by the male gaze. The system misidentifies women and even may leave them unclassified. The work highlights that AI is not neutral but reflects human prejudice through fragmented, pixel-based visual language.",
+      "description_long": "I created an interactive critical project in which participants sit before a camera that activates a “facial data recognition” system. Regardless of their real identity, the AI interprets subtle facial movements and categorizes them into predefined “types” of women displayed on screen. These categories reflect biased assumptions embedded in AI datasets.The project exposes how AI systems construct hierarchies of “superiority” and “inferiority,” particularly through the inaccurate identification of Black women, who are sometimes left without a clear classification. Even categories labeled as “superior” are often shaped through the lens of the male gaze. Inspired by research on bias in facial recognition technologies, I wanted to show that AI is not neutral but reproduces human prejudice.Visually, fragmented, block-like graphics emphasize that AI processes people through pixel-based assembly rather than genuine understanding.",
+      "media": {
+        "final_images": [
+          "List/who_is_she/final_images/weixin_20260510001803_Xie_Kunshan.png"
+        ],
+        "behind_the_scenes": [
+          "List/who_is_she/behind_the_scenes/a08dfb30da566934717229ce78802220_Xie_Kunshan.mp4"
+        ],
+        "artist_photos": [
+          "List/who_is_she/artist_photos/weixin_20260510001902_Xie_Kunshan.jpg"
+        ]
+      }
+    },
+    {
+      "submission_id": "25",
+      "project_name": "WikiEditLive",
+      "year": "2026",
+      "artists_raw": "Delyth Field",
+      "artist_statements": {
+        "full_text": "Delyth Field is a Japanese-Welsh composer whose work spans concert music, film scoring, electronic music, and audiovisual media. Her practice explores the concept of authenticity, and how digital tools challenge our understanding of originality, human expression, and the boundary between organic and synthetic.",
+        "unassigned": [
+          "Delyth Field is a Japanese-Welsh composer whose work spans concert music, film scoring, electronic music, and audiovisual media. Her practice explores the concept of authenticity, and how digital tools challenge our understanding of originality, human expression, and the boundary between organic and synthetic."
+        ]
+      },
+      "label_technical": "Made with p5.js",
+      "description_short": "WikiEditLive is an interactive data visualisation that streams edits that are currently made on Wikipedia in real-time, and lets users follow the first-link chain of any article, visualising how knowledge connects through to different branches of knowledge, always tracing its way back to the category \"Philosophy\" or similar categories. It aims to reveal the hierarchy and hidden structure of knowledge organisation on the internet.",
+      "description_long": "WikiEditLive is an interactive data visualisation that streams edits that are currently made on Wikipedia in real-time, and lets users follow the first-link chain of any article, visualising how knowledge connects through to different branches of knowledge, always tracing its way back to the category \"Philosophy\" or similar categories. It aims to reveal the hierarchy and hidden structure of knowledge organisation on the internet.",
+      "media": {
+        "final_images": [
+          "List/WikiEditLive/final_images/Screenshot_Delyth_Field.png"
+        ],
+        "artist_photos": [
+          "List/WikiEditLive/artist_photos/Screenshot_2_Delyth_Field.png"
+        ]
+      }
+    },
+    {
+      "submission_id": "26",
+      "project_name": "you met me at a very @#%**@$% time",
+      "year": "2025",
+      "artists_raw": "Veronika Gryshchuk",
+      "artist_statements": {
+        "full_text": "My practice sits between technology and nature realms, a space I keep recklessly returning to, not because I have answers, but because the questions feel urgent. I am drawn to the moments where the boundary between organic and technological becomes unstable, where it is no longer clear where one ends and the other begins.\nDrawing on more-than-human thinking, I am interested in how computation can act as a mediator, a way of revealing hidden patterns and unspoken languages in the systems we are entangled with, translating what usually remains unseen or unheard into something we can begin to sense and respond to.",
+        "unassigned": [
+          "My practice sits between technology and nature realms, a space I keep recklessly returning to, not because I have answers, but because the questions feel urgent. I am drawn to the moments where the boundary between organic and technological becomes unstable, where it is no longer clear where one ends and the other begins.\nDrawing on more-than-human thinking, I am interested in how computation can act as a mediator, a way of revealing hidden patterns and unspoken languages in the systems we are entangled with, translating what usually remains unseen or unheard into something we can begin to sense and respond to."
+        ]
+      },
+      "description_short": "\"you met me at a very @#%**@$% time\" is a self-destructing bone sculpture that starts collapsing when nearby movement gets detected, tackling upon blurriness between natural and technological, organic and human-made. As time goes on and new technologies come into play, it becomes crucial to constantly question and rethink our surroundings, reflecting on multicultural worldmakings, communities and current politics. With this work, I intend to awaken something in the viewer, whether it brings enjoyment, discomfort, confusion or transformation.",
+      "description_long": "\"you met me at a very @#%**@$% time\" is a self-destructing bone sculpture that starts collapsing when nearby movement gets detected, tackling upon blurriness between natural and technological, organic and human-made. The project proposes a perspective into \"the world as a self-regulating, complex system in which organic and inorganic matter interact with one another to co-produce the conditions for life on Earth.\"(Bridle, 2022, p.190)\n\nIt evokes the hybridisation of body and machine, where bones, being one of the first human primordial tools, meet their contemporary ancestor- modern technology. This connection leads to reimagining the material reality of bodies precisely on the basis of their distractibility, proposing a new collective imagination in nowadays surroundings.\n\nAs time goes on and new technologies come into play, I think it's so crucial to constantly question and rethink our surroundings, reflecting on multicultural worldmakings, communities and current politics. One of the things that probably drives my world vison and art making is more-than-human way of living where hierarchical structure doesn't exist and every:thing/one benefits from each other. With this work, I intend to awaken something in the viewer, whether it brings enjoyment, discomfort, confusion or transformation.",
+      "media": {
+        "final_images": [
+          "List/you_met_me_at_a_very_time/final_images/tempImageTiaa8D_Veronika_Gryshchuk.jpg"
+        ],
+        "behind_the_scenes": [
+          "List/you_met_me_at_a_very_time/behind_the_scenes/tempImageAk4K2K_Veronika_Gryshchuk.jpg",
+          "List/you_met_me_at_a_very_time/behind_the_scenes/tempImageVRMKz9_Veronika_Gryshchuk.jpg",
+          "List/you_met_me_at_a_very_time/behind_the_scenes/tempImagea60WES_Veronika_Gryshchuk.jpg",
+          "List/you_met_me_at_a_very_time/behind_the_scenes/tempImagef4ISZ1_Veronika_Gryshchuk.jpg",
+          "List/you_met_me_at_a_very_time/behind_the_scenes/tempImageg4DCJ8_Veronika_Gryshchuk.jpg",
+          "List/you_met_me_at_a_very_time/behind_the_scenes/tempImagewdvFMB_Veronika_Gryshchuk.jpg"
+        ],
+        "artist_photos": [
+          "List/you_met_me_at_a_very_time/artist_photos/portrait_profile_photo_jpj_3_Veronika_Gryshchuk.jpg"
+        ]
+      }
+    }
+  ]
+}

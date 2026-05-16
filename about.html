@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - InterPlay</title>
+    <link rel="icon" href="public/favicon.ico" sizes="any">
+
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="https://use.typekit.net/ulp5qtm.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="launch.css">
+</head>
+
+<body>
+    <div id="canvas-container"></div>
+
+    <div class="split-layout">
+
+        <!-- Left: identical to index-launch.html -->
+        <div class="left-pane launch-left">
+            <div class="launch-left-inner">
+                <a href="index-launch.html" style="display:contents;">
+                    <div class="comparison-slider" id="comparison-slider">
+                        <canvas class="canvas-pixelated" id="canvas-pixelated"></canvas>
+                    </div>
+                </a>
+                <div class="launch-left-text">Creative Computing Exhibition</div>
+                <div class="launch-left-links">
+                    <a href="https://www.instagram.com/interplay_cci/" target="_blank">Instagram</a>
+                    <a href="https://www.eventbrite.co.uk/e/interplay-ual-creative-computing-exhibition-tickets-1988400645858?aff=oddtdtcreator"
+                        target="_blank">Eventbrite</a>
+                    <a href="https://uk.linkedin.com/in/interplay-cci-a853a1405" target="_blank">LinkedIn</a>
+                </div>
+            </div>
+            <div class="launch-left-credits">
+                <div class="launch-credit">
+                    <span class="launch-credit-label">Organized by</span>
+                    <img src="Logo/UAL.CCI.black_crop.png" alt="UAL CCI">
+                </div>
+                <div class="launch-credit">
+                    <span class="launch-credit-label">Software Sponsored by</span>
+                    <img src="Logo/TouchDesigner_Derivative_logo_black.png" alt="TouchDesigner">
+                </div>
+            </div>
+        </div>
+
+        <!-- Right: About content -->
+        <div class="right-pane">
+            <div class="project-header">
+                <a href="index-launch.html" class="proj-nav-btn">
+                    <i class="fa-solid fa-chevron-left"></i> Back
+                </a>
+                <div class="header-center-area">
+                    <a href="index-launch.html" id="logo-back-link"
+                        style="display:block; overflow:hidden; height:32px; width:150px; flex-shrink:0;">
+                        <img src="Logo/InterPlay_main_crop.png"
+                            style="width:150px; height:auto; display:block; margin-top:-37px;">
+                    </a>
+                </div>
+                <div style="width:60px;"></div>
+            </div>
+
+
+            <div class="content-sections">
+                <div class="section-block">
+                    <div class="text-content" style="white-space: normal;">InterPlay presents work by emerging artists,
+                        designers, and researchers currently enrolled at UAL Creative Computing Institute's postgraduate
+                        courses. Rather than treating technology as a neutral tool, this exhibition examines the
+                        conversation present between artistic expression and technology.<br><br>Exhibitors identify with
+                        a diverse pool of professional backgrounds: music and audio, software engineering, computer
+                        vision, robotics, HCI, UX/UI, interaction design, game development, graphic design, fine arts,
+                        philosophy, spatial design, and AI.<br><br>Witness and interact with the next generation's
+                        responses to our contemporary world, addressing themes such as the anthropocene, IoT, hidden
+                        worlds, vulnerability, ontology, memory, classification, community, and migration. This
+                        collection exemplifies collaboration, not only between global creatives originating across five
+                        continents, but also among circuitry, scripting, bodies, and play.<br><br>This exhibition
+                        invites you to participate in the InterPlay ecosystem–to play within the latent space of
+                        humanity and technology. Whether through technologies such as TouchDesigner or Unity, p5.js or
+                        physical computing, these works guide our understanding of reality with technology as material.
+                        InterPlay invites visitors to explore the mystique located at this intersection.</div>
+                </div>
+
+                <div class="section-block">
+                    <h3 class="section-title">[Exhibition Committee]</h3>
+                    <div class="committee-list">
+                        <div class="committee-group">
+                            <div class="committee-row"><span class="committee-role">Creative Director</span><span
+                                    class="committee-name">Minnie Xie</span></div>
+                            <div class="committee-row"><span class="committee-role">Creative Director</span><span
+                                    class="committee-name">Valeriya Borissova</span></div>
+                        </div>
+                        <div class="committee-group">
+                            <div class="committee-row"><span class="committee-role">Technical Director</span><span
+                                    class="committee-name">Harsh Bhattad (HRSHLABS)</span></div>
+                            <div class="committee-row"><span class="committee-role">Technical Director</span><span
+                                    class="committee-name">Isabela Ortiz Jaramillo</span></div>
+                        </div>
+                        <div class="committee-group">
+                            <div class="committee-row"><span class="committee-role">Marketing Director</span><span
+                                    class="committee-name">Veronika Gryshchuk</span></div>
+                            <div class="committee-row"><span class="committee-role">Marketing Director</span><span
+                                    class="committee-name">Yifei Ni (Aurora)</span></div>
+                        </div>
+                        <div class="committee-group">
+                            <div class="committee-row"><span class="committee-role">Visual Director</span><span
+                                    class="committee-name">Eugene (Jinwon) Lee</span></div>
+                            <div class="committee-row"><span class="committee-role">Visual Director</span><span
+                                    class="committee-name">Yaya (Ziyi Wang)</span></div>
+                        </div>
+                        <div class="committee-group">
+                            <div class="committee-row"><span class="committee-role">Documentary Team</span><span
+                                    class="committee-name">Di Zhou</span></div>
+                            <div class="committee-row"><span class="committee-role">Documentary Team</span><span
+                                    class="committee-name">Haoyu Yang (Young)</span></div>
+                            <div class="committee-row"><span class="committee-role">Documentary Team</span><span
+                                    class="committee-name">Kunshan Xie</span></div>
+                            <div class="committee-row"><span class="committee-role">Documentary Team</span><span
+                                    class="committee-name">Yonglan Jiang</span></div>
+                            <div class="committee-row"><span class="committee-role">Documentary Team</span><span
+                                    class="committee-name">Zeyang Shan (Darious)</span></div>
+                        </div>
+                        <div class="committee-group">
+                            <div class="committee-row"><span class="committee-role">Production Director</span><span
+                                    class="committee-name">Nicolás Urrego Sandoval</span></div>
+                            <div class="committee-row"><span class="committee-role">Production Team</span><span
+                                    class="committee-name">Cat Menzies</span></div>
+                            <div class="committee-row"><span class="committee-role">Production Team</span><span
+                                    class="committee-name">Laurens Art Ramsenthaler</span></div>
+                            <div class="committee-row"><span class="committee-role">Production Team</span><span
+                                    class="committee-name">Priyal Patel</span></div>
+                            <div class="committee-row"><span class="committee-role">Production Team</span><span
+                                    class="committee-name">Xiangwen Gong (Flora)</span></div>
+                        </div>
+                        <div class="committee-group">
+                            <div class="committee-row"><span class="committee-role">Special thanks to</span><span
+                                    class="committee-name">Matthew Jarvis</span></div>
+                        </div>
+                        <div class="committee-group">
+                            <div class="committee-row"><span class="committee-role">Web Design & Development</span><span
+                                    class="committee-role">Eugene (Jinwon) Lee</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="project-footer">
+                <div class="project-footer-inner">
+                    <div class="project-footer-logo">
+                        <img src="Logo/InterPlay_main_crop.png" alt="InterPlay">
+                    </div>
+                    <div class="project-footer-meta">
+                        <span>Creative Computing Exhibition</span>
+                    </div>
+                    <div class="project-footer-copy">&copy; 2026 InterPlay. All rights reserved.</div>
+                </div>
+            </footer>
+        </div>
+
+    </div>
+
+    <img src="Logo/InterPlay.png" id="image-original" style="display:none;" alt="">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="script.js"></script>
+    <script type="module" src="project-visual.js"></script>
+    <script>
+        document.dispatchEvent(new CustomEvent('logo-init'));
+    </script>
+</body>
+
+</html>

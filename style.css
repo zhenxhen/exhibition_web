@@ -319,24 +319,6 @@ body {
     /* allow absolute children */
 }
 
-/* Coming soon tooltip */
-.coming-soon {
-    display: none;
-    position: absolute;
-    top: 72%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-0.5rem);
-    background: rgba(0, 0, 0, 0.3);
-    color: #fff;
-    padding: 0.2rem 0.2rem;
-    font-size: 0.85rem;
-    white-space: nowrap;
-    z-index: 60;
-}
-
-.coming-soon.visible {
-    display: block;
-}
 
 
 .share-label {
@@ -392,23 +374,5 @@ body {
         padding-top: 0.4rem;
     }
 
-    /* Tooltip appears above the button on mobile */
-    .coming-soon {
-        display: none;
-        position: absolute;
-        top: 72%;
-        left: 50%;
-        transform: translateX(-50%) translateY(-0.5rem);
-        background: rgba(0, 0, 0, 0.3);
-        color: #fff;
-        padding: 0.2rem 0.2rem;
-        font-size: 0.85rem;
-        white-space: nowrap;
-        z-index: 60;
-    }
 
-    .coming-soon.visible {
-        display: block;
-    }
-}
 }

@@ -1,0 +1,240 @@
+html,
+body {
+    display: block !important;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden;
+    background: #fff;
+}
+
+#canvas-container {
+    pointer-events: none !important;
+    opacity: 0.5;
+    z-index: 0 !important;
+}
+
+.launch-layout {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    z-index: 1;
+}
+
+/* Left: fixed logo */
+.launch-left {
+    width: 50%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 8vh;
+    overflow: hidden;
+    border-right: 1px solid rgba(0, 0, 0, 0.06);
+    z-index: 10;
+}
+
+.launch-left-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.launch-left .comparison-slider {
+    width: 80%;
+    max-width: 500px;
+    overflow: hidden;
+}
+
+.launch-left .comparison-slider canvas {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: -18%;
+    margin-bottom: -18%;
+}
+
+.launch-left-text {
+    font-size: 1rem;
+    color: #000;
+    letter-spacing: 0.02em;
+}
+
+.launch-left-links {
+    display: flex;
+    gap: 1.2rem;
+    margin-top: 0.2rem;
+}
+
+.launch-left-links a {
+    font-size: 0.73rem;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid currentColor;
+    padding-bottom: 1px;
+    transition: opacity 0.2s;
+}
+
+.launch-left-links a:hover {
+    opacity: 0.5;
+}
+
+.launch-left-credits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    position: absolute;
+    bottom: 2rem;
+    left: 0;
+    right: 0;
+}
+
+@media (max-height: 600px) {
+    .launch-left-credits {
+        display: none;
+    }
+}
+
+.launch-credit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.launch-credit-label {
+    font-size: 0.7rem;
+    color: #000;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.launch-credit img {
+    height: 25px;
+    width: auto;
+}
+
+/* Right: scrollable project list */
+.launch-right {
+    margin-left: 50%;
+    height: 100vh;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+.project-list {
+    padding: 0;
+}
+
+.project-item {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+    text-decoration: none;
+    color: inherit;
+    transition: opacity 0.15s;
+}
+
+.project-item:hover {
+    opacity: 1;
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+}
+
+.project-item:hover .project-name {
+    font-family: 'cofo-sans-pixel', monospace;
+}
+
+.project-item:first-child {
+    border-top: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.project-name {
+    font-size: 1.2rem;
+    font-weight: 200;
+    color: var(--text-color, #1a1a1a);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 0;
+}
+
+.project-artists {
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.35);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    flex-shrink: 1;
+    min-width: 0;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+
+    html,
+    body {
+        height: auto;
+        overflow-y: auto;
+    }
+
+    .launch-layout {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .launch-left {
+        position: relative;
+        width: 100%;
+        height: auto;
+        padding: 4rem 2rem;
+        border-right: none;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+        justify-content: flex-start;
+        gap: 3rem;
+    }
+
+    .launch-left-inner {
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .launch-left-credits {
+        position: static;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .launch-credit img {
+        height: 20px;
+    }
+
+    .launch-left-text {
+        font-size: 0.7rem;
+    }
+
+    .launch-right {
+        width: 100%;
+        margin-left: 0;
+        height: auto;
+        overflow-y: visible;
+    }
+
+    .project-item {
+        padding: .75rem 2rem;
+    }
+
+    .project-name {
+        font-size: 1rem;
+    }
+}

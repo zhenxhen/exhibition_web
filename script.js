@@ -1,4 +1,7 @@
-document.addEventListener("DOMContentLoaded", () => {
+let _logoInitialized = false;
+
+function initLogo() {
+    if (_logoInitialized) return;
     // 1. UI Elements 변수 연결
     const container = document.getElementById("comparison-slider");
     const originalImage = document.getElementById("image-original");
@@ -377,6 +380,27 @@ document.addEventListener("DOMContentLoaded", () => {
             }, "image/png");
         });
     }
-});
+
+    const imageUpload = document.getElementById("image-upload");
+    if (imageUpload) {
+        imageUpload.addEventListener("change", (event) => {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = (e) => {
+                    originalImage.onload = () => {
+                        setupCanvas();
+                    };
+                    originalImage.src = e.target.result;
+                };
+                reader.readAsDataURL(file);
+            }
+        });
+    }
+    _logoInitialized = true;
+}
+
+document.addEventListener("DOMContentLoaded", initLogo);
+document.addEventListener("logo-init", initLogo);
 
 
