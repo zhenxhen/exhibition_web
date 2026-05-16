@@ -172,7 +172,6 @@ function renderProject(project, allProjects, currentIndex) {
 
                 <div class="content-sections">
                     <div class="section-block">
-                        ${project.description_short ? `<div class="text-content short-desc">${project.description_short}</div>` : ''}
                         ${project.description_long ? `<div class="text-content">${project.description_long}</div>` : ''}
                     </div>
                     
