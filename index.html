@@ -5,36 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Primary Meta Tags -->
     <title>InterPlay</title>
     <meta name="title" content="InterPlay">
     <meta name="description" content="Creative Computing Exhibition">
     <meta name="keywords" content="Exhibition, Media, Art, UAL, CCI, InterPlay">
     <meta name="author" content="UAL, CCI, eeezeen">
 
-    <!-- Favicons -->
     <link rel="icon" href="public/favicon.ico" sizes="any">
     <link rel="icon" type="image/png" sizes="16x16" href="public/favicon-16x16.png">
     <link rel="icon" type="image/png" sizes="32x32" href="public/favicon-32x32.png">
     <link rel="apple-touch-icon" href="public/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="192x192" href="public/android-chrome-192x192.png">
-    <link rel="icon" type="image/png" sizes="512x512" href="public/android-chrome-512x512.png">
 
-    <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://interplay-cci.co.uk/">
     <meta property="og:title" content="InterPlay">
     <meta property="og:description" content="Creative Computing Exhibition">
     <meta property="og:image" content="public/og-image.jpg">
 
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://interplay-cci.co.uk/">
-    <meta property="twitter:title" content="InterPlay">
-    <meta property="twitter:description" content="Creative Computing Exhibition">
-    <meta property="twitter:image" content="public/og-image.jpg">
-
-    <!-- Import map for Three.js so visual.js ES module imports work in browser without bundler -->
     <script type="importmap">
         {
             "imports": {
@@ -44,32 +31,12 @@
         }
     </script>
     <link rel="stylesheet" href="https://use.typekit.net/ulp5qtm.css">
+    <link rel="stylesheet" href="https://use.typekit.net/hph2cdy.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="launch.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
         integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <style>
-        body,
-        .workspace-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            margin: 0;
-            padding: 0;
-        }
 
-        @media (max-width: 768px) {
-
-            body,
-            .workspace-container {
-                min-height: 100dvh;
-            }
-        }
-
-        .comparison-slider {
-            margin: auto;
-        }
-    </style>
     <script defer src="https://cloud.umami.is/script.js"
         data-website-id="22e52cdf-48d7-41e9-b8b5-087b38bbcd3f"></script>
 </head>
@@ -77,46 +44,72 @@
 <body>
 
     <div id="canvas-container"></div>
-    <div class="workspace-container">
 
-        <div class="main-display">
-            <div class="comparison-slider" id="comparison-slider">
-                <canvas class="canvas-pixelated" id="canvas-pixelated"></canvas>
+    <div class="launch-layout">
+
+        <!-- Left: Logo -->
+        <div class="launch-left">
+            <div class="launch-left-inner">
+                <a href="about.html" style="display:contents;">
+                    <div class="comparison-slider" id="comparison-slider">
+                        <canvas class="canvas-pixelated" id="canvas-pixelated"></canvas>
+                    </div>
+                </a>
+                <div class="launch-left-text">Creative Computing Exhibition</div>
+                <div class="launch-left-links">
+                    <a href="https://www.instagram.com/interplay_cci/" target="_blank">Instagram</a>
+                    <a href="https://www.eventbrite.co.uk/e/interplay-ual-creative-computing-exhibition-tickets-1988400645858?aff=oddtdtcreator"
+                        target="_blank">Eventbrite</a>
+                    <a href="https://uk.linkedin.com/in/interplay-cci-a853a1405" target="_blank">LinkedIn</a>
+                </div>
             </div>
-
-        </div>
-
-        <div class="countdown-group">
-            <div class="countdown" id="countdown-timer">00:00:00</div>
-            <div class="exhibition-schedule">
-                21 May 17:00 - 21:00<br>
-                22 May 14:00 - 22:00<br>
-                23 May 11:00 - 20:00<br>
-                24 May 11:00 - 16:00
-            </div>
-            <div class="share-section">
-                <div class="share-buttons">
-
-                    <a href="https://www.instagram.com/interplay_cci/" target="_blank" class="share-btn instagram"><i
-                            class="fab fa-instagram"></i></a>
-                    <a href="https://www.copelandpark.com/events/38349/interplay/" target="_blank"
-                        class="share-btn location"><i class="fa-solid fa-location-dot"></i></a>
-                    <a href="https://www.eventbrite.co.uk/e/1988400645858?aff=oddtdtcreator" target="_blank"
-                        class="share-btn ticket"><i class="fa-solid fa-ticket"></i></a>
-                    <a href="https://wa.me/?text=Check%20this%20out%20https%3A%2F%2Finterplay-cci.co.uk%2F"
-                        target="_blank" class="share-btn whatsapp"><i class="fab fa-whatsapp"></i></a>
+            <div class="launch-left-credits">
+                <div class="launch-credit">
+                    <span class="launch-credit-label">Organized by</span>
+                    <img src="Logo/UAL.CCI.black_crop.png" alt="UAL CCI">
+                </div>
+                <div class="launch-credit">
+                    <span class="launch-credit-label">Software Sponsored by</span>
+                    <img src="Logo/TouchDesigner_Derivative_logo_black.png" alt="TouchDesigner">
                 </div>
             </div>
         </div>
+
+        <!-- Right: Project List -->
+        <div class="launch-right">
+            <div class="project-list" id="project-list">
+                <!-- populated by JS -->
+            </div>
+        </div>
+
     </div>
 
-    <img src="Logo/InterPlay.png" id="image-original" style="display: none;" alt="">
-
-
-    <img src="Logo/UAL.CCI.black.png" class="footer-logo" alt="UAL CCI">
+    <img src="Logo/InterPlay.png" id="image-original" style="display:none;" alt="">
 
     <script src="script.js"></script>
     <script type="module" src="visual.js"></script>
+
+    <script>
+        const palette = ['#0088cc', '#e63946', '#d48a00', '#2a9d8f', '#c85a17'];
+
+        fetch('List/interplay_projects.json')
+            .then(r => r.json())
+            .then(data => {
+                const list = document.getElementById('project-list');
+                const projects = data.projects;
+                const start = Math.floor(Math.random() * projects.length);
+                const ordered = [...projects.slice(start), ...projects.slice(0, start)];
+                ordered.forEach((p, i) => {
+                    const a = document.createElement('a');
+                    a.href = `project.html?id=${p.submission_id}`;
+                    a.className = 'project-item';
+                    a.innerHTML = `<span class="project-name">${p.project_name}</span>`;
+                    a.style.setProperty('--hover-color', palette[i % palette.length]);
+                    list.appendChild(a);
+                });
+            });
+    </script>
+
 </body>
 
 </html>

@@ -154,7 +154,7 @@ function renderProject(project, allProjects, currentIndex) {
                     <a href="project.html?id=${allProjects[prevIndex].submission_id}" class="proj-nav-btn" aria-label="Previous project"><i class="fa-solid fa-chevron-left"></i> Prev</a>
                     
                     <div class="header-center-area">
-                        <a href="index-launch.html" id="logo-back-link">
+                        <a href="index.html" id="logo-back-link">
                             <img src="Logo/InterPlay_main_crop.png" style="height:28px; width:auto; display:block;">
                         </a>
                         <div id="header-project-title" class="header-title-text">${project.project_name}</div>
