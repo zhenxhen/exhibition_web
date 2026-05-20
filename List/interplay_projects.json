@@ -209,6 +209,19 @@
       "description_short": "Decay is an interactive textile installation that attempts to visualize the human impact of ecological collapse through gradual material transformation. Triggered by human presence, the textile slowly shifts in colour, revealing the lasting effects of environmental degradation over time. With repeated interaction, the material surface permanently changes, leaving behind traces of decay, deterioration, and irreversible loss.",
       "description_long": "Decay is an interactive textile data visualisation exploring ecological instability and environmental transformation. Inspired by reports showing that human activity has altered over 75% of Earth’s ecosystems, the project investigates how natural systems are disappearing faster than they can regenerate.\nThrough knitted structures, thermochromic materials, and responsive heat-based interactions, the installation gradually changes colour as viewers approach it, transforming ecological data into unstable textile systems that slowly lose coherence over time.",
       "media": {
+        "behind_the_scenes": [
+          "List/Decay/behind_the_scenes/IMG_5096.jpg",
+          "List/Decay/behind_the_scenes/IMG_5106.jpg",
+          "List/Decay/behind_the_scenes/IMG_5118.jpg",
+          "List/Decay/behind_the_scenes/IMG_5169.jpg",
+          "List/Decay/behind_the_scenes/IMG_5195.jpg",
+          "List/Decay/behind_the_scenes/IMG_5257.jpg",
+          "List/Decay/behind_the_scenes/IMG_5271.jpg",
+          "List/Decay/behind_the_scenes/IMG_5272.mov",
+          "List/Decay/behind_the_scenes/IMG_5285.jpg",
+          "List/Decay/behind_the_scenes/IMG_5289.jpg",
+          "List/Decay/behind_the_scenes/IMG_5294.jpg"
+        ],
         "artist_photos": [
           "List/Decay/artist_photos/Headshot_Priyal_Patel.jpg"
         ]
@@ -217,6 +230,10 @@
         {
           "label": "Portfolio",
           "url": "https://priyalptl.com/"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/ptl_priyalll/"
         }
       ]
     },
@@ -224,7 +241,7 @@
       "submission_id": "5",
       "project_name": "Digital Garden",
       "year": "2026",
-      "artists_raw": "Jinwon Lee, Ziyi Wang, Chengxin Deng",
+      "artists_raw": "Jinwon (Eugene) Lee, Yaya (Ziyi Wang), Caterina (Chengxin Deng)",
       "label_technical": "Arduino, smart phones, MIDI, TouchDesigner",
       "description_short": "This project visualises the concept of digital conversion. Physical instruments are transformed into digital ones through MIDI, while networking systems such as social media have become new modes of expressing our lives. Within a constructed experimental environment, this project explores digital conversion through a posthumanist lens, allowing participants to experience the act of nurturing digital life by ‘watering’ it with digital sound.",
       "description_long": "This project visualises the concept of digital conversion. Physical instruments are transformed into digital ones through MIDI, while networking systems such as social media have become new modes of expressing our lives. Within a constructed experimental environment, this project explores digital conversion through a posthumanist lens, allowing participants to experience the act of nurturing digital life by ‘watering’ it with digital sound.",
@@ -237,6 +254,9 @@
           "List/Digital_Garden/behind_the_scenes/0T5A4198_Wang_Ziyi.jpg",
           "List/Digital_Garden/behind_the_scenes/IMG_4728_Wang_Ziyi.jpg",
           "List/Digital_Garden/behind_the_scenes/digital_garden_Wang_Ziyi.png"
+        ],
+        "artist_photos": [
+          "List/Digital_Garden/artist_photos/IMG_8913.JPG"
         ]
       },
       "artist_links": [
@@ -309,6 +329,9 @@
       "description_short": "Sometimes a message feels too much, but silence feels too far away. Being reachable is not always the same as feeling close. Miru explores a quieter form of presence through two connected cushions. When one person touches theirs, the other glows softly elsewhere. If both respond at once, they briefly share a state of connection. Instead of asking for attention like a notification, Miru turns presence into something soft, physical, and quietly felt.",
       "description_long": "Sometimes a message feels too much, but silence feels too far away. Being reachable is not always the same as feeling close. Miru is for the small, unspeakable ways we miss each other across cities, time zones, or simply busy lives. Through two connected cushions, presence becomes a small physical signal: when one person touches their cushion, the other glows softly orange somewhere else. If both respond at the same moment, both glow red, briefly sharing a state of connection across distance. Instead of asking for attention, Miru turns presence into something soft, physical, and quietly felt.\n\nMore at www.feelmiru.com",
       "media": {
+        "final_images": [
+          "List/Feel_Miru/final_images/pillows.png"
+        ],
         "artist_photos": [
           "List/Feel_Miru/artist_photos/portrait_Laurens_Ramsenthaler_1.png"
         ]
@@ -375,10 +398,15 @@
       "description_long": "This project explores how algorithms are gradually shaping the way people access information online. In everyday life, social media and digital platforms constantly learn users’ preferences and continuously push similar types of content. Over time, people may unwittingly find themselves trapped in an increasingly repetitive and limited information environment.\nThis work reflects on how these invisible systems shape people’s thoughts, emotions, and perceptions of the world. By illustrating the gradual erosion of information diversity, the project encourages viewers to reconsider the relationship between personalization and freedom of choice, and to question whether digital convenience is gradually eroding people’s curiosity and openness to different perspectives.",
       "media": {
         "final_images": [
-          "List/Filter_Bubble/final_images/project2_haven_t_completed__Ni_Yifei.jpg"
+          "List/Filter_Bubble/final_images/filter_bubble_final.jpg"
+        ],
+        "behind_the_scenes": [
+          "List/Filter_Bubble/behind_the_scenes/filter_bubble_behind.png",
+          "List/Filter_Bubble/behind_the_scenes/filter_bubble_behind2.jpg",
+          "List/Filter_Bubble/behind_the_scenes/filter_bubble_behind3.png"
         ],
         "artist_photos": [
-          "List/Filter_Bubble/artist_photos/IMG_7186_Ni_Yifei.JPG"
+          "List/Filter_Bubble/artist_photos/filter_bubble_artist.jpg"
         ]
       }
     },
@@ -402,7 +430,11 @@
       "media": {
         "behind_the_scenes": [
           "List/Flow/behind_the_scenes/IMG_2056_Cat_Menzies.jpeg",
-          "List/Flow/behind_the_scenes/IMG_2063_Cat_Menzies.jpeg"
+          "List/Flow/behind_the_scenes/IMG_2063_Cat_Menzies.jpeg",
+          "List/Flow/behind_the_scenes/IMG_2301.jpg",
+          "List/Flow/behind_the_scenes/IMG_2316.mov",
+          "List/Flow/behind_the_scenes/IMG_2354.jpg",
+          "List/Flow/behind_the_scenes/IMG_4907.jpg"
         ],
         "artist_photos": [
           "List/Flow/artist_photos/IMG_2023_Cat_Menzies.jpeg"
@@ -598,13 +630,10 @@
       "submission_id": "15",
       "project_name": "Pulse*Fountain*Clock",
       "year": "2025",
-      "artists_raw": "Yaya (Ziyi) Wang",
+      "artists_raw": "Yaya (Ziyi Wang)",
       "artist_statements": {
-        "full_text": "Yaya (Ziyi Wang) is a Chinese artist and designer currently studying Creative Computing at University of the Arts London, with a background in Environmental Design from Sichuan University. Her practice spans virtual space, digital installation, visual design, and music-related visual experiences.\n\nHer work explores everyday details, the body, cultural identity, and post-humanist imagination. With experience in interior design, visual identity, and UX design, she is interested in creating immersive and emotionally resonant spatial experiences.",
-        "unassigned": [
-          "Yaya (Ziyi Wang) is a Chinese artist and designer currently studying Creative Computing at University of the Arts London, with a background in Environmental Design from Sichuan University. Her practice spans virtual space, digital installation, visual design, and music-related visual experiences.",
-          "Her work explores everyday details, the body, cultural identity, and post-humanist imagination. With experience in interior design, visual identity, and UX design, she is interested in creating immersive and emotionally resonant spatial experiences."
-        ]
+        "full_text": "Yaya (Ziyi Wang) is a Chinese 3D artist and interdisciplinary new media designer currently studying Creative Computing at UAL. Trained in architecture and environmental design, she is shifting her spatial practice into code-based art and interactive media design. Her work explores the relationship between algorithms, space, body, sound, and digital perception, transforming everyday experiences, cultural identity, and post-humanist imagination into immersive and interactive forms.",
+        "unassigned": []
       },
       "label_technical": "Arduino, pulse sensor, water pump, PVC tube, acrylic",
       "description_short": "How do biological rhythms shape our perception of time?\n\nTouching the pulse sensor activates a peristaltic pump, causing coloured liquid in the soft tubing to pulse with the heartbeat. Each pulse drives a drop through a circular tube, translating the body’s rhythm into visible movement. Rather than measuring time with mechanical precision, the work marks time through embodied presence—personal, fluid, gentle, and alive.",
@@ -629,6 +658,10 @@
         {
           "label": "LinkedIn",
           "url": "www.linkedin.com/in/ziyi-wang-89b7aa3a7"
+        },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/ziyi_ya_ya/"
         }
       ]
     },
@@ -638,14 +671,22 @@
       "year": "2026",
       "artists_raw": "Harsh Bhattad",
       "artist_statements": {
-        "full_text": "Harsh Bhattad is a creative technologist working across game development, interactive installation, and physical computing. His practice sits at the intersection of design, code, and experience, building systems that hold space for feeling rather than spectacle. He is drawn to quieter forms of interaction: the pause before a choice, the weight of a memory surfacing, the texture of a world that remembers you were there. Currently completing an MSc in Computing for Creative Industries at UAL's Creative Computing Institute, his work spans Unity, TouchDesigner, and Arduino, often returning to questions of grief, attention, and what stays behind. He operates under the practice name HRSHLABS.",
+        "full_text": "He is a creative technologist working across game development, interactive installation, and physical computing. His practice explores the intersection of design, code, and experience, creating systems that prioritise feeling over spectacle. Currently completing an MSc in Computing for Creative Industries at UAL Creative Computing Institute, he works with Unity, TouchDesigner, and Arduino to explore themes of memory, grief, attention, and presence. He operates under the practice name HRSHLABS.",
         "unassigned": [
-          "Harsh Bhattad is a creative technologist working across game development, interactive installation, and physical computing. His practice sits at the intersection of design, code, and experience, building systems that hold space for feeling rather than spectacle. He is drawn to quieter forms of interaction: the pause before a choice, the weight of a memory surfacing, the texture of a world that remembers you were there. Currently completing an MSc in Computing for Creative Industries at UAL's Creative Computing Institute, his work spans Unity, TouchDesigner, and Arduino, often returning to questions of grief, attention, and what stays behind. He operates under the practice name HRSHLABS."
+          "He is a creative technologist working across game development, interactive installation, and physical computing. His practice explores the intersection of design, code, and experience, creating systems that prioritise feeling over spectacle. Currently completing an MSc in Computing for Creative Industries at UAL Creative Computing Institute, he works with Unity, TouchDesigner, and Arduino to explore themes of memory, grief, attention, and presence. He operates under the practice name HRSHLABS."
         ]
       },
       "description_short": "REMNANT is a 2D atmospheric platformer about grief and memory, built in Unity. A small figure moves through a warm, amber-lit world shaped by what has been left behind, no enemies, no fail state, only walking, noticing, and the slow work of carrying things forward. Presented as an installation, it invites visitors into someone else's quiet for a few minutes. What remains, remembers.",
-      "description_long": "REMNANT is a 2D atmospheric platformer exploring grief, memory, and what lingers after loss. Built in Unity, it follows a small figure moving through a warm, amber-lit world of fragments, looping paths, and quiet reflection.\n\nDesigned to slow players down, the work removes enemies and fail states, focusing instead on movement, noticing, and pause. Through its interactive systems, REMNANT asks how memory holds shape over time.\n\nPresented as an installation, it invites visitors to step into a quiet space to play, reflect, or simply observe.\n\nWhat remains, remembers.",
+      "description_long": "REMNANT is a 2D narrative experience made in Unity.\nYou chose to forget everything, every memory, every feeling, every version of yourself. Now, fragments of your past remain scattered across a fading world of looping paths and dim light. Waiting for you to collect them one by one.\n\nThere are no enemies and no way to fail.\nOnly a choice: face what remains, or stay forgotten forever.\n\nWhat remains, remember.",
       "media": {
+        "final_images": [
+          "List/REMNANT/final_images/Poster2.jpeg"
+        ],
+        "behind_the_scenes": [
+          "List/REMNANT/behind_the_scenes/BTS-HarshBhattad-Remnant (1).mp4",
+          "List/REMNANT/behind_the_scenes/Poster1.jpeg",
+          "List/REMNANT/behind_the_scenes/RemnantBTS.mp4"
+        ],
         "artist_photos": [
           "List/REMNANT/artist_photos/WhatsApp_Image_2026-05-08_at_6_36_16_PM.jpeg"
         ]
@@ -752,11 +793,12 @@
       "description_long": "In the Kingdom of Symmetry, every match was flawless. The ball obeyed its angles. Force grew in perfect proportion. Up was always up. People believed this was the law of nature. They had never seen the one who wrote the rules.\nUntil one day, the King spoke — The ball no longer bounced, it fell. Some called it an accident. But then another decree: Up became down. The harder you pushed, the slower you moved.\nDoubt began to spread. Perhaps the world had never run on its own. Perhaps rules were never natural— only maintained by power.\nThrough this game, we aim to make players aware that systems and rules which appear stable and fair are actually designed and maintained orders. The formulation and alteration of rules are often closely tied to the interests and will of those in power and decision-makers.",
       "media": {
         "final_images": [
-          "List/Symmetry_Kingdom/final_images/project1_Ni_Yifei.jpg"
+          "List/Symmetry_Kingdom/final_images/symmetry_kingdom_final.jpg"
         ],
         "behind_the_scenes": [
           "List/Symmetry_Kingdom/behind_the_scenes/project1_1_Ni_Yifei.jpeg",
-          "List/Symmetry_Kingdom/behind_the_scenes/project1_2_Ni_Yifei.gif"
+          "List/Symmetry_Kingdom/behind_the_scenes/project1_2_Ni_Yifei.gif",
+          "List/Symmetry_Kingdom/behind_the_scenes/symmetry_kingdom_behind.jpg"
         ],
         "artist_photos": [
           "List/Symmetry_Kingdom/artist_photos/IMG_7186_Ni_Yifei.JPG"
@@ -831,8 +873,14 @@
       "description_short": "The piece is a living-room scene in which the participant is invited to speak into the telephone receiver. As they speak, the sentiment and kindness of their words affect the objects comprising the scene in potentially unpredictable ways.\nThe piece uses affective interaction to capture the overwhelming impact that sensitivity, anxiety and neurodivergence can have on one’s emotional experience of the world, using found objects from my own childhood home to aid in this.",
       "description_long": "The piece, the sensitive child, is based on a living-room scene, using found objects from my childhood home.\nWhen the participant speaks into the phone receiver, their speech is analysed in real-time for sentiment and toxicity. These are used in Touchdesigner to control elements of the scene such as the TV screen and lamps. While overall sentiment is positive, the lights are bright and the TV plays video of natural, peaceful scenes, a gently pulsing bloom effect corresponding to positivity. If the sentiment of the speaker becomes more negative, the lights dim and the image grows distorted, glitching out and changing into something more intense. Additionally, when the system becomes ‘distressed’ from speech found to be toxic, the lights will flicker at a rate that reflects this. There is also an element of randomness, producing a human-like, unpredictable result at times.\nThe piece uses affective interaction to capture the overwhelming impact that sensitivity, anxiety and neurodivergence can have on a child’s experience of the world, bleeding into even the ‘peaceful’ home environment. By using objects from my own childhood home, I ask the participant to connect to me personally through entering into this vulnerable and personal space.",
       "media": {
+        "final_images": [
+          "List/the_sensitive_child/final_images/the_sensitive_child_final.jpg"
+        ],
         "behind_the_scenes": [
-          "List/the_sensitive_child/behind_the_scenes/IMG_1546_Cat_Menzies.jpeg"
+          "List/the_sensitive_child/behind_the_scenes/IMG_1546_Cat_Menzies.jpeg",
+          "List/the_sensitive_child/behind_the_scenes/WhatsApp Image 2026-05-19 at 23.49.34 (1).jpeg",
+          "List/the_sensitive_child/behind_the_scenes/WhatsApp Image 2026-05-19 at 23.49.34 (2).jpeg",
+          "List/the_sensitive_child/behind_the_scenes/WhatsApp Image 2026-05-19 at 23.49.34.jpeg"
         ],
         "artist_photos": [
           "List/the_sensitive_child/artist_photos/IMG_3404_2_Cat_Menzies_1.jpeg"
@@ -892,14 +940,16 @@
       "artist_statements": {
         "full_text": "Minnie is an emerging creative technologist at UAL CCI’s MSc Creative Computing course. Her current work incorporates physical computing, textiles, and programming as mediums of expression to investigate themes such as ontology, materiality, and the ordinary. Recent explorations in her practice question the role of digital technologies in the creative process.\n\nShe holds a BFA in Studio Art and BS in Computer Science from Tufts University. Minnie is from Arizona, United States and is currently based in London.",
         "unassigned": [
-          "Minnie is an emerging creative technologist at UAL CCI’s MSc Creative Computing course. Her current work incorporates physical computing, textiles, and programming as mediums of expression to investigate themes such as ontology, materiality, and the ordinary. Recent explorations in her practice question the role of digital technologies in the creative process.",
-          "She holds a BFA in Studio Art and BS in Computer Science from Tufts University. Minnie is from Arizona, United States and is currently based in London."
+          "Minnie is an emerging creative technologist at UAL CCI’s MSc Creative Computing course. Her current work incorporates physical computing, textiles, and programming as mediums of expression to investigate themes such as ontology, materiality, and the ordinary. Recent explorations in her practice question the role of digital technologies in the creative process.\n\nShe holds a BFA in Studio Art and BS in Computer Science from Tufts University. Minnie is from Arizona, United States and is currently based in London."
         ]
       },
       "label_technical": "Knit wool button, Arduino electronics, and thermal printer in engraved wooden casing.\n\n20cm W x 20cm D x 20cm H",
       "description_short": "TIME MACHINE subverts the expectations of time travel with an ordinary reality, reminding the viewer that they are travelling through time, unconditionally. Press and hold down its knit button; the piece will print out a certificate, unenthusiastically congratulating you on travelling through time at a top speed of one second per second.\n\nThis work examines the relationship between the mundane nature of time passing and its accompanying cosmic, infinite force.",
       "description_long": "TIME MACHINE is an interactive sculpture that subverts the expectations of time travel with an ordinary reality, reminding the viewer that they are travelling through time, unconditionally. Upon pressing and holding down its knit button, the piece will print out a certificate for the viewer, unenthusiastically congratulating them on travelling through time for the duration of their interaction, reaching a top speed of one second per second.\n\nThis work examines the relationship between the mundane nature of time passing and its accompanying cosmic, infinite force. Time occupies such an immense abstract space that it marks the individual’s experience as negligible; yet, from its continuous--and relatively unchanging--nature, time-speed perception occupies little to no abstract space in daily thought. TIME MACHINE aims to refresh the viewer’s perspective on their movement through time, converting this action from passive to active.",
       "media": {
+        "final_images": [
+          "List/TIME_MACHINE/final_images/TM_full_3QR.jpeg"
+        ],
         "behind_the_scenes": [
           "List/TIME_MACHINE/behind_the_scenes/3d-printing_Minnie_Xie.jpeg",
           "List/TIME_MACHINE/behind_the_scenes/assembling_Minnie_Xie.jpeg",
@@ -909,7 +959,11 @@
           "List/TIME_MACHINE/behind_the_scenes/logo-v3-png-edit_Minnie_Xie.png",
           "List/TIME_MACHINE/behind_the_scenes/sketches_Minnie_Xie.jpeg",
           "List/TIME_MACHINE/behind_the_scenes/time-machine-sketch1_Minnie_Xie.jpg",
-          "List/TIME_MACHINE/behind_the_scenes/wiring1_Minnie_Xie.jpeg"
+          "List/TIME_MACHINE/behind_the_scenes/wiring1_Minnie_Xie.jpeg",
+          "List/TIME_MACHINE/behind_the_scenes/TM_detail_button.jpeg",
+          "List/TIME_MACHINE/behind_the_scenes/TM_detail_certificate.jpeg",
+          "List/TIME_MACHINE/behind_the_scenes/TM_detail_logo.jpeg",
+          "List/TIME_MACHINE/behind_the_scenes/TM_detail_text.jpeg"
         ]
       },
       "artist_links": [
@@ -1035,10 +1089,8 @@
       "year": "2025",
       "artists_raw": "Veronika Gryshchuk",
       "artist_statements": {
-        "full_text": "My practice sits between technology and nature realms, a space I keep recklessly returning to, not because I have answers, but because the questions feel urgent. I am drawn to the moments where the boundary between organic and technological becomes unstable, where it is no longer clear where one ends and the other begins.\nDrawing on more-than-human thinking, I am interested in how computation can act as a mediator, a way of revealing hidden patterns and unspoken languages in the systems we are entangled with, translating what usually remains unseen or unheard into something we can begin to sense and respond to.",
-        "unassigned": [
-          "My practice sits between technology and nature realms, a space I keep recklessly returning to, not because I have answers, but because the questions feel urgent. I am drawn to the moments where the boundary between organic and technological becomes unstable, where it is no longer clear where one ends and the other begins.\nDrawing on more-than-human thinking, I am interested in how computation can act as a mediator, a way of revealing hidden patterns and unspoken languages in the systems we are entangled with, translating what usually remains unseen or unheard into something we can begin to sense and respond to."
-        ]
+        "full_text": "Veronika Gryshchuk is a Ukrainian-born interdisciplinary artist and creative technologist working across physical computing, creative coding, and audiovisual installation. Her practice sits between technology and nature, drawn to moments where the boundary between organic and technological becomes unstable. Working with generative algorithms and small AI datasets, she explores how computation can reveal hidden patterns in the systems we are entangled with.",
+        "unassigned": []
       },
       "description_short": "\"you met me at a very @#%**@$% time\" is a self-destructing bone sculpture that starts collapsing when nearby movement gets detected, tackling upon blurriness between natural and technological, organic and human-made. As time goes on and new technologies come into play, it becomes crucial to constantly question and rethink our surroundings, reflecting on multicultural worldmakings, communities and current politics. With this work, I intend to awaken something in the viewer, whether it brings enjoyment, discomfort, confusion or transformation.",
       "description_long": "\"you met me at a very @#%**@$% time\" is a self-destructing bone sculpture that starts collapsing when nearby movement gets detected, tackling upon blurriness between natural and technological, organic and human-made. The project proposes a perspective into \"the world as a self-regulating, complex system in which organic and inorganic matter interact with one another to co-produce the conditions for life on Earth.\"(Bridle, 2022, p.190)\n\nIt evokes the hybridisation of body and machine, where bones, being one of the first human primordial tools, meet their contemporary ancestor- modern technology. This connection leads to reimagining the material reality of bodies precisely on the basis of their distractibility, proposing a new collective imagination in nowadays surroundings.\n\nAs time goes on and new technologies come into play, I think it's so crucial to constantly question and rethink our surroundings, reflecting on multicultural worldmakings, communities and current politics. One of the things that probably drives my world vison and art making is more-than-human way of living where hierarchical structure doesn't exist and every:thing/one benefits from each other. With this work, I intend to awaken something in the viewer, whether it brings enjoyment, discomfort, confusion or transformation.",
@@ -1066,6 +1118,10 @@
         {
           "label": "Web",
           "url": "veronagr.com"
+        },
+        {
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/veronika-gryshchuk-008023199/"
         }
       ]
     },
@@ -1140,10 +1196,10 @@
       ],
       "label_technical": "Arduino, TouchDesigner",
       "description_short": "I’m fine is an audio-responsive installation that turns music into light. Real-time analysis of intensity, frequency, and rhythm drives projections inside a brain-shaped vessel, spilling into the space. The branching, pulsing visuals evoke neural pathways or capillaries, inviting a dissociative third-person view of how sound guides attention and emotion.",
-      "description_long": "I’m fine is an audio-responsive installation that analyses music in real time, translating intensity, frequency bands, and rhythm into light. The generated imagery is projected into a brain-shaped vessel and diffused into the surrounding space, externalising listening as a shifting structure of light and shadow. The vessel functions as both boundary and viewing apparatus. Wrapped in soothing, expansive sound, the visuals resemble magnified internal patterns—branching and pulsating like neural networks, nervous pathways, or capillary flows. They continuously emerge, connect, and break apart, as if rendering thoughts and feelings into a visible physiological topography. This viewing produces a sense of dissociation: the audience is pulled out of first-person experience to observe, from a third-person perspective, how sound guides the brain—how attention scatters and returns, how emotion rises and settles, and how everyday events are encoded as rhythmic pulses of light.",
+      "description_long": "\"I’m fine\" is an audio-responsive installation activated by both handclaps and played music. It analyses sound in real time (intensity, frequency bands, and rhythm) and treats music as collision and contact: palm and air, vibration and material, air and eardrum. These impacts are translated into light, flowing inside a brain-shaped vessel and diffusing into the surrounding space. The vessel functions as both boundary and viewing apparatus. Being wrapped in sound becomes a kind of bath. You don’t stand in front of music, you are immersed in it. The visuals externalise this immersion as branching, pulsing neural-like textures that emerge, connect, and break apart with each strike and each melodic turn, as if mapping the dispersion of thought and feeling. This viewing produces a sense of dissociation: the audience is pulled out of first-person experience into a third-person perspective where “listening” can be seen. The projection becomes an embodied interface, akin to the strange intimacy between a player and an avatar, opening a third space between body and image, where sound guides attention and emotion through feedback, echo, and light.",
       "media": {
         "final_images": [
-          "List/Im_fine/final_images/0_Zeyang_Shan.png"
+          "List/Im_fine/final_images/0_Zeyang_Shan.mp4"
         ],
         "behind_the_scenes": [
           "List/Im_fine/behind_the_scenes/IMG_6168_Zeyang_Shan.JPG",
